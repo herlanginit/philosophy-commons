@@ -17,6 +17,8 @@ const COLUMNS = [
   "dateAdded",
   "estMinutes",
   "author",
+  "sourceUrl",
+  "sourceName",
 ];
 
 function csvEscape(value) {
@@ -42,6 +44,8 @@ for (const r of seedResources) {
     r.dateAdded,
     r.estMinutes,
     r.author,
+    r.sourceUrl,
+    r.sourceName,
   ].map(csvEscape);
   lines.push(row.join(","));
 }

@@ -73,6 +73,8 @@ function recordToResource(record: Record<string, string>): Resource | null {
     popularity: popularityFromSlug(slug),
     estMinutes: Number(record.estminutes) > 0 ? Number(record.estminutes) : 10,
     author: record.author?.trim() || "Philosophy Commons Editorial Team",
+    sourceUrl: record.sourceurl?.trim() || "",
+    sourceName: record.sourcename?.trim() || "",
   };
 }
 

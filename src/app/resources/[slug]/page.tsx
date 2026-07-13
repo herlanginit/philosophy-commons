@@ -63,8 +63,35 @@ export default async function ResourceDetailPage({
             {resource.description}
           </p>
 
+          {resource.sourceUrl && (
+            <a
+              href={resource.sourceUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-flex items-center gap-2 rounded-full bg-gold-500 px-5 py-2.5 text-sm font-semibold text-ink-950 hover:bg-gold-400"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth={2}
+                className="h-4 w-4"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                />
+              </svg>
+              Access this resource{resource.sourceName ? ` on ${resource.sourceName}` : ""}
+            </a>
+          )}
+
           <div className="mt-8 space-y-5">
-            {resource.body.map((paragraph, i) => (
+            {resource.body
+              .filter((paragraph) => paragraph !== resource.description)
+              .map((paragraph, i) => (
               <p key={i} className="leading-relaxed text-ink-800">
                 {paragraph}
               </p>
@@ -104,6 +131,21 @@ export default async function ResourceDetailPage({
                 <dt className="text-ink-700/60">Author</dt>
                 <dd className="text-right font-medium text-ink-900">{resource.author}</dd>
               </div>
+              {resource.sourceUrl && (
+                <div className="flex justify-between gap-4">
+                  <dt className="text-ink-700/60">Source</dt>
+                  <dd className="text-right font-medium">
+                    <a
+                      href={resource.sourceUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gold-600 hover:text-gold-500"
+                    >
+                      {resource.sourceName || "View original"}
+                    </a>
+                  </dd>
+                </div>
+              )}
               <div className="flex justify-between gap-4">
                 <dt className="text-ink-700/60">Added</dt>
                 <dd className="text-right font-medium text-ink-900">

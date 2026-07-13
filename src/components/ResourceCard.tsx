@@ -41,7 +41,15 @@ export default function ResourceCard({ resource }: { resource: Resource }) {
         </div>
       </Link>
       <div className="flex items-center justify-between border-t border-ink-900/10 px-5 py-3">
-        <span className="text-xs text-ink-700/60">{resource.level}</span>
+        <span className="text-xs text-ink-700/60">
+          {resource.level}
+          {resource.sourceName && (
+            <>
+              {" "}
+              · <span className="text-gold-600">{resource.sourceName}</span>
+            </>
+          )}
+        </span>
         <SaveButton slug={resource.slug} />
       </div>
     </div>
