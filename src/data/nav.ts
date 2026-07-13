@@ -3,7 +3,7 @@ export const NAV_LINKS = [
   { label: "Explainers", href: "/explainers" },
   { label: "For Educators", href: "/for-educators" },
   { label: "About", href: "/about" },
-  { label: "Get Involved", href: "/get-involved" },
+  { label: "Contact", href: "/contact" },
 ] as const;
 
 export const FOOTER_LINK_GROUPS = [
@@ -27,8 +27,7 @@ export const FOOTER_LINK_GROUPS = [
     heading: "About",
     links: [
       { label: "About Us", href: "/about" },
-      { label: "Get Involved", href: "/get-involved" },
-      { label: "Privacy Policy", href: "/privacy" },
+      { label: "Contact", href: "/contact" },
     ],
   },
 ] as const;

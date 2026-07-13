@@ -121,7 +121,7 @@ export default function ForEducatorsPage() {
           out a philosophy curriculum.
         </p>
         <Link
-          href="/get-involved"
+          href="/contact"
           className="mt-6 inline-block rounded-full bg-ink-900 px-5 py-2.5 text-sm font-semibold text-parchment-50 hover:bg-ink-700"
         >
           Get in touch

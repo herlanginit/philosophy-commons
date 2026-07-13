@@ -1,0 +1,282 @@
+[
+  {
+    "slug": "personal-identity",
+    "body": [
+      "The entry asks what, if anything, makes you the same person over time despite constant physical and psychological change — the child in an old photograph, the person asleep tonight, and the person reading this are all supposedly 'you,' but what actually secures that identity? It separates this from the looser question of what matters in survival: Derek Parfit's teleporter and fission cases (imagine a machine that duplicates you perfectly on Mars while destroying the original) are used to pry apart strict numerical identity from the practical concerns — memory, character, relationships — that make survival worth caring about.",
+      "It surveys the three main families of answer: psychological continuity theories (descending from Locke, holding that overlapping chains of memory and psychological connection constitute identity), biological/animalist theories (you are fundamentally a human animal, and your identity tracks the organism's continuity regardless of psychological change), and narrative or 'no self' views influenced by Buddhist philosophy, which question whether there's a single persisting entity to track at all.",
+      "The entry also works through classic pressure-test cases — the brave officer paradox that embarrassed Locke's memory theory, brain transplants, and gradual replacement scenarios reminiscent of the Ship of Theseus — showing why a seemingly simple question about 'you' turns out to be one of metaphysics' most persistently unresolved puzzles."
+    ]
+  },
+  {
+    "slug": "identity-over-time",
+    "body": [
+      "This entry tackles persistence through change from a more general angle than the personal-identity literature: what does it take for any object — not just a person — to be the same thing at two different times, given that most objects change their parts, shape, or properties along the way? The Ship of Theseus is the classic device: if every plank of a ship is gradually replaced, is the fully-replaced ship still the same ship, and what happens to our answer if someone reassembles a second ship from the discarded original planks?",
+      "It lays out the two dominant metaphysical frameworks for answering this. Three-dimensionalism (endurantism) holds that objects are wholly present at each moment of their existence and persist by literally being the same whole thing at different times. Four-dimensionalism (perdurantism) instead treats objects as extended across time the way they're extended across space — a persisting object is really a series of momentary 'time-slices' bundled into one four-dimensional whole, and identity over time is just a matter of those slices being suitably connected.",
+      "The entry shows how each framework handles puzzle cases like the Ship of Theseus and statue-and-lump problems (is a bronze statue identical to the lump of bronze it's made of?) differently, making clear that what looks like a narrow puzzle about boats and statues is really a proxy fight over the fundamental structure of objects and time."
+    ]
+  },
+  {
+    "slug": "free-will",
+    "body": [
+      "The entry maps the long-running dispute over whether human beings ever act freely in a sense robust enough to ground moral responsibility, organized around the tension between the intuition that we author our own choices and the possibility that every event — including our choices — is fully determined by prior causes plus the laws of nature.",
+      "Hard determinists bite the bullet: if determinism is true, no one could ever have done otherwise, so genuine free will (and the blame or praise that supposedly depends on it) is an illusion. Libertarians about free will reject determinism instead, arguing that at least some human choices involve a genuinely open, undetermined moment — though the entry flags the classic 'luck objection' this invites: if a choice isn't determined by your prior character and reasons, it starts to look like a matter of chance rather than something you're in control of, which seems just as bad for responsibility as determinism.",
+      "Compatibilists take a third route, arguing that free will was never about being uncaused in the first place — it's about acting from your own desires and reasoning without external coercion, which is perfectly consistent with determinism. The entry surveys the sophisticated compatibilist machinery built to make this work, including Harry Frankfurt's hierarchical account of identifying with one's own desires, showing why this remains the majority position among contemporary philosophers even as the debate continues."
+    ]
+  },
+  {
+    "slug": "the-analysis-of-knowledge",
+    "body": [
+      "For most of the twentieth century, philosophers took knowledge to be justified true belief (JTB): you know something just in case you believe it, it's true, and you have adequate justification for believing it. This entry traces that analysis and its sudden collapse in 1963, when Edmund Gettier published a three-page paper describing cases where someone has a justified true belief that is, intuitively, not knowledge at all — because the belief turns out true only by a lucky accident disconnected from the justification.",
+      "The entry surveys the decades of proposed repairs: adding a 'no false lemmas' clause (the justification can't rest on any false premise), requiring a causal connection between the fact and the belief, and reliabilist theories that replace justification with the requirement that the belief be produced by a reliable belief-forming process. Each fix generates its own counterexamples, and the entry is honest that no patch has achieved consensus.",
+      "It closes by covering more radical departures — Timothy Williamson's view that knowledge is itself a basic, unanalyzable mental state rather than a compound of more basic ingredients — showing that the search for a correct analysis of knowledge, sixty years on, remains one of epistemology's most unresolved projects."
+    ]
+  },
+  {
+    "slug": "the-problem-of-induction",
+    "body": [
+      "This entry lays out Hume's challenge to inductive reasoning: we constantly infer that unobserved cases will resemble observed ones (the sun will rise tomorrow because it always has), but Hume argues this inference can't itself be justified by reason. Any attempt to justify induction by appealing to induction's past reliability is circular, and there's no purely logical guarantee that nature's regularities will continue.",
+      "It surveys the major responses. Some philosophers accept the skeptical conclusion but argue induction can still be pragmatically vindicated — Hans Reichenbach's argument that induction is the best strategy available even if we can't prove it will work, because if any method succeeds, induction will. Others, like Nelson Goodman, argue the deeper problem isn't justifying induction at all but explaining why some predicates ('green') support inductive generalization while gerrymandered ones ('grue,' meaning green-until-a-future-date-then-blue) don't, even though the observed evidence fits both equally well.",
+      "The entry situates this as one of philosophy's most stubborn problems precisely because induction is indispensable to science and everyday reasoning, yet the search for a non-circular justification of it has resisted every attempted solution for nearly three centuries."
+    ]
+  },
+  {
+    "slug": "the-chinese-room-argument",
+    "body": [
+      "Searle's 1980 thought experiment imagines a person who doesn't understand Chinese, locked in a room with an English rulebook for manipulating Chinese symbols. Chinese questions come in through a slot, the person mechanically follows the rules to produce Chinese symbol strings in response, and the answers passed back out are so good that native speakers outside are convinced they're talking to a fluent Chinese speaker — even though the person inside has followed purely syntactic rules and never understood a single word.",
+      "Searle's target is 'strong AI': the claim that a computer running the right program doesn't just simulate a mind but genuinely has one. His argument is that the person in the room is doing exactly what a computer does — manipulating symbols according to formal rules — yet clearly isn't understanding Chinese, which suggests that syntax (rule-governed symbol manipulation) is never sufficient for semantics (genuine meaning and understanding), no matter how convincing the output looks.",
+      "The entry catalogs the major replies Searle anticipated and responded to: the systems reply (maybe the person doesn't understand, but the whole system — person plus rulebook plus room — does), the robot reply (embodiment and causal interaction with the world would supply the missing understanding), and the brain simulator reply (what if the program replicated an actual Chinese speaker's neuron firings?). The thought experiment remains directly relevant to today's debates over whether large language models genuinely understand anything or are simply very sophisticated symbol manipulators."
+    ]
+  },
+  {
+    "slug": "dualism",
+    "body": [
+      "Dualism holds that mind and body are fundamentally different kinds of thing, rather than the mind being reducible to or identical with brain processes. The entry's central case is Descartes's substance dualism: the mind is a non-physical thinking substance, entirely distinct from the extended, spatial substance that makes up bodies, and the two causally interact (famously, Descartes proposed the pineal gland as the interaction point, an answer almost no one accepts today).",
+      "It also covers property dualism, a more modest position that doesn't posit two separate substances but holds that physical things (like brains) can have two fundamentally different kinds of properties — physical properties and irreducible mental/phenomenal properties that can't be fully captured in physical terms, however completely we describe the underlying neuroscience.",
+      "The entry works through dualism's classic problems: the interaction problem (how could a non-physical substance possibly cause physical events, given that physics seems causally closed?), and the argument from physics that no extra causal 'room' seems to exist for a non-physical mind to push matter around. It also covers the flip side — arguments for dualism like Frank Jackson's Mary's Room and the conceivability of zombies — that keep the position alive despite these difficulties, particularly among philosophers convinced that consciousness resists any purely physical explanation."
+    ]
+  },
+  {
+    "slug": "qualia-the-knowledge-argument",
+    "body": [
+      "Frank Jackson's thought experiment imagines Mary, a brilliant scientist who has learned every physical fact about color vision and the brain, but has lived her entire life in a black-and-white room and has never seen color. When Mary finally leaves the room and sees a red tomato for the first time, does she learn something new?",
+      "Jackson argues she clearly does — she learns what it's like to see red, a piece of knowledge no amount of physical information could have given her. Since Mary already possessed complete physical knowledge before leaving the room, this new knowledge must be non-physical, which is meant to refute physicalism: the view that everything, including conscious experience, is ultimately physical.",
+      "The entry surveys physicalist replies built to block this conclusion: the ability hypothesis (Mary doesn't gain new propositional knowledge, just a new ability — to recognize and imagine red), and the acquaintance hypothesis (she gains a new way of being acquainted with an old physical fact she already knew about, not a genuinely new fact). It situates the argument alongside the broader 'hard problem of consciousness' as one of the strongest challenges to physicalist theories of mind, precisely because it seems to survive even granting physicalism every physical fact there is."
+    ]
+  },
+  {
+    "slug": "aristotle-logic",
+    "body": [
+      "This entry covers Aristotle's Organon, the collection of logical treatises that made him effectively the founder of formal logic in the Western tradition. Its centerpiece is the categorical syllogism: a three-statement argument built from subject-predicate propositions like 'all A are B,' where a conclusion follows necessarily from two premises purely in virtue of their logical form — the model example being 'all men are mortal; Socrates is a man; therefore Socrates is mortal.'",
+      "The entry explains Aristotle's systematic classification of syllogisms into figures and moods based on the position and quantity/quality of their terms, and his identification of which combinations yield valid inferences — an achievement so thorough that Aristotelian syllogistic dominated logic instruction for roughly two thousand years with only modest refinement.",
+      "It also covers the Organon's other components — the Categories (a taxonomy of the most basic kinds of thing that can be said to exist or be predicated), and the Posterior Analytics' theory of scientific demonstration — giving a fuller picture of Aristotle's logic as part of a broader project about the structure of scientific knowledge, not just a toolkit for evaluating arguments."
+    ]
+  },
+  {
+    "slug": "functionalism",
+    "body": [
+      "Functionalism holds that mental states are defined not by what they're made of but by the causal role they play — what typically causes them, what they typically cause, and how they interact with other mental states. Pain, on this view, isn't identical to any particular kind of physical stuff (like C-fiber firing in humans); it's whatever state plays the pain role — caused by tissue damage, causing avoidance behavior and distress — regardless of whether that role is realized in neurons, silicon, or something else entirely.",
+      "The entry explains why this was seen as a major advance over rigid mind-brain identity theory: functionalism accounts for 'multiple realizability' — the plausible idea that octopuses, aliens, or future robots could have pains or beliefs realized in totally different physical substrates than human brains, something a theory that identifies mental states with specific physical states can't easily allow.",
+      "It also covers the theory's most famous objections: the 'Chinese Room' style worry that something could satisfy all the right functional/causal relations without any genuine understanding or experience, and the 'inverted qualia' and 'absent qualia' thought experiments, which press on whether purely functional/causal descriptions can ever capture the subjective, felt quality of experience — leaving functionalism as the dominant view in philosophy of mind while still facing serious unresolved challenges about consciousness specifically."
+    ]
+  },
+  {
+    "slug": "validity-and-soundness",
+    "body": [
+      "This entry works through one of logic's most fundamental — and most commonly confused — distinctions. An argument is valid if its conclusion follows necessarily from its premises, meaning it's logically impossible for the premises to be true and the conclusion false, regardless of whether the premises are actually true. An argument is sound if it's valid and its premises are actually true.",
+      "The entry uses deliberately absurd examples to isolate the concept of validity from the separate question of truth — an argument like 'all cats are reptiles; Garfield is a cat; therefore Garfield is a reptile' is perfectly valid (the conclusion really does follow from the premises) despite being unsound, because the first premise is false. This shows that validity is a purely formal, structural property of an argument, entirely independent of whether the argument's content matches reality.",
+      "By walking through worked examples where valid arguments have false conclusions, and where arguments with true premises and true conclusions still turn out invalid, the guide builds the core skill needed for all later logic: separating the question 'does this argument have good logical structure?' from the question 'are its claims actually true?' — two questions people routinely run together in everyday reasoning."
+    ]
+  },
+  {
+    "slug": "deductive-and-inductive-arguments",
+    "body": [
+      "This entry distinguishes the two basic modes of argument that structure almost all reasoning. Deductive arguments aim for certainty: if the argument is valid and the premises true, the conclusion is guaranteed, with no possibility of the premises being true and the conclusion false — mathematical proofs and syllogisms are the paradigm cases. Inductive arguments aim only for probability: the premises make the conclusion likely or well-supported, but leave room for the conclusion to be false even if every premise is true, as when we infer a general pattern from a limited number of observed cases.",
+      "The entry works through everyday examples to make the contrast concrete — 'all observed swans have been white, so the next swan will be white' is a strong inductive argument, but it's not deductively valid, since discovering a single black swan doesn't contradict the premises, it just falsifies the conclusion drawn from them.",
+      "It also flags why the distinction matters practically: demanding deductive certainty in domains (like science or everyday planning) that can only ever supply inductive support sets up a standard that can never be met, while mistaking a merely probable inductive argument for a deductively guaranteed one is a common source of overconfidence in everyday reasoning."
+    ]
+  },
+  {
+    "slug": "epistemology",
+    "body": [
+      "This is a broad-survey entry into epistemology — the philosophical study of knowledge, belief, and justification — organized around the field's foundational questions rather than any single theory. It opens with the traditional analysis of knowledge as justified true belief, previewing the Gettier problem that shattered the field's confidence in that analysis in the 1960s and set off decades of attempts at repair.",
+      "It surveys the major sources of knowledge and justification debated in the field — perception, memory, testimony, reason, and introspection — and the competing structural theories of justification: foundationalism (some beliefs are basic and self-justifying, supporting all others), coherentism (beliefs are justified by fitting together into a mutually supporting web, with no privileged foundation), and infinitism (justification can proceed through an endless chain).",
+      "The entry closes with skepticism — the challenge that we might know far less than we ordinarily assume, illustrated by scenarios like Descartes's evil demon or the modern brain-in-a-vat — and the main strategies for responding to it. As a survey-level entry, it's designed as a map of the whole territory before diving into any single sub-debate (like the analysis of knowledge or the problem of induction) in depth."
+    ]
+  },
+  {
+    "slug": "an-enquiry-concerning-human-understanding",
+    "body": [
+      "Hume's 1748 Enquiry is his own more accessible restatement of the empiricist epistemology first laid out in the denser Treatise of Human Nature, arguing that all the contents of the mind ultimately derive from sensory impressions, with even our most abstract ideas being copies or combinations of things we've actually experienced.",
+      "Its most influential section attacks the rational basis for causal reasoning: we never actually observe one event necessitating another, only that events of one kind have constantly followed events of another kind in our past experience — and Hume argues that projecting this 'constant conjunction' into the future or onto unobserved cases can't itself be rationally justified without begging the question, since any justification would need to assume the very uniformity of nature that's in question.",
+      "The Enquiry closes with a famous discussion of miracles, arguing that since a miracle is by definition a violation of the very natural laws established by the most uniform human experience, the evidence against a miracle having occurred will almost always outweigh the reliability of any testimony reporting one — making a wise person proportion belief to evidence and remain skeptical of miracle reports as a matter of course, not because miracles are strictly impossible."
+    ]
+  },
+  {
+    "slug": "a-system-of-logic-ratiocinative-and-inductive",
+    "body": [
+      "Mill's 1843 treatise attempts something ambitious: a complete logic of scientific reasoning, extending traditional deductive logic (which Mill treats as largely a matter of restating what's already implicit in the premises) with a systematic account of induction — how we're entitled to move from particular observations to general causal laws.",
+      "Its most enduring contribution is 'Mill's Methods': a set of named procedures — agreement, difference, residues, and concomitant variation — for identifying which factor among several candidates is the actual cause of an observed effect, essentially formalizing the logic behind controlled experiments and comparative reasoning long before formal statistical methods existed.",
+      "The System of Logic was also a deliberate philosophical intervention against a priori and intuitionist theories of knowledge fashionable at the time: Mill wanted to show that even mathematics and logic themselves rest, at bottom, on generalizations from experience rather than being known by pure reason alone — an empiricist and inductivist vision of all human knowledge that made the book hugely influential in 19th-century philosophy of science."
+    ]
+  },
+  {
+    "slug": "symbolic-logic",
+    "body": [
+      "Written by the mathematician and Alice in Wonderland author Charles Dodgson under his pen name Lewis Carroll, this text turns formal logic into a game, using invented, often absurd example propositions ('no kitten that loves fish is unteachable') to teach students how to test the validity of categorical syllogisms.",
+      "Its most distinctive contribution is a diagrammatic method for checking syllogisms — a grid-based notation, an alternative to the Venn diagrams more familiar today, that lets a reader place counters or marks representing premises and read off whether a valid conclusion follows, making abstract logical structure visually and manipulably concrete.",
+      "Because Carroll wrote it explicitly as a puzzle book meant to be worked through actively rather than read passively, it remains an unusually approachable entry point into formal syllogistic logic, showing that the same mind behind Wonderland's nonsensical logic games took the formal rules of valid inference seriously enough to build a whole teaching method around them."
+    ]
+  },
+  {
+    "slug": "meditations-on-first-philosophy",
+    "body": [
+      "Descartes's six Meditations are structured as the record of one week's reflection, opening with a project of radical doubt: rather than examine every belief individually, Descartes resolves to doubt anything about which the slightest doubt is possible, testing his beliefs against the possibility that he's dreaming, and ultimately against the hypothesis of an all-powerful evil demon devoted to deceiving him about everything, even mathematics.",
+      "The one thing that survives this maximal doubt is the act of doubting itself: whatever else is uncertain, the fact that he is thinking — and therefore exists as a thinking thing — cannot coherently be doubted, since doubting is itself a form of thought. This 'cogito' becomes the fixed point from which Descartes tries to rebuild certain knowledge, including proofs of God's existence (used to guarantee that a non-deceiving God wouldn't allow him to be systematically wrong about clear and distinct ideas) and, eventually, the reliability of the external world.",
+      "Along the way Descartes argues that mind and body are really distinct substances — since he can conceive of his mind existing without his body, but not vice versa — making the Meditations the founding text of substance dualism as well as of modern epistemology's obsession with certainty and the problem of skepticism."
+    ]
+  },
+  {
+    "slug": "three-dialogues-between-hylas-and-philonous",
+    "body": [
+      "Berkeley's dialogue stages a debate between Hylas, who defends the common-sense materialist view that physical objects exist independently of any mind perceiving them, and Philonous, who defends Berkeley's own idealism: to be is to be perceived (esse est percipi) — there is no mind-independent matter at all, only ideas in minds and the infinite mind of God that sustains them when finite minds aren't looking.",
+      "Philonous's central strategy is to press Hylas on the reliability of the senses that are supposed to reveal mind-independent matter in the first place: since qualities like color, taste, and even the perceived size and shape of objects vary with the perceiving subject and conditions (an object looks different colors under different lighting, tastes different to a sick versus healthy tongue), Hylas is gradually forced to concede that these familiar 'secondary qualities' are mind-dependent — and Berkeley argues the supposedly more basic 'primary qualities' like extension and shape fare no better under the same scrutiny.",
+      "Choosing the dialogue form lets Berkeley dramatize just how counterintuitive his idealism sounds while making the argument that materialism, taken to its logical conclusion, is actually the more unstable and skepticism-inviting position — a strategy that makes this one of the most engaging primary texts in early modern epistemology and metaphysics."
+    ]
+  },
+  {
+    "slug": "logic-i",
+    "body": [
+      "This MIT course provides a rigorous, semester-long grounding in the two systems that underlie virtually all of contemporary formal logic: propositional logic (reasoning with whole statements connected by 'and,' 'or,' 'not,' and 'if...then') and predicate logic (which adds quantifiers like 'all' and 'some' and lets you reason about the internal structure of statements involving objects and their properties).",
+      "Students learn to translate natural-language arguments into formal notation, use truth tables to mechanically check whether an argument is valid, and construct formal derivations — step-by-step proofs that a conclusion follows from premises using precisely specified rules of inference, rather than relying on intuition.",
+      "The course also introduces the metatheoretic concepts of soundness (a proof system never lets you derive a false conclusion from true premises) and completeness (every valid argument can, in principle, be proven within the system) — the results that connect the informal, intuitive idea of 'valid argument' to a fully mechanized, checkable formal system, and that make modern logic a genuine mathematical discipline rather than just a set of rules of thumb."
+    ]
+  },
+  {
+    "slug": "theory-of-knowledge",
+    "body": [
+      "This MIT course is built around epistemology's most disorienting puzzles: skeptical scenarios that seem to show we know almost nothing, despite the fact that in ordinary life we're confident we know a great deal. The brain-in-a-vat scenario (how do you know you're not just a brain being fed simulated experiences by a scientist?) and Descartes's evil demon hypothesis both trade on the same structure — for any ordinary belief, there seems to be a coherent scenario in which all your evidence would be exactly the same, yet the belief would be false.",
+      "The course works through the major strategies philosophers have used to respond: contextualism (the standards for what counts as 'knowledge' shift with conversational context, so skeptical scenarios can be true in a philosophy seminar but irrelevant in ordinary life), and semantic externalism (arguments that the very content of your thoughts depends on your causal relationship with a real external world, making certain skeptical scenarios self-undermining to even state).",
+      "By treating skepticism not as a fringe worry but as the organizing challenge for the whole theory of knowledge, the course gives students a genuine feel for why epistemologists take Cartesian doubt so seriously even though almost none of them are skeptics themselves."
+    ]
+  },
+  {
+    "slug": "death",
+    "body": [
+      "Roughly the first third of Shelly Kagan's course lays essential metaphysical groundwork before it ever gets to death itself: could you survive the destruction and replacement of your body, and what, most fundamentally, are you? Kagan works through dualism (you are essentially a non-physical soul, which might survive bodily death) against physicalism (you are essentially your functioning body/brain, so bodily death straightforwardly ends your existence), pressing hard on whether there's any good evidence for a soul distinct from the brain's activity.",
+      "This connects directly to rival theories of personal identity — is what matters for 'you' continuing to exist a matter of bodily continuity, or of psychological continuity (memory, personality, and character persisting), or something else entirely? Kagan uses vivid puzzle cases (teleportation, brain splitting, gradual replacement) to test each theory's verdicts before turning to what any of this implies about whether death is the literal end of the person.",
+      "Only once this metaphysical picture of persons is established does the course turn to death proper: whether death can be bad for the person who dies given that they no longer exist to be harmed (the 'deprivation account' argues yes, since it deprives you of good things you would otherwise have had), whether it's rational to fear death, and whether immortality would actually be desirable — making this as much a course in metaphysics and philosophy of mind as one about mortality."
+    ]
+  },
+  {
+    "slug": "the-gettier-problem-and-the-definition-of-knowledge",
+    "body": [
+      "This essay walks through Edmund Gettier's famous 1963 counterexamples to the classical definition of knowledge as justified true belief. Gettier's cases share a structure: a person forms a justified belief that happens to be true, but only because of a lucky coincidence entirely disconnected from the reasoning that justified it — for instance, believing 'the person who will get the job has ten coins in their pocket' based on justified but false evidence about who will be hired, where the belief turns out true only because the actual hire (unbeknownst to the believer) also happens to have ten coins.",
+      "The essay explains why these cases are so difficult to dismiss: all three original conditions (belief, truth, justification) are satisfied, yet the intuition that this isn't really knowledge is very strong, since the connection between the justification and the truth is accidental rather than appropriately grounded.",
+      "It surveys the main proposed fourth conditions meant to rule out Gettier cases — no false lemmas, causal/tracking requirements linking belief to fact, and reliabilist requirements on the belief-forming process — while noting that each new proposal has generated its own counterexamples, leaving the 'fourth condition' problem as a genuinely live, unresolved debate in contemporary epistemology."
+    ]
+  },
+  {
+    "slug": "the-mind-body-problem-what-are-minds",
+    "body": [
+      "This essay lays out the mind-body problem at an introductory level: how can subjective, conscious experience — the felt quality of pain, the redness of red — be reconciled with the fact that we are, physically, just arrangements of matter obeying the laws of physics? It presents dualism (minds are non-physical substances or have non-physical properties), identity theory (mental states just are particular physical brain states, full stop), and functionalism (mental states are defined by causal role, not physical makeup) as the three main competing answers.",
+      "The essay is careful to show what each theory is trying to explain and what it struggles with: dualism preserves the felt distinctiveness of experience but faces the interaction problem (how would a non-physical mind push physical neurons around?); identity theory fits neatly with a scientific picture of the world but struggles with multiple realizability (could a Martian or a computer with a totally different physical makeup have the same mental states?); functionalism solves the realizability problem but faces persistent worries about whether it can capture subjective experience at all.",
+      "As a compact overview, it's designed to give a first-time reader the conceptual map needed before diving into any single position — dualism, identity theory, or functionalism — in the depth it receives in dedicated encyclopedia entries."
+    ]
+  },
+  {
+    "slug": "free-will-and-free-choice",
+    "body": [
+      "This essay introduces the traditional three-way split on free will in accessible terms: libertarianism (we have free will, and this requires that determinism be false — at least some of our choices are genuinely undetermined by prior causes), hard determinism (determinism is true, and therefore we lack the kind of free will required for genuine moral responsibility), and compatibilism (free will and determinism aren't actually in conflict, because acting freely just means acting on your own desires and reasoning without external coercion, regardless of whether those desires were themselves caused).",
+      "It walks through the intuitive case for each position — why determinism seems to threaten the 'could have done otherwise' condition many people build into their idea of freedom, why pure indeterminism seems to introduce troubling randomness rather than control, and why compatibilists think ordinary praise and blame practices don't actually presuppose an ability to have acted differently in some deeper metaphysical sense.",
+      "By keeping the three-way distinction sharp and concrete rather than abstract, the essay gives readers vocabulary to locate their own intuitions before tackling the far more technical treatment of the same debate in encyclopedia-length entries."
+    ]
+  },
+  {
+    "slug": "the-gettier-problem-no-longer-a-problem",
+    "body": [
+      "Taking a contrarian angle on one of epistemology's most famous puzzles, this essay argues that Gettier's original 1963 counterexamples to 'knowledge = justified true belief' don't actually succeed on close inspection — that the cases contain a hidden flaw or equivocation that, once identified, dissolves rather than confirms the supposed problem.",
+      "Rather than joining the decades-long search for a 'fourth condition' to patch the justified-true-belief analysis, Lozanski's piece questions whether patching was ever necessary, pushing back against the near-universal assumption in the field that Gettier succeeded in refuting the classical analysis.",
+      "Because it swims against the mainstream consensus, the piece works well as a classroom provocation: students who have just accepted that 'knowledge = JTB' was refuted are forced to re-examine Gettier's original cases carefully enough to spot (or defend against) the alleged flaw, sharpening exactly the kind of close argumentative scrutiny that epistemology as a discipline depends on."
+    ]
+  },
+  {
+    "slug": "gary-hatfield-on-descartes-meditations",
+    "body": [
+      "In this conversation, Descartes scholar Gary Hatfield walks through the structure and aims of the Meditations with an eye to what's easy for modern readers to misunderstand — particularly that Descartes's skeptical doubts in the First Meditation aren't meant to leave the reader in permanent doubt, but to clear the ground for a more secure foundation built in later Meditations.",
+      "The discussion traces how the method of doubt — questioning the senses, the possibility of dreaming, and finally the evil demon hypothesis — sets up the cogito ('I think, therefore I am') as the one certainty that survives, and how Descartes then tries to leverage that single certain point back out to knowledge of God, the external world, and the real distinction between mind and body.",
+      "Hatfield's expertise brings out historical context often missing from a purely textual reading — how Descartes's project responded to the scientific revolution's challenge to Aristotelian physics and to skeptical currents already circulating in his intellectual milieu — making the episode a useful companion for readers working through the Meditations themselves who want the historical and philosophical framing an expert brings to a text that can otherwise feel deceptively simple."
+    ]
+  },
+  {
+    "slug": "christopher-shields-on-personal-identity",
+    "body": [
+      "In this conversation, Christopher Shields walks through the central puzzle of personal identity — what makes someone the same person over time — starting from John Locke's influential memory theory, which holds that personal identity consists in psychological continuity secured by chains of memory linking past and present selves.",
+      "Shields discusses the classic objection to Locke's view (later developed as the 'brave officer' paradox): if identity requires memory connection, but memory connections can be intransitive over long stretches of a life (an old general may remember being a young officer, who remembered being a boy, even if the general has no memory at all of being that boy), then Locke's theory seems to generate contradictions about whether the general and the boy are the same person.",
+      "The discussion moves to rival accounts — biological continuity theories that tie identity to the persisting animal rather than to memory, and more revisionary views questioning whether personal identity is really the thing that matters for survival at all — giving listeners a guided tour of a debate that runs from Locke's 17th-century psychology straight through to contemporary metaphysics of persons."
+    ]
+  },
+  {
+    "slug": "ned-block-on-consciousness",
+    "body": [
+      "In this interview, Ned Block explains his influential distinction between phenomenal consciousness (the subjective, felt quality of an experience — what it's like to see red or feel pain) and access consciousness (information being available to a system for reasoning, reporting, and guiding behavior) — arguing these can come apart, so that a mental state could be phenomenally conscious without being accessible for report, or vice versa.",
+      "Block draws on empirical evidence to defend this split, including attention experiments suggesting that perceptual experience may be richer than what a person can actually report or access (the 'overflow' hypothesis), and clinical cases like blindsight, where patients with certain brain damage can respond accurately to visual stimuli they insist they can't consciously see.",
+      "The conversation situates this distinction within the broader 'hard problem' of consciousness — why any physical process should be accompanied by subjective experience at all — and shows how careful conceptual distinctions, backed by empirical psychology and neuroscience, can sharpen a philosophical debate that might otherwise stay purely at the level of intuition."
+    ]
+  },
+  {
+    "slug": "the-mind-body-problem-and-metaphysics",
+    "body": [
+      "This review examines a book defending substance dualism — the view that minds are non-physical substances distinct from bodies — primarily through the conceivability argument: if it's genuinely conceivable that your mind could exist without your body (or that a physical duplicate of you could lack consciousness entirely, the 'zombie' scenario), this is offered as evidence that mind and body really are metaphysically distinct, not merely two ways of describing the same underlying physical thing.",
+      "The reviewer engages critically with how the book handles the standard physicalist rebuttals — that conceivability doesn't guarantee genuine metaphysical possibility, and that our limited grasp of the deep nature of physical processes might make some physical/mental identities seem falsely inconceivable even though they're true (a strategy sometimes called the 'phenomenal concept strategy').",
+      "As a piece of professional philosophical criticism rather than a neutral summary, the review models how contemporary philosophers pressure-test a metaphysical argument's premises rather than simply reporting its conclusions — useful for seeing how the abstract mind-body debate actually gets argued at the current research frontier, beyond the textbook version of the problem."
+    ]
+  },
+  {
+    "slug": "organon-and-other-logical-works",
+    "body": [
+      "This public-domain volume collects the full set of treatises making up Aristotle's Organon — the 'instrument' of correct reasoning that founded formal logic in the Western tradition. The Categories offers a taxonomy of the most basic kinds of thing that can be said to exist (substance, quantity, quality, relation, and so on); On Interpretation examines the logical structure of statements and the relations between affirmation, negation, and modal notions like possibility and necessity.",
+      "The Prior Analytics develops the theory of the categorical syllogism — valid argument forms built from subject-predicate premises — that would dominate logic instruction for two millennia, while the Posterior Analytics extends this into a theory of scientific demonstration, addressing what it takes for a syllogism to count as genuine scientific knowledge rather than merely valid inference.",
+      "The Topics and Sophistical Refutations round out the collection with, respectively, strategies for constructing dialectical arguments from generally accepted premises and a catalog of common fallacies and how to expose them — together giving readers the complete toolkit Aristotle built for reasoning correctly, arguing dialectically, and detecting bad arguments, in one volume."
+    ]
+  },
+  {
+    "slug": "critique-of-pure-reason",
+    "body": [
+      "Kant's 1781 masterwork attempts to settle a dispute that had stalled philosophy for over a century: rationalists claimed substantive knowledge of reality could be reached through pure reason alone, while empiricists (especially Hume) insisted all knowledge must derive from sensory experience, with Hume's skepticism about causation threatening to undermine science's rational foundations entirely.",
+      "Kant's solution is his 'transcendental idealism': rather than asking whether the mind can passively discover how reality is structured, he argues the mind actively imposes certain structures — space, time, and categories like causation — onto raw sensory data, which is why we can know a priori that experience will always be spatial, temporal, and causally ordered. But this comes at a cost: we can only ever know 'appearances' (phenomena) as structured by our minds, never 'things in themselves' (noumena) as they are independent of any mind.",
+      "This framework lets Kant explain how synthetic a priori knowledge is possible (substantive claims, like those of geometry or the causal principle, that are knowable independent of experience yet aren't empty tautologies) while also arguing that traditional metaphysical questions — about God, the soul, and the universe as a whole — outrun what reason can legitimately settle, since they require applying the categories beyond the bounds of any possible experience."
+    ]
+  },
+  {
+    "slug": "symbolic-logic-a-free-online-course",
+    "body": [
+      "This 15-lecture course provides a systematic build-up of formal logic starting from the ground floor: propositional logic, where whole sentences are treated as units connected by logical operators ('and,' 'or,' 'not,' 'if...then'), and truth tables as a mechanical procedure for determining whether any given formula is a tautology, a contradiction, or contingent.",
+      "It then introduces truth trees (also called semantic tableaux) as a more efficient decision procedure for testing validity — rather than exhaustively checking every row of a truth table, truth trees let you systematically break down a set of formulas to see whether they can all be simultaneously true, quickly revealing whether an argument is valid without the exponential blowup of a full truth table for complex formulas.",
+      "The course extends this machinery to first-order (predicate) logic, adding quantifiers ('all,' 'some') and predicates that let you formally represent claims about objects and their properties and relations — building, lecture by lecture, the same technical foundation that underlies a university-level introductory logic course, in a format suited to self-paced study."
+    ]
+  },
+  {
+    "slug": "experimental-metaphysics",
+    "body": [
+      "This edited collection asks a methodological question that cuts across analytic philosophy: can empirical methods borrowed from cognitive science — surveying ordinary people's intuitions, running controlled experiments on judgment — actually inform traditionally a priori metaphysical debates about free will, causation, and the persistence of objects, or is metaphysics a domain where armchair conceptual analysis is the only appropriate method?",
+      "The 'experimental philosophy' (x-phi) movement the collection draws on has already shown that ordinary intuitions about cases like trolley problems or Gettier cases sometimes vary by culture, gender, or how a scenario is framed — raising the question of whether professional philosophers' own intuitions, traditionally treated as reliable data, are similarly unstable, and what that instability would mean for metaphysical arguments that rest heavily on 'intuitive' verdicts about thought experiments.",
+      "Contributors apply this experimental lens specifically to metaphysical questions — testing, for instance, whether ordinary judgments about free will and moral responsibility really track philosophers' theoretical categories (compatibilism versus incompatibilism), or whether folk judgments about object identity and causation align with any single philosophical theory — making this a good entry point into a genuinely contested methodological debate about how metaphysics itself should be practiced."
+    ]
+  },
+  {
+    "slug": "introduction-to-philosophy-epistemology",
+    "body": [
+      "This open-access textbook chapter set covers the core territory of epistemology aimed squarely at first-year students with no prior philosophy background. It opens with the traditional justified-true-belief analysis of knowledge and Gettier's counterexamples to it, walking through the fourth-condition literature in a more gradual, classroom-friendly pace than a research-level encyclopedia entry would.",
+      "It devotes significant space to the structure of justification — foundationalism versus coherentism — and to skepticism, using accessible versions of brain-in-a-vat and evil-demon scenarios to motivate why philosophers take the possibility of radical error so seriously despite its apparent remoteness from everyday life.",
+      "The chapters on social epistemology (how testimony, disagreement among experts, and group belief formation affect what we're justified in believing) reflect a genuinely contemporary turn in the field, extending the traditional focus on isolated individual knowers to the more realistic situation where most of what we believe, we believe on the word of others — making this a well-rounded, free alternative to a commercial introductory epistemology textbook."
+    ]
+  },
+  {
+    "slug": "introduction-to-philosophy-logic",
+    "body": [
+      "This open-access introductory logic textbook is built for students encountering formal reasoning for the first time, opening with the bedrock distinction between deductive and inductive arguments and the related but distinct concepts of validity (does the conclusion follow from the premises?) and soundness (are the premises actually true?).",
+      "It covers the basics of propositional logic — translating ordinary-language claims into logical notation using connectives like 'and,' 'or,' 'not,' and conditionals, and using truth tables to mechanically evaluate arguments — before introducing students to the standard catalog of informal fallacies (ad hominem, straw man, false dilemma, hasty generalization, and others) that appear constantly in everyday arguments and media.",
+      "By pairing formal techniques with informal fallacy recognition, the text serves double duty as both a foundation for further formal logic study and a practical toolkit for evaluating the arguments students actually encounter outside the classroom — reflecting the same real-world argument-evaluation goals that motivate most introductory critical thinking and logic courses."
+    ]
+  }
+]

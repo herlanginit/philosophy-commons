@@ -43,10 +43,21 @@ Open [http://localhost:3000](http://localhost:3000).
 
 If the environment variable isn't set, or the sheet can't be reached, the site silently falls back to the seed data in `src/data/resources.ts` — it will never show a broken page.
 
+## Contact form emails
+
+The `/contact` page sends submissions to `heritagelanguageinitiative@gmail.com` via [Resend](https://resend.com):
+
+1. Sign up free at resend.com and create an API key.
+2. Set it as the `RESEND_API_KEY` environment variable (`.env.local` locally, or your hosting provider's project settings for the live site).
+3. Without a domain verified on Resend, emails send from `onboarding@resend.dev` — fine for this use case since the recipient is your own address. Verify a domain later in Resend if you want the "from" address to match your own domain instead.
+
+If `RESEND_API_KEY` isn't set, the form shows an error instead of silently losing messages.
+
 ## Structure
 
-- `src/app/` — pages (App Router): home, `/resources` (library with search/filter/sort), `/resources/[slug]` (detail), `/explainers`, `/for-educators`, `/about`, `/get-involved`, `/my-library`, `/privacy`
+- `src/app/` — pages (App Router): home, `/resources` (library with search/filter/sort), `/resources/[slug]` (detail), `/explainers`, `/for-educators`, `/about`, `/contact`, `/my-library`
 - `src/app/api/resources/route.ts` — JSON endpoint used by client-side pages (e.g. My Library) to read the current resource list
+- `src/app/api/contact/route.ts` — sends contact-form submissions via the Resend API
 - `src/data/resources.ts` — the resource content model, constants (topics/types/levels/traditions), and seed/fallback dataset
 - `src/lib/sheet.ts` — fetches and parses the published Google Sheet CSV into `Resource[]`, with fallback to seed data
 - `src/lib/csv.ts` — small CSV parser (handles quoted fields, embedded commas/newlines)

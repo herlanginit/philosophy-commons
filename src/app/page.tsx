@@ -149,18 +149,18 @@ export default async function Home() {
 
       <Section className="border-t border-ink-900/10 bg-ink-950 py-16 text-center sm:py-20">
         <h2 className="font-serif text-2xl font-bold text-parchment-50 sm:text-3xl">
-          Help us keep philosophy free and open
+          Have a resource to suggest, or feedback to share?
         </h2>
         <p className="mx-auto mt-3 max-w-xl text-parchment-100/70">
-          Philosophy Commons is built by educators and volunteers. Support
-          our work, contribute a resource, or bring it to your classroom.
+          Philosophy Commons is built by educators. We'd love to hear from
+          you.
         </p>
         <div className="mt-7 flex flex-wrap items-center justify-center gap-3">
           <Link
-            href="/get-involved"
+            href="/contact"
             className="rounded-full bg-gold-500 px-5 py-2.5 text-sm font-semibold text-ink-950 hover:bg-gold-400"
           >
-            Get involved
+            Contact us
           </Link>
           <Link
             href="/about"

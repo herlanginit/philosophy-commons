@@ -1,0 +1,306 @@
+[
+  {
+    "slug": "consequentialism",
+    "body": [
+      "Consequentialism holds that the moral rightness of an act depends solely on its consequences — nothing else (motive, rule-following, rights) matters except insofar as it affects outcomes. Utilitarianism, the paradigm case developed by Bentham, Mill, and Sidgwick, cashes out 'good consequences' as aggregate happiness or welfare, but the SEP entry maps a much wider family: act versus rule versions, actual versus expected/foreseeable consequences, agent-neutral versus agent-relative value, and maximizing versus satisficing standards.",
+      "The entry is valuable for seeing how much internal variation the theory allows before it collapses into either triviality or an unrecognizable relative of utilitarianism. It also lays out the theory's most persistent challenges: the demandingness objection (does morality really require constantly maximizing global welfare?), the integrity objection pressed by Bernard Williams (consequentialism can force agents to violate their own deepest commitments for the greater good), and worries about aggregation — whether it's legitimate to sum welfare across separate persons at all.",
+      "Understanding these distinctions is essential background for nearly every applied ethics debate, from trolley-problem intuitions to cost-benefit analysis in public policy, since consequentialism is the framework most often invoked — and most often challenged — as the alternative to duty-based and character-based ethics."
+    ]
+  },
+  {
+    "slug": "kant-s-moral-philosophy",
+    "body": [
+      "Kant's ethics grounds morality not in consequences or sentiment but in reason itself. The entry traces how the Categorical Imperative — a command that binds regardless of what you happen to want — differs from ordinary hypothetical imperatives ('if you want X, do Y'). Kant argues that only a rational, autonomous will can be the source of a truly moral law, and that this same rational nature is why persons have dignity rather than mere price: it's what grounds his famous requirement to treat humanity always as an end, never merely as a means.",
+      "The entry walks through Kant's several formulations of the Categorical Imperative — the Universal Law formula, the Humanity formula, and the Kingdom of Ends formula — and the scholarly debate over whether these are genuinely equivalent tests or subtly different ones. It also covers the distinction between acting 'from duty' versus merely 'in accordance with' duty, illustrated by Kant's shopkeeper example, which is central to his claim that moral worth attaches to the will's motive, not the act's effects.",
+      "Beyond the Groundwork, the entry notes how later works like the Metaphysics of Morals and the second Critique extend and complicate this picture with a fuller theory of duties, making clear that Kantian ethics is a much richer, more contested system than the popular caricature of rigid rule-following."
+    ]
+  },
+  {
+    "slug": "virtue-ethics",
+    "body": [
+      "Virtue ethics asks a different question than consequentialism or deontology: not 'what should I do?' but 'what kind of person should I be?' The entry traces the view to Aristotle's account of eudaimonia (flourishing) as activity of the soul in accordance with virtue, achieved through habituation of stable character traits like courage, temperance, and justice, guided by practical wisdom (phronesis) rather than a rulebook.",
+      "It explains the theory's near-disappearance in modern moral philosophy — eclipsed by utilitarian and Kantian frameworks for roughly two centuries — and its dramatic revival beginning with Elizabeth Anscombe's 1958 essay 'Modern Moral Philosophy,' which argued that act-centered ethics had lost its coherence without a background theory of human flourishing. Philippa Foot, Alasdair MacIntyre, and Rosalind Hursthouse are credited with developing virtue ethics into a full rival research program.",
+      "The entry also takes seriously the theory's toughest objections: the action-guidance problem (a virtue like 'be honest' doesn't obviously tell you what to do in a hard case) and the situationist challenge from social psychology, which questions whether stable character traits even exist given how strongly situational factors predict behavior. This makes it a good entry point for understanding both virtue ethics' appeal and its live vulnerabilities."
+    ]
+  },
+  {
+    "slug": "contemporary-approaches-to-the-social-contract",
+    "body": [
+      "This entry picks up where the classical social contract tradition (Hobbes, Locke, Rousseau) leaves off, tracking how 20th- and 21st-century philosophers reconstructed the idea of a hypothetical agreement to justify political and moral principles. It draws a key distinction between Hobbesian/Gauthier-style contractarianism, which grounds agreement in mutual self-interest and rational bargaining, and Kantian/Scanlon-style contractualism, which grounds it in what principles could reasonably be justified to others as free and equal persons.",
+      "Rawls's original position and veil of ignorance sit at the center of the discussion as the most influential contemporary device: a hypothetical choice situation designed to strip away morally arbitrary knowledge (your class, talents, conception of the good) so that the principles chosen count as fair. The entry surveys how later theorists extended, modified, or attacked this apparatus — including feminist critiques (Carole Pateman's argument that classical contract theory obscures a prior 'sexual contract'), disability theorists questioning who counts as a party to the contract, and efforts to extend contractarian reasoning to global and intergenerational justice.",
+      "It's a useful map of how a 17th-century thought experiment about escaping the state of nature became the dominant methodology for doing normative political philosophy today."
+    ]
+  },
+  {
+    "slug": "john-rawls",
+    "body": [
+      "Rawls's A Theory of Justice (1971) is arguably the most influential work of political philosophy in the 20th century, and this entry lays out its core architecture: justice as fairness, built from the original position, in which parties choose principles of justice behind a veil of ignorance that hides their place in society, natural talents, and conception of the good. Rawls argues this procedure would yield two principles — equal basic liberties for all, and the difference principle, which permits social and economic inequalities only if they benefit the least advantaged.",
+      "The entry also tracks Rawls's important later shift in Political Liberalism (1993), where he confronted the problem of reasonable pluralism: since free societies will always contain citizens with irreconcilable comprehensive worldviews (religious, moral, philosophical), he reframed justice as fairness as a 'freestanding' political conception that different worldviews could each endorse for their own reasons — an 'overlapping consensus' secured through public reason rather than shared metaphysics.",
+      "Finally, it covers The Law of Peoples, Rawls's attempt to extend his framework to international relations. Together these works provoked the major counter-movements in late-20th-century political theory — Nozick's libertarian response, and the communitarian critiques of Sandel, MacIntyre, and Walzer — making this entry essential context for almost any later debate in the field."
+    ]
+  },
+  {
+    "slug": "war",
+    "body": [
+      "This entry surveys just war theory, the dominant framework for thinking about the ethics of armed conflict, positioned as a middle path between pacifism (war is never justified) and realism (morality doesn't apply to war at all). It separates the two traditional halves of the theory: jus ad bellum, the conditions for justly entering a war (just cause, right intention, legitimate authority, last resort, proportionality, and reasonable prospect of success), and jus in bello, the conditions for justly conducting one (discrimination between combatants and noncombatants, and proportionality in the harm inflicted).",
+      "It traces the tradition's long lineage — Augustine and Aquinas supplying the theological groundwork, Grotius and Vitoria developing it into something closer to international law — before turning to the major contemporary fault line: the traditionalist view (following Michael Walzer) that combatants on both sides are morally equal regardless of their cause, versus the revisionist challenge (led by Jeff McMahan) that moral responsibility for killing in war should track whether a combatant's cause is actually just.",
+      "This debate has real practical stakes for how international law treats soldiers, war crimes, and asymmetric conflicts, making the entry a solid bridge between abstract ethical theory and live questions in political philosophy about legitimate authority and violence."
+    ]
+  },
+  {
+    "slug": "the-problem-of-evil",
+    "body": [
+      "The problem of evil is the challenge of reconciling the existence of suffering with a God who is supposed to be all-powerful, all-knowing, and perfectly good. This entry distinguishes the logical version of the problem (associated with J.L. Mackie), which claims evil is strictly logically incompatible with such a God, from the evidential version (associated with William Rowe), which argues more modestly that the amount and distribution of apparently pointless suffering makes God's existence improbable, even if not impossible.",
+      "It surveys the major theistic responses: the free will defense, which locates moral evil in the misuse of a freedom valuable enough to be worth the risk; the soul-making theodicy (developed by John Hick, drawing on Irenaeus), which reframes suffering as necessary for genuine moral and spiritual development rather than a design flaw; and skeptical theism, which argues that human cognitive limitations make us poorly positioned to judge whether any given instance of suffering is really gratuitous, since we can't survey all the reasons an infinite mind might have.",
+      "The entry is a good gateway into one of philosophy of religion's oldest and most active debates, showing how the argument has evolved from a purely logical puzzle into a much more nuanced probabilistic and epistemological dispute."
+    ]
+  },
+  {
+    "slug": "pascal-s-wager",
+    "body": [
+      "Pascal's Wager reframes belief in God not as a matter of evidence but of decision theory under uncertainty: if God exists and you believe, you gain infinite happiness; if you believe and God doesn't exist, you lose comparatively little; therefore believing dominates not believing regardless of how likely God's existence actually is. The entry notes that Pascal actually sketches several distinct arguments in the Pensées, and that only the third of these is properly what's meant by 'the Wager' in the technical, decision-theoretic sense.",
+      "It works through the argument's classic objections: the many-gods objection (why wager on this particular God rather than some other possible deity with incompatible demands?), the worry that belief can't simply be willed into existence on command (to which Pascal's reply is that religious practice and habituation — 'acting as if,' attending mass, taking holy water — can cultivate genuine belief over time), and the moral objection that believing for self-interested reasons seems like a bad reason to believe anything.",
+      "The entry also situates the Wager historically as arguably the first serious application of expected-value reasoning to a practical, existential question — making it a foundational text for probability theory and decision theory as much as for philosophy of religion."
+    ]
+  },
+  {
+    "slug": "ontological-arguments",
+    "body": [
+      "Ontological arguments try to prove God's existence through pure reason alone, without appeal to observation of the world — a radically different strategy from cosmological or design arguments. The entry starts with Anselm's original version in the Proslogion: God is defined as 'that than which nothing greater can be conceived,' and Anselm argues that existing in reality is greater than existing merely in the understanding, so if God existed only as an idea, we could conceive of something greater (a God who also exists) — a contradiction, meaning God must exist in reality.",
+      "It covers Gaunilo's famous parody objection (the same reasoning would prove a 'perfect island' must exist, which seems absurd), Descartes's version treating existence as a perfection that a supremely perfect being must possess, and Kant's influential rebuttal that existence is not a real predicate or property that adds anything to a concept — you can't define something into existence.",
+      "The entry also brings the argument into the 20th century with Kurt Gödel's formal modal version and Alvin Plantinga's modal ontological argument built on the concept of 'maximal greatness' across possible worlds, showing that despite centuries of criticism, philosophers keep finding new logical machinery to revive the basic Anselmian move."
+    ]
+  },
+  {
+    "slug": "theological-voluntarism",
+    "body": [
+      "Theological voluntarism is the family of views holding that morality depends in some essential way on God's will — most commonly in the form of divine command theory, which says an act is obligatory because God commands it. The entry's organizing tension is the Euthyphro dilemma: is an act right because God commands it (making morality seem arbitrary — could God have made cruelty obligatory by simply commanding it?), or does God command it because it's independently right (which seems to make morality independent of God after all, undercutting the whole point of the theory)?",
+      "It covers the mid-20th-century decline and later revival of divine command theory, crediting Robert Adams and Philip Quinn with developing more defensible versions — notably Adams's 'modified' divine command theory, which ties moral wrongness not to bare commands but to commands issued by a being who is essentially loving, which is meant to block the arbitrariness worry by grounding commands in a fixed, non-arbitrary divine nature.",
+      "The entry is useful for seeing how a seemingly simple slogan ('good is whatever God wills') opens onto a genuinely difficult metaethical problem about whether morality can be grounded in any will at all, divine or otherwise, and connects directly to broader debates about moral realism and the sources of normativity."
+    ]
+  },
+  {
+    "slug": "social-contract-theory",
+    "body": [
+      "This entry introduces the idea that political authority and moral obligation derive from an agreement — real or hypothetical — among the people bound by them, tracing its first full articulation to Thomas Hobbes and its classic development through John Locke and Jean-Jacques Rousseau. Each theorist starts from a different picture of the pre-political 'state of nature': Hobbes's is a brutal war of all against all that makes any sovereign authority preferable to chaos; Locke's is more tolerable, governed by natural law, so government exists mainly to better secure pre-existing rights; Rousseau's natural man is genuinely free and only corrupted by the introduction of property and social comparison.",
+      "The entry also covers David Hume's influential critique that the whole notion of tacit or implied consent to a social contract is largely fictional — most people never actually agree to anything, and political obedience is better explained by habit and the practical necessity of stable government.",
+      "It closes by noting the theory's 20th-century revival through Rawls's Kantian reworking (using a hypothetical rather than historical contract) and later game-theoretic versions by David Gauthier, making clear that social contract theory remains a live methodology, not just a historical curiosity."
+    ]
+  },
+  {
+    "slug": "philosophy-of-religion",
+    "body": [
+      "This is a broad-survey entry covering the field's core recurring questions rather than any single argument. It opens with religious language — the challenge of how terms like 'God is good' can mean anything at all when applied to a being unlike anything in ordinary experience, and the classical strategies (analogical predication, mysticism, non-cognitivism) for addressing it — before turning to religious diversity and pluralism, including John Hick's influential proposal that different religions may be culturally variant responses to the same ultimate reality.",
+      "It then surveys competing concepts of God (classical theism's all-powerful, timeless deity versus process theology's evolving, relational one), the standard arguments for God's existence (cosmological, teleological/design, ontological, and moral arguments), and the problem of evil as the central argument against theism.",
+      "Finally it touches on miracles, notably Hume's argument that a wise person should never believe a miracle report, since the uniform experience of natural law will almost always outweigh the reliability of testimony to its violation. As an entry-level map of the whole field, it's a good place to start before diving into any single topic in more depth."
+    ]
+  },
+  {
+    "slug": "john-rawls-internet-encyclopedia-of-philosophy",
+    "body": [
+      "This entry covers the same core Rawlsian architecture as the SEP treatment — justice as fairness, the original position, the veil of ignorance, and the two principles of justice (equal basic liberties, and the difference principle permitting inequality only when it benefits the worst-off) — but pitched at a more accessible, undergraduate level, making it a good first stop before tackling Rawls's own dense prose in A Theory of Justice.",
+      "It emphasizes how radically Rawls's approach broke from the utilitarian consensus that had dominated Anglophone political philosophy up to 1971: rather than maximizing aggregate welfare, Rawls insisted that principles of justice must respect the 'separateness of persons' and be justifiable to each individual, not just tolerable on average.",
+      "The entry also situates the theory within the wave of criticism it provoked — Robert Nozick's libertarian objection that redistributive principles like the difference principle require constant interference with people's voluntary transactions, and communitarian critiques questioning whether the 'unencumbered self' behind the veil of ignorance is a coherent picture of a real human being — giving readers a quick sense of the debate Rawls's book set in motion."
+    ]
+  },
+  {
+    "slug": "utilitarianism",
+    "body": [
+      "Mill's 1861 essay is the classic defense of utilitarianism against the common charge that it's a crude, expedient 'philosophy of swine.' In its second chapter Mill states the Greatest Happiness Principle plainly: actions are right in proportion as they promote happiness, wrong as they promote its reverse. But his most distinctive move is introducing a qualitative distinction between higher pleasures (intellectual, aesthetic, moral) and lower ones (merely bodily), arguing that competent judges who have experienced both will always prefer the higher — captured in his famous line that it is 'better to be Socrates dissatisfied than a fool satisfied.'",
+      "Chapter Four contains Mill's controversial 'proof' of the principle of utility: he argues that just as the only evidence something is visible is that people actually see it, the only evidence something is desirable is that people actually desire it — and since people desire happiness, happiness is shown to be desirable. This inference from 'is desired' to 'is desirable' has been criticized ever since as a naturalistic fallacy.",
+      "Chapter Five, often overlooked, is Mill's attempt to show that justice itself is not a rival to utility but a name for the utilities most vital to human welfare — an important move for anyone who thinks utilitarianism can't account for rights or fairness."
+    ]
+  },
+  {
+    "slug": "the-nicomachean-ethics",
+    "body": [
+      "Aristotle's foundational treatise argues that the highest human good is eudaimonia — usually translated 'flourishing' or 'happiness' — understood not as a feeling but as activity of the soul in accordance with virtue over a complete life. His 'function argument' gets there by asking what activity is distinctive to human beings as such: since reason is our characteristic capacity, the good life must involve exercising it well, which is just what virtue is.",
+      "The doctrine of the mean is the book's most famous analytical tool: virtue lies at a mean between two vices, one of excess and one of deficiency, relative to the particular person and situation — courage sits between recklessness and cowardice, for instance — and identifying that mean in practice requires phronesis, practical wisdom, rather than a fixed rule. Books VIII and IX, unusually substantial for the era, are devoted to friendship, which Aristotle divides into friendships of utility, pleasure, and virtue, treating the last as essential to a fully flourishing life.",
+      "The final books turn to contemplation (theoria) as, surprisingly, the highest human activity — even above the practical and political life the rest of the work seems to praise. This tension has fueled centuries of interpretive debate, and the whole work remains the central text behind the modern revival of virtue ethics."
+    ]
+  },
+  {
+    "slug": "leviathan",
+    "body": [
+      "Written during the chaos of the English Civil War, Hobbes's Leviathan begins from a stark picture of the state of nature: because people are roughly equal in their capacity to harm one another, and resources are scarce, the absence of a common power to keep everyone in check produces a 'war of every man against every man' where life is 'solitary, poor, nasty, brutish, and short.' Escape requires a mutual covenant in which individuals transfer their rights to a sovereign — a single person or assembly — who alone retains the power to enforce peace.",
+      "Crucially, Hobbes's sovereign is not itself a party to the contract and therefore cannot be accused of breaking it; this is the key move that grounds his argument for near-absolute, indivisible sovereign authority, since any division or limitation of sovereign power risks reopening the war of all against all. Hobbes builds this political argument on an explicitly materialist psychology of human motion, appetite, and aversion, making Leviathan as much a work of philosophical anthropology as of political theory.",
+      "As the first fully worked-out social contract theory, it set the terms — state of nature, covenant, sovereign authority — that Locke and Rousseau would each later revise in very different directions."
+    ]
+  },
+  {
+    "slug": "second-treatise-of-government",
+    "body": [
+      "Locke's Second Treatise offers a far less dire picture of the state of nature than Hobbes's: people already possess natural rights to life, liberty, and property, and are bound by a law of nature discoverable through reason even without government. Property, in Locke's famous account, arises when a person mixes their labor with what nature provides — with the important proviso that one must leave 'enough and as good' for others.",
+      "Because these rights predate government, Locke argues government exists to better secure them, not to create them from nothing — political authority is a trust conferred by the consent of the governed rather than an irrevocable transfer of absolute power. This is the crucial difference from Hobbes: since government's authority is conditional on serving the people's rights, Locke argues the people retain a right to resist and even overthrow a government that persistently violates that trust.",
+      "This framework — natural rights preceding government, consent as the source of legitimate authority, and a right of revolution against tyranny — directly shaped the American Declaration of Independence and remains one of the most influential texts in the liberal constitutional tradition."
+    ]
+  },
+  {
+    "slug": "the-social-contract-discourses",
+    "body": [
+      "Rousseau opens with one of political philosophy's most quoted lines — 'Man is born free; and everywhere he is in chains' — and builds an account of legitimate political authority around the idea of the general will: the collective interest of the community aimed at the common good, which is not simply the sum or majority of individual private wills.",
+      "His central and most debated claim is that true freedom consists in obeying laws one has, in effect, prescribed to oneself as a member of the sovereign body — captured in his paradoxical phrase that individuals may need to be 'forced to be free' when they act against the general will they implicitly share in authoring. This collection also includes the Discourse on the Origin of Inequality, where Rousseau argues that natural humans were largely solitary and content, and that the introduction of private property and the resulting social comparison (amour-propre) is what corrupted humanity into competitive, unequal societies.",
+      "Interpreters have long argued over whether Rousseau's vision of collective sovereignty is a genuine democratic advance or contains totalitarian seeds, which is exactly what makes this text still contested and worth reading directly rather than only through summaries."
+    ]
+  },
+  {
+    "slug": "dialogues-concerning-natural-religion",
+    "body": [
+      "Hume's Dialogues stage a three-way debate among Demea (an orthodox believer skeptical of reasoning about God at all), Cleanthes (a defender of the argument from design, who infers an intelligent creator from nature's apparent order the way we'd infer a craftsman from a well-made machine), and Philo (a skeptic usually read as closest to Hume's own view).",
+      "Philo's central move is to attack the analogy at the heart of the design argument: the universe is nothing like the narrow range of human artifacts we have experience of, so we have little basis for confidently inferring anything about its cause — and if analogy is the method, alternative hypotheses (the universe growing like a plant, or generating itself, or simply existing through chance arrangements over infinite time) are just as well supported as intelligent design. Late in the work Philo also presses the problem of evil, arguing that the amount of apparently gratuitous suffering in nature sits badly with a designer who is supposed to be both all-powerful and perfectly good.",
+      "Published posthumously in 1779 because of its explosive content, the Dialogues remain one of the most sophisticated and durable critiques of the design argument, still directly relevant to later debates over intelligent design and fine-tuning arguments."
+    ]
+  },
+  {
+    "slug": "groundwork-for-the-metaphysic-of-morals",
+    "body": [
+      "Kant's 1785 Groundwork is the founding text of his ethical system, and this Early Modern Texts edition renders his notoriously dense German into clearer modern English while keeping the argument's structure intact — a real help for readers meeting Kant for the first time. The text moves in three stages: from ordinary moral thinking, to a more philosophical account of duty, and finally to a critique of practical reason itself, seeking the supreme principle of morality through pure a priori reasoning rather than experience.",
+      "Kant opens by arguing that the only thing good without qualification is a good will — not happiness, talent, or even good consequences, all of which can be misused. Moral worth, he argues, attaches to acting from duty rather than merely in accordance with it, illustrated by his example of an honest shopkeeper who doesn't cheat customers only because honesty is good for business versus one who is honest purely because it's right.",
+      "From this Kant derives the Categorical Imperative in several formulations — act only on maxims you could will as universal law; treat humanity always as an end, never merely as a means; act as a legislating member of a hypothetical 'kingdom of ends' — arguing that these are ultimately different expressions of one and the same rational demand."
+    ]
+  },
+  {
+    "slug": "introduction-to-political-philosophy",
+    "body": [
+      "Steven B. Smith's 24-lecture Yale course moves through the Western political tradition roughly chronologically, organized around three broad moments: the 'polis experience' of Plato and Aristotle, where politics and ethics are inseparable from the question of how to live well in a community; the rise of the sovereign state in Machiavelli and Hobbes, where politics gets reframed around power, security, and the problem of order; and constitutional government and democracy in Locke and Rousseau, extending through Tocqueville's reflections on democratic life in America.",
+      "Smith frames the whole course around a productive tension: political philosophy exists at the friction point between philosophy's aspiration to universal, rational truth and the necessarily particular, historically situated commitments of actual political communities — a tension visible from Socrates' trial in Athens through modern debates about sovereignty and rights.",
+      "Because it works through primary texts lecture by lecture in historical sequence rather than as a topics-based survey, the course gives a much fuller sense of how each thinker was responding to their predecessors than a standalone encyclopedia entry can — useful as a full-semester complement to reading Hobbes, Locke, or Rousseau directly."
+    ]
+  },
+  {
+    "slug": "the-rawlsian-social-contract",
+    "body": [
+      "This single lecture from Ian Shapiro's Moral Foundations of Politics course introduces Rawls's original position: a hypothetical choice scenario in which parties select principles of justice for their society from behind a 'veil of ignorance' that hides their social class, natural talents, race, sex, and even their particular conception of the good life.",
+      "Shapiro explains why this device is supposed to guarantee fairness — since no one knows in advance what position they'll occupy in the resulting society, no one can rig the principles in their own favor — and draws the connection to Kant's idea of universalizability, since both methods test moral principles by asking what could be endorsed from an impartial standpoint rather than a self-interested one. From this setup Rawls derives his two principles of justice: equal basic liberties for all, and the difference principle permitting economic inequality only when it improves the position of the least advantaged.",
+      "Because the lecture comes after Shapiro has already covered utilitarian theories earlier in the course, it explicitly positions Rawls as a direct alternative to utilitarian aggregation — useful context for understanding what Rawls's contract device was designed to fix."
+    ]
+  },
+  {
+    "slug": "justice",
+    "body": [
+      "This MIT course, taught by Lucas Stanczyk, is organized around a head-to-head comparison of three rival theories of a just society: utilitarianism (Bentham and Mill's view that just arrangements are those that maximize aggregate welfare), libertarianism (Nozick's entitlement theory, built on strong self-ownership and property rights that resist redistribution), and egalitarian liberalism (Rawls's justice as fairness, with its difference principle favoring the least advantaged).",
+      "Rather than treating these as purely abstract positions, the syllabus and discussion materials push students to apply each framework to live, contested policy questions — taxation, affirmative action, the distribution of goods and opportunities — forcing them to notice where their intuitions track one theory consistently and where they don't.",
+      "The full set of readings, lecture notes, and writing assignments (including revise-and-resubmit papers) make this usable as a self-contained mini-course for anyone who wants the rigor of a college justice course — covering much the same ground as Michael Sandel's better-known Harvard version — without enrolling anywhere."
+    ]
+  },
+  {
+    "slug": "justice-what-s-the-right-thing-to-do-the-moral-side-of-murder",
+    "body": [
+      "The opening lecture of Sandel's famous course begins with the trolley problem: a runaway trolley will kill five people unless you divert it onto a side track, where it will kill only one. Most people say diverting is permissible — but Sandel complicates this immediately by asking whether it's equally permissible to push a large bystander off a bridge to physically stop the trolley, which most people reject even though the numerical trade-off is identical. This gap between the two cases is used to introduce the doctrine of double effect and the moral difference (if any) between doing harm and merely allowing it.",
+      "Sandel then turns to a real 19th-century case, the shipwrecked crew of the Mignonette, whose captain killed and ate the weakest member (the cabin boy) so the others could survive — and were later tried for murder. Having students grapple with an actual court case, rather than only a hypothetical, sharpens the stakes of asking whether maximizing survival can ever justify treating a person merely as a resource.",
+      "Together the two cases set up the semester's central question: whether utilitarian calculation can adequately capture our considered moral judgments, or whether ideas like rights and human dignity impose limits that consequences alone can't override — delivered through Sandel's signature large-lecture Socratic dialogue with the class."
+    ]
+  },
+  {
+    "slug": "utilitarianism-ethics-unwrapped",
+    "body": [
+      "This short animated video gives a quick working definition of utilitarianism: an action is morally right if it produces the greatest net balance of benefit over harm for everyone affected, tracing the idea back to Jeremy Bentham's 'hedonic calculus' for weighing pleasure and pain and Mill's refinement of it into a broader theory of well-being.",
+      "It frames utilitarian reasoning as a practical decision procedure rather than just an abstract theory — the same basic logic underlying cost-benefit analysis in business and public policy, where decision-makers try to tally up the winners and losers of a given choice.",
+      "As a glossary-level resource it's intentionally brief, flagging the standard objections (that it can justify sacrificing individual rights for the greater good, and that predicting and measuring consequences accurately is often impossible) without resolving them — meant as fast vocabulary-building before tackling the fuller theory in Mill's own text or the SEP entry."
+    ]
+  },
+  {
+    "slug": "virtue-ethics-ethics-unwrapped",
+    "body": [
+      "This short animated video introduces virtue ethics as a theory that evaluates a person's character rather than judging individual acts or their consequences in isolation — asking not 'was this act right?' but 'what would a person of good character do here?'",
+      "It roots the approach in Aristotle's idea that virtues like courage, honesty, and temperance are stable dispositions built up over time through habituation and practice, rather than innate traits or rules memorized and applied mechanically.",
+      "By contrasting this character-first approach with rule-based (deontological) and outcome-based (consequentialist) reasoning, the video gives students quick vocabulary for recognizing when a moral argument is really about cultivating good character — useful groundwork before engaging with Aristotle's own much fuller treatment in the Nicomachean Ethics."
+    ]
+  },
+  {
+    "slug": "ethics-and-god-divine-command-theory-and-the-euthyphro-dilemma",
+    "body": [
+      "This essay introduces divine command theory (DCT) — the view that what makes an act right or wrong is simply that God commands or forbids it — and frames it through Plato's ancient Euthyphro dilemma: is something pious because the gods love it, or do the gods love it because it's independently pious?",
+      "Applied to DCT, the dilemma cuts sharply: if an act is wrong purely because God forbids it, morality looks arbitrary — could God have made cruelty for fun obligatory just by commanding it? But if God forbids cruelty because it's already wrong independent of the command, then morality doesn't actually depend on God after all, which undercuts the theory's whole point.",
+      "The essay surveys attempted escapes, notably Robert Adams's refined divine command theory, which ties wrongness not to bare commands but to the commands of a being whose nature is essentially loving — an attempt to keep morality tied to God's will while blocking the arbitrariness worry by anchoring that will in a fixed, non-capricious character."
+    ]
+  },
+  {
+    "slug": "the-problem-of-evil-is-suffering-evidence-that-there-is-not-a-god",
+    "body": [
+      "This concise essay lays out why the sheer existence and scale of suffering — both natural evil (disease, disasters) and moral evil (harm caused by free agents) — has long been treated as evidence against a God who is supposed to be all-powerful, all-knowing, and perfectly good.",
+      "It distinguishes the logical problem of evil, which claims outright contradiction between God's attributes and evil's existence, from the more modest evidential problem, which argues that even if no strict contradiction exists, the amount and apparent pointlessness of suffering makes God's existence less probable than it would otherwise be.",
+      "The essay then surveys the main lines of response: the free will defense, which treats moral evil as an acceptable cost of genuinely free agency; the soul-making theodicy, which reframes suffering as instrumental to spiritual and moral growth rather than gratuitous; and skeptical theism, which argues our limited cognitive vantage point gives us no good basis for concluding that any particular instance of suffering is truly without justifying reason."
+    ]
+  },
+  {
+    "slug": "consequentialism-and-utilitarianism",
+    "body": [
+      "This introductory essay draws the basic distinction between consequentialism as a general family of ethical theories (rightness determined entirely by outcomes) and utilitarianism as its most influential specific member, which measures those outcomes in terms of aggregate happiness or pleasure minus pain.",
+      "It explains the classic fork between act utilitarianism (evaluate each individual action by its consequences) and rule utilitarianism (evaluate which general rules, if followed, would produce the best consequences overall), a distinction that matters because act utilitarianism can seemingly justify actions — like framing an innocent person to prevent a riot — that rule utilitarianism is built to avoid.",
+      "It also surveys classic objections used to pressure-test the theory, such as the 'utility monster' who derives disproportionate pleasure from resources at everyone else's expense, and worries about how demanding a theory becomes once you're required to weigh every stranger's welfare as heavily as your own — making this a solid, quick on-ramp before tackling Mill's original text or the SEP's more technical entry."
+    ]
+  },
+  {
+    "slug": "stephen-law-on-the-problem-of-evil",
+    "body": [
+      "In this interview, philosopher Stephen Law presents his 'evil god challenge': a deliberately symmetrical argument claiming that for every move a theist makes to explain away evil in a world supposedly created by a perfectly good god, an exactly parallel move could be made to explain away the good in a world supposedly created by a perfectly evil god.",
+      "If theists can appeal to free will, soul-making, or the mysteriousness of divine reasons to preserve belief in a good god despite the world's suffering, Law argues an 'evil god' believer could mount equally plausible mirror-image defenses to preserve belief in an evil god despite the world's evident goodness and beauty. Since we obviously find the evil-god hypothesis absurd, Law concludes we should be similarly skeptical of the good-god hypothesis surviving the problem of evil so easily.",
+      "It's a sharp, contemporary twist on the ancient problem of evil, showing how a simple thought experiment about symmetry can put real pressure on standard theodicies without requiring any new empirical evidence — accessible as spoken conversation rather than dense prose."
+    ]
+  },
+  {
+    "slug": "jonathan-wolff-on-john-rawls-a-theory-of-justice",
+    "body": [
+      "In this interview, Jonathan Wolff walks through the core machinery of Rawls's A Theory of Justice: the original position, where parties choose principles of justice from behind a veil of ignorance that conceals their place in society, and the two resulting principles — equal basic liberties for everyone, and the difference principle, which permits economic inequality only when it makes the worst-off better than they'd otherwise be.",
+      "Wolff explains why Rawls rejected the utilitarian alternative that dominated political philosophy before him: aggregating welfare across a population risks treating people as interchangeable vessels of utility rather than separate individuals each owed their own fair treatment — Rawls's 'separateness of persons' objection.",
+      "The conversation also surveys the theory's major critics, including Robert Nozick's libertarian argument that maintaining any patterned distribution (even Rawls's) requires constant interference with people's voluntary transactions, and communitarian doubts about whether the abstract, 'unencumbered' choosers behind the veil of ignorance resemble any real human being — giving listeners a fast, conversational route into decades of debate."
+    ]
+  },
+  {
+    "slug": "the-ox-heard-round-the-world-thomas-aquinas",
+    "body": [
+      "This episode introduces Thomas Aquinas's project of synthesizing Aristotelian philosophy — newly available in Latin translation in the 13th century — with Christian theology, a combination that would shape Catholic thought for centuries afterward through what became Thomism.",
+      "Its centerpiece is Aquinas's Five Ways from the Summa Theologiae, a set of a posteriori arguments that reason from observed features of the world — things in motion, chains of efficient causes, the contingency of existing things, gradations of perfection, and apparent purposiveness in nature — to the existence of a first mover, first cause, or necessary being that theists identify with God. These are notably different in structure from a priori arguments like Anselm's ontological argument, since they start from empirical observation rather than pure concept analysis.",
+      "The episode also touches on Aquinas's broader view that faith and reason are complementary rather than opposed sources of truth — reason can get you partway to God (as the Five Ways attempt), while revelation supplies truths reason alone cannot reach. The title nods to the legend that Aquinas's fellow students nicknamed him 'the Dumb Ox' for his quiet, hulking presence before his brilliance became apparent."
+    ]
+  },
+  {
+    "slug": "john-rawls-his-life-and-theory-of-justice",
+    "body": [
+      "This review examines Thomas Pogge's short book on Rawls, which unusually pairs biography with philosophical exposition — covering Rawls's wartime experiences, personal losses, and quiet drift away from the Christian faith of his youth, alongside a systematic walkthrough of A Theory of Justice and Rawls's later reformulation in Political Liberalism.",
+      "The reviewer, Arthur Kuflik, focuses critically on two of Pogge's substantive philosophical claims: first, that Rawls's later emphasis on citizens' 'higher-order interests' in developing their two moral powers (a capacity for a sense of justice and for a conception of the good) helps address fairness worries about the original position; and second, Pogge's separate charge that the original position is excessively 'recipient-oriented' — too focused on outcomes for individuals rather than the design of just institutions themselves.",
+      "Kuflik pushes back on this second criticism, questioning whether the line between what a government actively does and merely fails to prevent really holds up under scrutiny. The review is a good example of how professional philosophers engage critically with even well-regarded secondary literature on a major thinker, rather than simply summarizing it."
+    ]
+  },
+  {
+    "slug": "ethics-a-free-online-course",
+    "body": [
+      "Gregory Sadler's 32-lecture course moves chronologically through the history of Western ethical theory, opening by contrasting emotivism (the view that moral statements merely express approval or disapproval) with natural law and virtue-based approaches, then working through ancient hedonism and Stoicism.",
+      "It gives substantial attention to Plato's dialogues as a source of early ethical positions — including Thrasymachus's 'might makes right' challenge in the Republic and various contractarian-style arguments — before turning to Aristotle's virtue ethics and Aquinas's natural law theory as the classical and medieval anchors of the course.",
+      "The back half covers the modern turn: Bentham and Mill's utilitarianism, Kant's (and W.D. Ross's) deontological alternatives, and finally the ethics of care as a more recent, relationship-centered challenge to all of the above. Because each lecture is short and self-contained, the course works well as a full self-study alternative to a college survey, letting a learner build the same historical arc a semester-long class would cover."
+    ]
+  },
+  {
+    "slug": "the-republic",
+    "body": [
+      "Plato's Republic is built around a deceptively simple question, posed sharply by Glaucon's Ring of Gyges thought experiment: would a person act justly if they had a ring that made them invisible and could act with total impunity? If justice is only valuable for its reputation and consequences, the ring should reveal everyone as secretly unjust — so Socrates sets out to show that justice is worth having for its own sake, independent of reward or punishment.",
+      "His strategy is to build an ideal city 'in speech' on the theory that justice will be easier to see writ large in a state than in a single soul, arguing that a just city — and a just soul — is one where three parts (reason, spirit, and appetite) exist in proper hierarchical harmony, with reason ruling. This culminates in the philosopher-king, the person whose reason has grasped the Form of the Good and is therefore uniquely fit to rule, illustrated by the famous Allegory of the Cave.",
+      "Along the way the dialogue offers a sweeping and controversial critique of democracy as prone to disorder and demagoguery, and of poetry and the arts as morally corrupting when unregulated — making the Republic not just a founding text of political philosophy but a direct provocation to modern liberal-democratic assumptions."
+    ]
+  },
+  {
+    "slug": "just-war-theory-revisionists-vs-traditionalists",
+    "body": [
+      "This paper surveys the central fault line in contemporary analytic just war theory: traditionalists, following Michael Walzer's Just and Unjust Wars, hold that combatants on both sides of a conflict are morally equal and equally entitled to kill enemy combatants, regardless of whether their side's cause is actually just — a principle meant to preserve clear, enforceable rules of war independent of contested judgments about who's really in the right.",
+      "Revisionists, led by Jeff McMahan, reject this equality: they argue that moral responsibility for killing should track individual culpability, so a combatant fighting for an unjust cause is not morally permitted to kill just-cause combatants, even if the laws of war treat them identically. This reframes war as continuous with ordinary morality rather than governed by special wartime rules.",
+      "Lazar maps the strongest arguments and objections on both sides, including whether the revisionist position, taken seriously, would make modern warfare's legal and institutional structure unworkable, and whether preserving combatant equality is a necessary practical compromise even if traditionalists concede the revisionists' deeper moral point. It's a good snapshot of where the field's most sophisticated debate currently stands."
+    ]
+  },
+  {
+    "slug": "kant-categorical-imperative",
+    "body": [
+      "Rather than a single argument or essay, this is a curated bibliography page collecting scholarly articles and book chapters specifically on Kant's Categorical Imperative, organized by PhilPapers's topic-classification system — a research tool rather than a standalone explainer.",
+      "Browsing it reveals the live scholarly questions surrounding the Categorical Imperative: whether Kant's several formulations (universal law, humanity as an end, autonomy, kingdom of ends) are genuinely logically equivalent as he claimed or subtly different tests that can come apart in edge cases; how to formally reconstruct the universalizability test in a way that avoids well-known counterexamples; and newer applications extending Kantian reasoning to contemporary problems like AI alignment and algorithmic fairness.",
+      "It's most useful for a reader who already has a grounding in the Groundwork itself and wants to go deeper into specific interpretive controversies, functioning as a jumping-off point to the wider academic literature rather than a self-contained explanation."
+    ]
+  },
+  {
+    "slug": "the-problem-of-evil-for-atheists",
+    "body": [
+      "Yujin Nagasawa's book takes the classical problem of evil — how to reconcile suffering with a good, all-powerful God — and argues that it's not exclusively a theist's problem. Any worldview committed to the idea that reality or existence has fundamentally positive value, he argues, faces a structurally similar puzzle: if the universe is basically good, why does it contain so much seemingly pointless suffering?",
+      "This reframing extends the challenge well beyond traditional monotheism to certain forms of atheism (any 'optimistic' naturalism that treats existence as inherently worth affirming), pantheism (which identifies the universe itself with the divine), and some Eastern religious and philosophical traditions that posit an underlying cosmic order or harmony.",
+      "Nagasawa's broader project, developed elsewhere as a 'problem of the good' mirroring the traditional problem of evil, makes this book a distinctive and somewhat provocative contribution: rather than defending or attacking theism along the usual lines, it questions the more basic assumption — shared across many worldviews, religious and secular alike — that reality is fundamentally good, and asks what should follow if that assumption itself doesn't obviously survive contact with the amount of evil in the world."
+    ]
+  }
+]

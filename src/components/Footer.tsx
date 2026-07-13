@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 import { FOOTER_LINK_GROUPS } from "@/data/nav";
 
@@ -28,27 +26,6 @@ export default function Footer() {
               spanning every branch and tradition of philosophy — built for
               educators, students, and the curious.
             </p>
-            <form
-              className="mt-6 flex max-w-sm gap-2"
-              onSubmit={(e) => e.preventDefault()}
-            >
-              <label htmlFor="newsletter-email" className="sr-only">
-                Email address
-              </label>
-              <input
-                id="newsletter-email"
-                type="email"
-                required
-                placeholder="you@example.com"
-                className="w-full rounded-full border border-parchment-100/20 bg-ink-900 px-4 py-2 text-sm text-parchment-50 placeholder:text-parchment-100/40 focus:border-gold-500 focus:outline-none"
-              />
-              <button
-                type="submit"
-                className="shrink-0 rounded-full bg-gold-500 px-4 py-2 text-sm font-semibold text-ink-950 hover:bg-gold-400"
-              >
-                Subscribe
-              </button>
-            </form>
           </div>
 
           {FOOTER_LINK_GROUPS.map((group) => (

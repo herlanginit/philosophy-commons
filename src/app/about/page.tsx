@@ -5,15 +5,8 @@ import Section from "@/components/Section";
 export const metadata: Metadata = {
   title: "About Us — Philosophy Commons",
   description:
-    "Philosophy Commons' mission, team, and partners — a free, open library of philosophy teaching and learning resources.",
+    "Philosophy Commons' mission and partners — a free, open library of philosophy teaching and learning resources.",
 };
-
-const TEAM = [
-  { name: "Dr. Amara Osei", initials: "AO", role: "Founder & Executive Director", focus: "Ethics & Political Philosophy" },
-  { name: "Dr. Marcus Feldman", initials: "MF", role: "Director of Curriculum", focus: "Philosophy of Mind & Existentialism" },
-  { name: "Dr. Priya Nair", initials: "PN", role: "Head of Educator Programs", focus: "Logic & Eastern Philosophy" },
-  { name: "Owen Wu", initials: "OW", role: "Head of Product & Engineering", focus: "Platform & Accessibility" },
-];
 
 const PARTNERS = [
   "American Philosophical Association",
@@ -71,24 +64,6 @@ export default function AboutPage() {
       </Section>
 
       <Section className="border-t border-ink-900/10 bg-parchment-50 py-14 sm:py-20">
-        <h2 className="font-serif text-2xl font-bold text-ink-950">Team</h2>
-        <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {TEAM.map((member) => (
-            <div key={member.name} className="rounded-xl border border-ink-900/10 bg-white p-5 text-center">
-              <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-ink-900 font-serif text-lg font-bold text-parchment-50">
-                {member.initials}
-              </div>
-              <h3 className="mt-4 font-serif text-base font-semibold text-ink-900">
-                {member.name}
-              </h3>
-              <p className="text-sm text-gold-600">{member.role}</p>
-              <p className="mt-1 text-xs text-ink-700/60">{member.focus}</p>
-            </div>
-          ))}
-        </div>
-      </Section>
-
-      <Section className="py-14 sm:py-20">
         <h2 className="font-serif text-2xl font-bold text-ink-950">Partners</h2>
         <p className="mt-2 max-w-2xl text-ink-700/70">
           We work with philosophy organizations, universities, and school
@@ -108,13 +83,9 @@ export default function AboutPage() {
 
       <Section className="border-t border-ink-900/10 py-10 text-sm text-ink-700/60">
         <p>
-          Read our{" "}
-          <Link href="/privacy" className="font-medium text-gold-600 hover:text-gold-500">
-            Privacy Policy
-          </Link>{" "}
-          or{" "}
-          <Link href="/get-involved" className="font-medium text-gold-600 hover:text-gold-500">
-            get involved
+          Questions or feedback?{" "}
+          <Link href="/contact" className="font-medium text-gold-600 hover:text-gold-500">
+            Contact us
           </Link>
           .
         </p>

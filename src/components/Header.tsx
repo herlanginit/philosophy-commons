@@ -52,12 +52,6 @@ export default function Header() {
             </svg>
             My Library
           </Link>
-          <Link
-            href="/get-involved"
-            className="rounded-full bg-ink-900 px-4 py-2 text-sm font-semibold text-parchment-50 transition-colors hover:bg-ink-700"
-          >
-            Donate
-          </Link>
         </div>
 
         <button
@@ -96,13 +90,6 @@ export default function Header() {
               onClick={() => setOpen(false)}
             >
               My Library
-            </Link>
-            <Link
-              href="/get-involved"
-              className="mt-2 rounded-full bg-ink-900 px-4 py-2.5 text-center text-sm font-semibold text-parchment-50"
-              onClick={() => setOpen(false)}
-            >
-              Donate
             </Link>
           </nav>
         </div>
