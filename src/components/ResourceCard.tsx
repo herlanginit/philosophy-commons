@@ -1,0 +1,49 @@
+import Link from "next/link";
+import type { Resource } from "@/data/resources";
+import SaveButton from "./SaveButton";
+
+const TYPE_ICON: Record<Resource["type"], string> = {
+  "Lesson Plan": "📘",
+  "Primary Text": "📜",
+  Explainer: "💡",
+  Video: "🎬",
+  Podcast: "🎙️",
+  "Discussion Guide": "💬",
+  Activity: "✏️",
+};
+
+export default function ResourceCard({ resource }: { resource: Resource }) {
+  return (
+    <div className="group relative flex flex-col rounded-xl border border-ink-900/10 bg-white shadow-sm transition-shadow hover:shadow-md">
+      <Link href={`/resources/${resource.slug}`} className="flex flex-1 flex-col p-5">
+        <div className="mb-3 flex items-center justify-between gap-2">
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-ink-900/5 px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-ink-700">
+            <span aria-hidden>{TYPE_ICON[resource.type]}</span>
+            {resource.type}
+          </span>
+          <span className="text-xs text-ink-700/60">{resource.estMinutes} min</span>
+        </div>
+        <h3 className="font-serif text-lg font-semibold leading-snug text-ink-900 group-hover:text-ink-600">
+          {resource.title}
+        </h3>
+        <p className="mt-2 text-sm leading-relaxed text-ink-700/80 line-clamp-3">
+          {resource.description}
+        </p>
+        <div className="mt-4 flex flex-wrap gap-1.5">
+          {resource.topics.map((topic) => (
+            <span
+              key={topic}
+              className="rounded-full bg-parchment-200 px-2 py-0.5 text-xs text-ink-700"
+            >
+              {topic}
+            </span>
+          ))}
+        </div>
+      </Link>
+      <div className="flex items-center justify-between border-t border-ink-900/10 px-5 py-3">
+        <span className="text-xs text-ink-700/60">{resource.level}</span>
+        <SaveButton slug={resource.slug} />
+      </div>
+    </div>
+  );
+}
