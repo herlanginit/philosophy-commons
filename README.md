@@ -34,6 +34,7 @@ Open [http://localhost:3000](http://localhost:3000).
    - `author` — the real author/creator of the *original* resource (not the site editor)
    - `sourceUrl` — the actual link to the resource (a PDF, article, video, or course page on the original site). This is what the big "Access this resource" button on the resource's page opens.
    - `sourceName` — a short label for where it lives, e.g. `Stanford Encyclopedia of Philosophy`, `Project Gutenberg`
+   - `pdfUrl` — optional; a link to your own downloadable PDF for this resource (e.g. an "inspired lesson plan" — see below). Shows a separate "Download inspired lesson plan (PDF)" button. Leave blank if there isn't one.
    - Rows missing a `title` or `description`, or with a `type`/`level`/`tradition` that doesn't match the lists above, are skipped automatically rather than breaking the site.
 
 **Copyright note:** don't paste the full text of a copyrighted article/book into the `body` column. Link to it via `sourceUrl` instead, and write your own short summary in `body`. Public-domain texts (Project Gutenberg, Early Modern Texts, Archive.org, DOAB) are the exception — feel free to quote those more freely since they're out of copyright.
@@ -52,6 +53,17 @@ The `/contact` page sends submissions to `heritagelanguageinitiative@gmail.com` 
 3. Without a domain verified on Resend, emails send from `onboarding@resend.dev` — fine for this use case since the recipient is your own address. Verify a domain later in Resend if you want the "from" address to match your own domain instead.
 
 If `RESEND_API_KEY` isn't set, the form shows an error instead of silently losing messages.
+
+## Inspired lesson plan PDFs
+
+The 8 "Lesson Plan" type resources each link to a real, freely-available course (MIT OpenCourseWare, Open Yale Courses, Open Culture) via `sourceUrl`, and also offer a downloadable original PDF via `pdfUrl` — a classroom-ready lesson plan **inspired by** that course's instructor and topic, credited to them by name, but written as original material for this site rather than a copy of their actual course materials. Every PDF says so explicitly in its own header and footer.
+
+- `scripts/lesson_plans_data.py` — the actual lesson content (objectives, materials, procedure, discussion questions, assessment) for each of the 8 lesson plans
+- `scripts/generate_lesson_plans.py` — renders each entry to a branded PDF (Python + [reportlab](https://www.reportlab.com/)) under `public/lesson-plans/{slug}.pdf`
+- Run `pip3 install --user reportlab pypdf && python3 scripts/generate_lesson_plans.py` to regenerate them after editing the content
+- `scripts/add-pdf-urls.mjs` — one-off script that added the `pdfUrl` field to the matching seed resources; not needed again unless you add a new lesson plan PDF from scratch
+
+To add a new inspired lesson plan: add an entry to `LESSON_PLANS` in `lesson_plans_data.py`, regenerate, then add a `pdfUrl` pointing to `/lesson-plans/{slug}.pdf` for that resource (in `src/data/resources.ts` or the Google Sheet's `pdfUrl` column).
 
 ## Structure
 

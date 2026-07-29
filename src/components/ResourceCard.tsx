@@ -21,7 +21,17 @@ export default function ResourceCard({ resource }: { resource: Resource }) {
             <span aria-hidden>{TYPE_ICON[resource.type]}</span>
             {resource.type}
           </span>
-          <span className="text-xs text-ink-700/60">{resource.estMinutes} min</span>
+          <span className="flex items-center gap-1.5 text-xs text-ink-700/60">
+            {resource.pdfUrl && (
+              <span
+                className="inline-flex items-center gap-0.5 rounded-full bg-gold-500/15 px-1.5 py-0.5 font-semibold text-gold-600"
+                title="Downloadable inspired lesson plan available"
+              >
+                PDF
+              </span>
+            )}
+            {resource.estMinutes} min
+          </span>
         </div>
         <h3 className="font-serif text-lg font-semibold leading-snug text-ink-900 group-hover:text-ink-600">
           {resource.title}

@@ -75,6 +75,7 @@ function recordToResource(record: Record<string, string>): Resource | null {
     author: record.author?.trim() || "Philosophy Commons Editorial Team",
     sourceUrl: record.sourceurl?.trim() || "",
     sourceName: record.sourcename?.trim() || "",
+    pdfUrl: record.pdfurl?.trim() || undefined,
   };
 }
 

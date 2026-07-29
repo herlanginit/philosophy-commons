@@ -59,6 +59,9 @@ export interface Resource {
   // We link out rather than rehost copyrighted material — see README.
   sourceUrl: string;
   sourceName: string;
+  // Optional: our own downloadable PDF (e.g. an "inspired lesson plan"),
+  // distinct from sourceUrl. Usually a same-site path like /lesson-plans/x.pdf.
+  pdfUrl?: string;
 }
 
 // Fallback data: used when RESOURCES_SHEET_CSV_URL isn't configured, or if the
@@ -483,6 +486,7 @@ export const seedResources: Resource[] = [
     author: "Steven B. Smith",
     sourceUrl: "https://oyc.yale.edu/political-science/plsc-114",
     sourceName: "Open Yale Courses",
+    pdfUrl: "/lesson-plans/introduction-to-political-philosophy.pdf",
   },
   {
     slug: "the-rawlsian-social-contract",
@@ -523,6 +527,7 @@ export const seedResources: Resource[] = [
     author: "Lucas Stanczyk",
     sourceUrl: "https://ocw.mit.edu/courses/24-04j-justice-spring-2012/",
     sourceName: "MIT OpenCourseWare",
+    pdfUrl: "/lesson-plans/justice.pdf",
   },
   {
     slug: "justice-what-s-the-right-thing-to-do-the-moral-side-of-murder",
@@ -743,6 +748,7 @@ export const seedResources: Resource[] = [
     author: "Gregory Sadler",
     sourceUrl: "https://www.openculture.com/ethics-a-free-course",
     sourceName: "Open Culture",
+    pdfUrl: "/lesson-plans/ethics-a-free-online-course.pdf",
   },
   {
     slug: "the-republic",
@@ -1203,6 +1209,7 @@ export const seedResources: Resource[] = [
     author: "Ephraim Glick",
     sourceUrl: "https://ocw.mit.edu/courses/24-241-logic-i-fall-2009/",
     sourceName: "MIT OpenCourseWare",
+    pdfUrl: "/lesson-plans/logic-i.pdf",
   },
   {
     slug: "theory-of-knowledge",
@@ -1223,6 +1230,7 @@ export const seedResources: Resource[] = [
     author: "Declan Smithies",
     sourceUrl: "https://ocw.mit.edu/courses/24-211-theory-of-knowledge-spring-2014/",
     sourceName: "MIT OpenCourseWare",
+    pdfUrl: "/lesson-plans/theory-of-knowledge.pdf",
   },
   {
     slug: "death",
@@ -1243,6 +1251,7 @@ export const seedResources: Resource[] = [
     author: "Shelly Kagan",
     sourceUrl: "https://oyc.yale.edu/philosophy/phil-176",
     sourceName: "Open Yale Courses",
+    pdfUrl: "/lesson-plans/death.pdf",
   },
   {
     slug: "the-gettier-problem-and-the-definition-of-knowledge",
@@ -1663,6 +1672,7 @@ export const seedResources: Resource[] = [
     author: "Noel Jackson / MIT",
     sourceUrl: "https://ocw.mit.edu/courses/21l-704-studies-in-poetry-whats-the-use-of-beauty-fall-2005/pages/syllabus/",
     sourceName: "MIT OpenCourseWare",
+    pdfUrl: "/lesson-plans/studies-in-poetry-what-s-the-use-of-beauty.pdf",
   },
   {
     slug: "definitions-of-art-what-is-art",
@@ -1863,6 +1873,7 @@ export const seedResources: Resource[] = [
     author: "Jon B. Stewart",
     sourceUrl: "https://www.openculture.com/2017/04/soren-kierkegaard-a-free-online-course.html",
     sourceName: "Open Culture",
+    pdfUrl: "/lesson-plans/s-ren-kierkegaard-a-free-online-course.pdf",
   },
   {
     slug: "camus-on-the-absurd-the-myth-of-sisyphus",

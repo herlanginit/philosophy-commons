@@ -63,29 +63,60 @@ export default async function ResourceDetailPage({
             {resource.description}
           </p>
 
-          {resource.sourceUrl && (
-            <a
-              href={resource.sourceUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="mt-6 inline-flex items-center gap-2 rounded-full bg-gold-500 px-5 py-2.5 text-sm font-semibold text-ink-950 hover:bg-gold-400"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={2}
-                className="h-4 w-4"
+          <div className="mt-6 flex flex-wrap items-center gap-3">
+            {resource.sourceUrl && (
+              <a
+                href={resource.sourceUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-full bg-gold-500 px-5 py-2.5 text-sm font-semibold text-ink-950 hover:bg-gold-400"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
-                />
-              </svg>
-              Access this resource{resource.sourceName ? ` on ${resource.sourceName}` : ""}
-            </a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                  className="h-4 w-4"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
+                  />
+                </svg>
+                Access this resource{resource.sourceName ? ` on ${resource.sourceName}` : ""}
+              </a>
+            )}
+            {resource.pdfUrl && (
+              <a
+                href={resource.pdfUrl}
+                download
+                className="inline-flex items-center gap-2 rounded-full border-2 border-ink-900 px-5 py-2.5 text-sm font-semibold text-ink-900 hover:bg-ink-900 hover:text-parchment-50"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth={2}
+                  className="h-4 w-4"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M7.5 12l4.5 4.5m0 0 4.5-4.5m-4.5 4.5V3"
+                  />
+                </svg>
+                Download inspired lesson plan (PDF)
+              </a>
+            )}
+          </div>
+          {resource.pdfUrl && (
+            <p className="mt-2 text-xs text-ink-700/60">
+              An original lesson plan written by Philosophy Commons, inspired by this course —
+              not the instructor's own materials.
+            </p>
           )}
 
           <div className="mt-8 space-y-5">
