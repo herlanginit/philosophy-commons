@@ -166,9 +166,18 @@ def build_story(lesson, styles):
     story = []
 
     story.append(Paragraph(lesson["title"], styles["Title"]))
+    # Some inspired_course phrasings already name the institution (e.g. "the
+    # Stanford Encyclopedia of Philosophy entry on X") — skip the parenthetical
+    # repeat in that case.
+    institution_already_named = lesson["inspired_institution"].lower() in lesson["inspired_course"].lower()
+    course_phrase = (
+        f"<i>{lesson['inspired_course']}</i>"
+        if institution_already_named
+        else f"<i>{lesson['inspired_course']}</i> ({lesson['inspired_institution']})"
+    )
     attribution = (
         f"An original lesson plan inspired by <b>{lesson['inspired_author']}</b>'s "
-        f"<i>{lesson['inspired_course']}</i> ({lesson['inspired_institution']}). "
+        f"{course_phrase}. "
         f"Not affiliated with or endorsed by {lesson['inspired_institution']} or "
         f"{lesson['inspired_author']}. Explore the original course: {lesson['inspired_url']}"
     )

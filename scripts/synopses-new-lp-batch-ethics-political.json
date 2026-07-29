@@ -1,0 +1,710 @@
+[
+  {
+    "slug": "consequentialism",
+    "title": "Judging Actions by Their Outcomes: An Introduction to Consequentialism",
+    "inspired_author": "Walter Sinnott-Armstrong",
+    "inspired_course": "the Stanford Encyclopedia of Philosophy entry on Consequentialism",
+    "inspired_institution": "Stanford Encyclopedia of Philosophy",
+    "inspired_url": "https://plato.stanford.edu/entries/consequentialism/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "60 minutes",
+    "topics": "Ethics",
+    "essential_question": "If only consequences determine whether an action is right, does that mean any action — including lying, breaking a promise, or harming an innocent person — could be justified as long as it produces enough good?",
+    "objectives": [
+      "Define consequentialism and distinguish it from deontological and virtue-based approaches to ethics.",
+      "Differentiate act consequentialism from rule consequentialism and explain why the distinction matters for evaluating individual acts.",
+      "Apply consequentialist reasoning to a contested case and identify the theory's strongest objection."
+    ],
+    "materials": [
+      "Whiteboard or shared doc for recording votes and the comparison chart",
+      "Printed case-study handout with the transplant surgeon scenario and a second variant",
+      "Index cards for anonymous voting",
+      "Blank comparison chart handout: consequentialism vs. deontology vs. virtue ethics"
+    ],
+    "procedure": [
+      {
+        "name": "Hook: The Transplant Surgeon",
+        "minutes": 10,
+        "description": "Present the classic case: a surgeon could secretly kill one healthy visitor to harvest organs and save five dying patients, with certainty of not being caught. Have students vote anonymously on an index card whether this would be permissible, and collect a rough tally without discussion. Tell them you'll return to this vote at the end of class."
+      },
+      {
+        "name": "Direct Instruction: What Makes an Action Right?",
+        "minutes": 15,
+        "description": "Define consequentialism as the view that an act's rightness depends solely on its consequences, weighed impartially across everyone affected — not on the actor's motives, the nature of the act itself, or any rule it breaks. Introduce the distinction between act consequentialism (evaluate each individual act by its own consequences) and rule consequentialism (follow the rule whose general adoption produces the best consequences). Keep this brief and vocabulary-focused."
+      },
+      {
+        "name": "Small-Group Case Analysis",
+        "minutes": 15,
+        "description": "In small groups, students apply both act and rule consequentialism to the transplant case and a second case (e.g., a doctor considering whether to lie to a terminally ill patient to preserve their hope). Each group records what act consequentialism recommends versus what rule consequentialism recommends, noting any cases where the two come apart."
+      },
+      {
+        "name": "Whole-Class Discussion: Objections",
+        "minutes": 14,
+        "description": "Surface the theory's major objections: that it can justify violating an individual's rights whenever doing so maximizes overall welfare (the 'separateness of persons' objection), that it may be too demanding by requiring impartial concern for strangers, and that predicting all downstream consequences of an act is often practically impossible. Ask which objection students find most damaging."
+      },
+      {
+        "name": "Closure: The Re-Vote",
+        "minutes": 6,
+        "description": "Have students vote anonymously again on the transplant case. Reveal both tallies and ask a few students what, if anything, changed their reasoning. Close by naming the central tension the lesson explored: outcomes matter, but do they matter enough to override everything else?"
+      }
+    ],
+    "discussion_questions": [
+      "Does rule consequentialism actually escape the objections against act consequentialism, or does it collapse back into act consequentialism whenever breaking the rule would produce better consequences in a particular case?",
+      "If consequentialism requires treating everyone's happiness impartially, does it ask too much of ordinary people by requiring them to weigh a stranger's welfare as equally important as their own family's?",
+      "Is the transplant case a fair test of consequentialism, or does it stack the deck by ignoring long-term consequences like the erosion of trust in doctors and hospitals?",
+      "Can consequentialism account for the intuition that some actions, like framing an innocent person, are wrong even when they produce better overall outcomes?",
+      "Whose happiness counts, and how would we ever reliably measure and compare it across different people?"
+    ],
+    "assessment": "Students write a short position paper (350–500 words) evaluating the transplant surgeon case from a consequentialist standpoint, explicitly considering both act and rule consequentialist reasoning, and stating whether they find the consequentialist verdict persuasive or whether it reveals a weakness in the theory. Grade for accurate application of both versions of the theory and engagement with at least one objection, not for which conclusion the student reaches.",
+    "extension": "Have students find a real policy debate (e.g., a proposed surveillance law or a public health mandate) where advocates explicitly justify the policy by appeal to overall outcomes, and write a short analysis distinguishing the act-consequentialist argument being made from any rule-consequentialist alternative, along with one objection a rights-based critic would raise."
+  },
+  {
+    "slug": "kant-s-moral-philosophy",
+    "title": "Duty for Duty's Sake: Kant and the Categorical Imperative",
+    "inspired_author": "Robert Johnson & Adam Cureton",
+    "inspired_course": "the Stanford Encyclopedia of Philosophy entry on Kant's Moral Philosophy",
+    "inspired_institution": "Stanford Encyclopedia of Philosophy",
+    "inspired_url": "https://plato.stanford.edu/entries/kant-moral/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "65 minutes",
+    "topics": "Ethics",
+    "essential_question": "Can an action be truly moral if you only do it because you're inclined to, or does genuine morality require acting from duty alone, regardless of your feelings?",
+    "objectives": [
+      "Explain Kant's distinction between acting 'in accordance with duty' and acting 'from duty,' and why only the latter has moral worth for Kant.",
+      "Formulate the Categorical Imperative in both its Universal Law and Humanity formulations and distinguish it from hypothetical imperatives.",
+      "Apply the Universal Law and Humanity formulations to a moral dilemma and evaluate whether they yield the same verdict."
+    ],
+    "materials": [
+      "Whiteboard",
+      "Printed handout with Kant's two formulations of the Categorical Imperative in plain-language paraphrase",
+      "Case-study cards: a false-promise scenario and the 'murderer at the door' scenario",
+      "Two-column note-taking sheet: hypothetical vs. categorical imperatives"
+    ],
+    "procedure": [
+      {
+        "name": "Hook: The Shopkeeper",
+        "minutes": 8,
+        "description": "Present Kant's own example: one shopkeeper doesn't overcharge a confused customer only because dishonesty would be bad for business, while a second shopkeeper doesn't overcharge because it would be wrong. Ask students which shopkeeper's behavior is 'more moral' and why, even though both act the same way toward the customer."
+      },
+      {
+        "name": "Direct Instruction: Duty, Good Will, and the Categorical Imperative",
+        "minutes": 20,
+        "description": "Explain Kant's claim that a good will is the only thing good without qualification, and that only acting from duty (out of respect for the moral law) rather than merely in accordance with duty (from inclination or self-interest) has moral worth. Contrast hypothetical imperatives (commands conditional on a desire, 'if you want X, do Y') with the Categorical Imperative, which commands unconditionally. Present both the Universal Law formulation (act only on maxims you could will to become universal laws) and the Humanity formulation (treat humanity, in yourself and others, always as an end and never merely as a means)."
+      },
+      {
+        "name": "Small-Group Application: The False Promise",
+        "minutes": 15,
+        "description": "In small groups, students apply the Universal Law formulation to the case of someone making a false promise to get a loan they don't intend to repay. Groups test whether the maxim 'I will make false promises when convenient' could be universalized without contradiction, and record their reasoning about why or why not."
+      },
+      {
+        "name": "Whole-Class Debate: The Murderer at the Door",
+        "minutes": 16,
+        "description": "Introduce Kant's own notorious hard case: a murderer asks you where your friend, who is hiding in your house, has gone. Kant famously argued you may not lie even here. Split the class into those defending Kant's answer and those defending a modified Kantian position that permits refusal to answer or even deception in extreme cases, and run a structured debate."
+      },
+      {
+        "name": "Closure",
+        "minutes": 6,
+        "description": "Ask students to summarize, in one sentence each, what they find most compelling and most troubling about grounding morality entirely in reason and universalizable duty rather than in outcomes or feelings."
+      }
+    ],
+    "discussion_questions": [
+      "Is Kant right that an action has no moral worth if it's done merely from inclination, even if it's the same act with the same effect on everyone involved?",
+      "Does the false-promising maxim really generate a logical contradiction when universalized, or only a practical inconvenience?",
+      "Was Kant's own answer to the murderer-at-the-door case — that lying is always wrong — too rigid, and if so, does that damage the Categorical Imperative itself or just Kant's application of it?",
+      "How is the Humanity formulation different from the Universal Law formulation? Can you imagine an act that would pass one test but fail the other?",
+      "Does grounding morality in reason, rather than happiness, God, or social convention, make Kant's ethics more or less persuasive to you?"
+    ],
+    "assessment": "Students select one of two additional maxims not discussed in class (e.g., 'I will cheat on this exam if it will help me and no one will ever find out' or 'I will break this appointment because keeping it is inconvenient') and apply both the Universal Law and Humanity formulations of the Categorical Imperative in a short written analysis, explaining whether the two formulations agree and defending which formulation they find more persuasive.",
+    "extension": "Have students research one real ethical controversy (e.g., whistleblowing or paternalistic public health laws) and write a short analysis of how a strict Kantian, reasoning only from the Categorical Imperative, would likely judge it — and whether they think Kant's answer is too rigid for the real-world complexity of the case."
+  },
+  {
+    "slug": "virtue-ethics",
+    "title": "Beyond Rules and Outcomes: Character, Flourishing, and the Doctrine of the Mean",
+    "inspired_author": "Rosalind Hursthouse & Glen Pettigrove",
+    "inspired_course": "the Stanford Encyclopedia of Philosophy entry on Virtue Ethics",
+    "inspired_institution": "Stanford Encyclopedia of Philosophy",
+    "inspired_url": "https://plato.stanford.edu/entries/ethics-virtue/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "60 minutes",
+    "topics": "Ethics",
+    "essential_question": "Instead of asking 'what rule should I follow' or 'what outcome should I produce,' what if the central moral question is 'what kind of person should I be'?",
+    "objectives": [
+      "Explain Aristotle's concept of eudaimonia (flourishing) and how virtue ethics locates morality in character rather than rules or consequences.",
+      "Apply the doctrine of the mean to identify a virtue as the middle point between two vices of excess and deficiency.",
+      "Evaluate whether virtue ethics can give practical guidance for a real dilemma, compared with consequentialist or rule-based approaches."
+    ],
+    "materials": [
+      "Whiteboard",
+      "Blank doctrine-of-the-mean chart handout (vice of deficiency / virtue / vice of excess)",
+      "Case-study handout describing a workplace or friendship dilemma",
+      "Sticky notes for the virtue-brainstorm activity"
+    ],
+    "procedure": [
+      {
+        "name": "Hook: What Makes Someone \"Good\"?",
+        "minutes": 8,
+        "description": "Ask students to think of someone they consider genuinely admirable and describe, on a sticky note, why — without using the words 'rules' or 'results.' Collect several notes and read them aloud, noting that the answers tend to cluster around traits of character rather than actions or outcomes."
+      },
+      {
+        "name": "Direct Instruction: Eudaimonia and the Doctrine of the Mean",
+        "minutes": 18,
+        "description": "Explain virtue ethics' shift in focus from isolated acts to the agent's character. Introduce eudaimonia not as fleeting pleasure but as flourishing — functioning well as a rational, social being over a whole life. Present virtue as a stable, habituated disposition of character, and the doctrine of the mean: a virtue sits between a vice of excess and a vice of deficiency (e.g., courage between recklessness and cowardice, generosity between wastefulness and stinginess)."
+      },
+      {
+        "name": "Small-Group Activity: Mapping the Mean",
+        "minutes": 15,
+        "description": "In groups, students complete the blank chart for three or four virtues (honesty, ambition, friendliness), identifying the corresponding vice of excess and vice of deficiency for each, and noting one concrete example of behavior at each point on the spectrum."
+      },
+      {
+        "name": "Whole-Class Case Analysis",
+        "minutes": 13,
+        "description": "Apply virtue ethics to the assigned dilemma by asking 'what would a person of practical wisdom (phronesis) do here?' and compare that approach to how a strict rule-follower or a consequentialist calculator would approach the same situation."
+      },
+      {
+        "name": "Closure",
+        "minutes": 6,
+        "description": "Briefly note virtue ethics' 20th-century revival (via critics like Elizabeth Anscombe) as a reaction against overly rule- or outcome-focused ethics, and raise the 'action-guidance' objection: can 'be virtuous' actually tell you what to do in a hard case?"
+      }
+    ],
+    "discussion_questions": [
+      "Is 'what would a virtuous person do' a helpful guide to action, or does it just push the hard question back a step, since we still need to know who counts as virtuous?",
+      "Can virtues conflict with each other in a real situation, such as honesty versus kindness, and if so, how would virtue ethics resolve the conflict?",
+      "Is the doctrine of the mean genuinely useful, or are 'too much' and 'too little' simply defined as whatever isn't virtuous, making the doctrine circular?",
+      "Aristotle thought virtue requires habituation over a lifetime within a supportive community. What does this imply about people raised in difficult or corrupting circumstances?",
+      "How does grounding ethics in character rather than rules or outcomes change how we think about moral education?"
+    ],
+    "assessment": "Students choose one virtue not covered in class (e.g., patience, humility, wit) and write a short paper identifying its corresponding vices of excess and deficiency, applying the doctrine of the mean to a concrete scenario, and explaining what a person of practical wisdom would do differently from someone simply following a rule or calculating outcomes in that scenario.",
+    "extension": "Have students interview an adult they admire about a difficult decision that person made, then analyze the decision through a virtue-ethics lens: which virtues were in tension, and how did practical wisdom, rather than a rule or a calculation, seem to guide the choice?"
+  },
+  {
+    "slug": "utilitarianism",
+    "title": "The Greatest Happiness Principle: Mill's Case for Utilitarianism",
+    "inspired_author": "John Stuart Mill",
+    "inspired_course": "Utilitarianism",
+    "inspired_institution": "Project Gutenberg",
+    "inspired_url": "https://www.gutenberg.org/ebooks/11224",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "65 minutes",
+    "topics": "Ethics",
+    "essential_question": "Mill claims that pleasure and freedom from pain are the only things desirable as ends — is he right, and does his distinction between 'higher' and 'lower' pleasures rescue utilitarianism from the charge that it's a doctrine fit only for swine?",
+    "objectives": [
+      "Explain Mill's Greatest Happiness Principle and how it defines right action in terms of the net balance of pleasure over pain for all affected.",
+      "Analyze Mill's distinction between higher (intellectual/moral) and lower (bodily) pleasures and his 'competent judges' test for ranking them.",
+      "Evaluate Mill's defense of utilitarianism against a major objection, such as the swine objection or the demandingness of impartial calculation."
+    ],
+    "materials": [
+      "Whiteboard",
+      "Excerpt handout: selected passages from Mill's Utilitarianism, Chapter 2 (the 'swine' passage and higher/lower pleasures)",
+      "Case-study cards describing a hypothetical 'experience machine' that guarantees pleasurable sensations disconnected from reality",
+      "Graphic organizer contrasting Bentham's purely quantitative calculus with Mill's qualitative distinction"
+    ],
+    "procedure": [
+      {
+        "name": "Hook: Would You Plug In?",
+        "minutes": 8,
+        "description": "Describe a machine that would give a person maximum pleasurable sensations forever, disconnected from real achievement or relationships. Ask students to vote on whether they would plug in permanently; most decline. Note that this is a genuine puzzle for any ethical theory that treats pleasure as the only thing of value."
+      },
+      {
+        "name": "Direct Instruction: The Greatest Happiness Principle",
+        "minutes": 18,
+        "description": "Present Mill's core claim that actions are right in proportion as they tend to promote happiness, understood as pleasure and the absence of pain. Contrast this with Bentham's purely quantitative hedonic calculus, then present Mill's key move: pleasures differ in quality as well as quantity, and 'competent judges' who have experienced both a higher and a lower pleasure reliably prefer the higher one, even at some cost to the total quantity of pleasure."
+      },
+      {
+        "name": "Close Reading in Pairs",
+        "minutes": 15,
+        "description": "In pairs, students read the assigned excerpt containing Mill's famous 'swine' passage and his line about a dissatisfied Socrates being preferable to a satisfied fool. They identify, in their own words, Mill's argument for why humans would not accept a lower, more brutish existence even if it contained more total pleasure."
+      },
+      {
+        "name": "Whole-Class Discussion",
+        "minutes": 18,
+        "description": "Connect back to the experience-machine hook. Debate whether Mill's higher/lower distinction is a principled extension of a pleasure-based ethics, or whether it secretly imports independent, non-hedonistic judgments about what's noble or worthwhile — which would mean utilitarianism is no longer purely about pleasure at all."
+      },
+      {
+        "name": "Closure",
+        "minutes": 6,
+        "description": "Ask students to state, in one sentence, whether Mill's response to the swine objection succeeds, and briefly poll the class's overall verdict."
+      }
+    ],
+    "discussion_questions": [
+      "Does Mill's 'competent judges' test for ranking pleasures secretly abandon a purely quantitative, pleasure-based standard of value, since it seems to smuggle in independent judgments about what's noble or worthwhile?",
+      "Would you decline to plug into the pleasure machine, and if so, what does that reveal about whether pleasure is really the only thing we value?",
+      "Mill argues that anyone who has experienced both a higher and a lower pleasure prefers the higher — is this claim actually true of people you know, or of yourself?",
+      "Does the Greatest Happiness Principle require impartially weighing a stranger's happiness equally with your own family's? Is that a strength or a weakness of the theory?",
+      "Mill claims his utilitarianism is compatible with individual rights and justice — do you find this compatible, or is there a deeper tension between maximizing overall happiness and respecting individual rights?"
+    ],
+    "assessment": "Students write a short analysis (400–500 words) responding to the 'swine' objection to utilitarianism in their own words, explaining how Mill's higher/lower pleasures distinction attempts to answer it, and offering their own assessment of whether the response succeeds or merely relocates the problem.",
+    "extension": "Have students track their own activities and rough 'pleasure' for a single day, then classify each pleasure as higher or lower by Mill's standard, and write a short reflection on whether Mill's ranking matches their own intuitive sense of which activities were most worthwhile."
+  },
+  {
+    "slug": "the-nicomachean-ethics",
+    "title": "Practical Wisdom and the Good Life: Reading Aristotle's Function Argument",
+    "inspired_author": "Aristotle (trans. W.D. Ross)",
+    "inspired_course": "The Nicomachean Ethics",
+    "inspired_institution": "Project Gutenberg",
+    "inspired_url": "https://www.gutenberg.org/ebooks/8438",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "65 minutes",
+    "topics": "Ethics",
+    "essential_question": "Aristotle argues that the good life for a human being consists in virtuous activity guided by practical wisdom, not just pleasure or honor — what does that actually look like in practice, and is he right that all human activity aims at some final good?",
+    "objectives": [
+      "Explain Aristotle's argument that all human activities aim at some good, and that eudaimonia is the final good at which all others aim.",
+      "Distinguish practical wisdom (phronesis) from mere knowledge of moral rules, using Aristotle's own examples.",
+      "Apply Aristotle's function argument to evaluate a modern conception of a 'successful life.'"
+    ],
+    "materials": [
+      "Whiteboard",
+      "Excerpt handout: Book I (the function argument) and Book II (habituation and the doctrine of the mean) in the Ross translation",
+      "Case-study cards describing several different 'successful lives' (a wealthy executive, a devoted parent, a famous athlete, a monk)",
+      "Graphic organizer mapping the function argument's premises to its conclusion"
+    ],
+    "procedure": [
+      {
+        "name": "Hook: What Do We Aim At?",
+        "minutes": 8,
+        "description": "Ask a student why they want good grades, then why that matters, then why that matters, chaining 'why' questions until reaching something wanted for its own sake. Use this to introduce Aristotle's opening observation that human action seems to form chains of means and ends pointing toward some final good."
+      },
+      {
+        "name": "Direct Instruction: The Function Argument",
+        "minutes": 18,
+        "description": "Present Aristotle's argument from Book I: everything with a function has a characteristic good tied to performing that function well (an eye's good is seeing well); to find the human good, ask what activity is distinctively human, which Aristotle identifies as reason; therefore the human good is activity of the soul expressing reason well, sustained over a complete life — eudaimonia."
+      },
+      {
+        "name": "Small-Group Case Analysis",
+        "minutes": 18,
+        "description": "In groups, students apply the function argument to the 'successful lives' cards, asking whether Aristotle would count each as truly flourishing. Groups must reference his qualifications: eudaimonia requires a complete life, virtuous activity (not merely possessing virtue), and a moderate supply of external goods like health and friends."
+      },
+      {
+        "name": "Whole-Class Discussion: Practical Wisdom",
+        "minutes": 13,
+        "description": "Introduce phronesis (practical wisdom) as distinct from technical skill or theoretical knowledge of ethical rules: the practically wise person perceives what the right thing to do is in a particular, concrete situation. Connect this to the doctrine of the mean and discuss why Aristotle thinks virtue cannot be reduced to a formula."
+      },
+      {
+        "name": "Closure",
+        "minutes": 8,
+        "description": "Return to the opening chain-of-'why' exercise and ask whether Aristotle is right that all these chains terminate in one single final good, or whether human aims might instead form several independent, irreducible goods."
+      }
+    ],
+    "discussion_questions": [
+      "Does Aristotle's function argument work — can we really infer what's good for humans from what's distinctive about humans (reason), the way we might infer a knife's goodness from its function of cutting?",
+      "Aristotle claims eudaimonia requires 'a complete life,' not just a happy moment or year — do you agree that a single tragic event could make an otherwise flourishing life ultimately not flourishing?",
+      "Is practical wisdom something that can be taught, or does it require lived experience that can't be shortcut by instruction?",
+      "Aristotle thought some external goods, like health, friends, and moderate wealth, are necessary for eudaimonia. Does this make his theory more realistic than views that locate the good life purely in virtue or purely in pleasure, or does it make happiness too dependent on luck?",
+      "How would Aristotle evaluate someone who has all the trappings of one of the 'successful lives' cards but privately lacks virtue?"
+    ],
+    "assessment": "Students write a short essay applying Aristotle's function argument to a modern figure or fictional character of their choosing, arguing whether that person's life counts as eudaimonia by Aristotle's standard (virtuous activity of reason, over a complete life, with sufficient external goods) and identifying which of Aristotle's conditions is hardest for that life to satisfy.",
+    "extension": "Have students keep a short 'practical wisdom' journal for a week, recording one situation each day where they had to judge the right thing to do in a specific context rather than simply apply a general rule, and reflect on what made that judgment difficult."
+  },
+  {
+    "slug": "groundwork-for-the-metaphysic-of-morals",
+    "title": "Grounding Morality in Reason Alone: Reading Kant's Groundwork",
+    "inspired_author": "Immanuel Kant (ed. Jonathan Bennett)",
+    "inspired_course": "Groundwork for the Metaphysic of Morals",
+    "inspired_institution": "Early Modern Texts",
+    "inspired_url": "https://www.earlymoderntexts.com/assets/pdfs/kant1785.pdf",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "65 minutes",
+    "topics": "Ethics",
+    "essential_question": "Kant sets out to find the supreme principle of morality using pure reason alone, without appeal to happiness, feelings, or God — is that a coherent project, and does his Categorical Imperative succeed at it?",
+    "objectives": [
+      "Trace Kant's argument, from the opening of the Groundwork, that a good will is the only thing good without qualification.",
+      "Explain Kant's derivation of the Categorical Imperative from the concept of a rational being acting on universalizable maxims.",
+      "Apply the Formula of Universal Law to two maxims, one that generates a contradiction and one that doesn't, to test the Categorical Imperative's action-guidance."
+    ],
+    "materials": [
+      "Whiteboard",
+      "Excerpt handout: opening paragraphs of Section I (the good will) and two of the four examples from Section II, in Bennett's Early Modern Texts translation",
+      "Maxim-testing worksheet (blank template: maxim / universalized world / contradiction?)",
+      "Index cards for the 'good will' brainstorm"
+    ],
+    "procedure": [
+      {
+        "name": "Hook: The Only Truly Good Thing",
+        "minutes": 8,
+        "description": "Read aloud a paraphrase of Kant's opening lines: nothing in the world, or even beyond it, can be called good without qualification except a good will. Ask students to list things usually called 'good' (intelligence, wealth, courage, happiness) on index cards, then test each against Kant's claim by asking whether it could be used for a bad end."
+      },
+      {
+        "name": "Direct Instruction: From Good Will to the Categorical Imperative",
+        "minutes": 20,
+        "description": "Trace Kant's argument step by step: a good will acts from duty rather than merely in accordance with it; acting from duty means acting from respect for the moral law; the moral law a rational being would respect is one it could will as universal; this yields the Formula of Universal Law — act only on maxims you could at the same time will to become universal laws of nature."
+      },
+      {
+        "name": "Small-Group Maxim Testing",
+        "minutes": 17,
+        "description": "In groups, students apply the Formula of Universal Law to two of Kant's own examples: the false promise and neglecting one's talents. For each, groups determine whether universalizing the maxim produces a 'contradiction in conception' (the practice would undermine itself) or a 'contradiction in the will' (no rational being could consistently will it, though it's not self-defeating)."
+      },
+      {
+        "name": "Whole-Class Discussion: Does the Test Work?",
+        "minutes": 14,
+        "description": "Debate whether the universalizability test can be gamed by phrasing a maxim narrowly enough to avoid contradiction (e.g., 'I will lie only on a Tuesday to a person named Fred'), and whether the test might produce false positives or false negatives as a result."
+      },
+      {
+        "name": "Closure",
+        "minutes": 6,
+        "description": "Return to the opening 'good will' cards and ask students to restate, in their own words, why Kant thinks morality must be grounded in reason rather than in consequences or feelings."
+      }
+    ],
+    "discussion_questions": [
+      "Kant says a good will is good 'not because of what it effects or accomplishes' but because of the willing itself — is it coherent to call something good independent of its consequences?",
+      "Can the Formula of Universal Law be gamed by phrasing a selfish maxim so narrowly that universalizing it doesn't produce a contradiction? What would that mean for the theory?",
+      "Kant distinguishes a 'contradiction in conception' (like the false promise, where universalizing destroys the very practice it relies on) from a 'contradiction in the will' (like neglecting your talents, which is not self-defeating but which no rational being could will). Is this distinction convincing?",
+      "Is grounding morality purely in reason, independent of human happiness or feeling, a strength of Kant's project or a source of its rigidity?",
+      "Kant claims the Categorical Imperative is binding on 'every rational being as such,' not just humans. What would it mean to take that claim seriously?"
+    ],
+    "assessment": "Students select a maxim of their own devising and apply the Formula of Universal Law in writing, determining whether universalizing it produces a contradiction in conception, a mere contradiction in the will, or no contradiction at all, and explaining what that result implies about the maxim's moral status according to Kant.",
+    "extension": "Have students research a real-world case where an institution or individual claimed to act from a 'universal principle' (e.g., a corporate ethics code or a diplomatic doctrine) and write a short analysis of whether the stated principle would actually pass Kant's universalizability test if taken literally."
+  },
+  {
+    "slug": "john-rawls",
+    "title": "Justice Behind the Veil: Rawls and the Original Position",
+    "inspired_author": "Samuel Freeman",
+    "inspired_course": "the Stanford Encyclopedia of Philosophy entry on John Rawls",
+    "inspired_institution": "Stanford Encyclopedia of Philosophy",
+    "inspired_url": "https://plato.stanford.edu/entries/rawls/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "65 minutes",
+    "topics": "Political Philosophy",
+    "essential_question": "If you had to design the basic rules of society without knowing what position — rich or poor, talented or not, majority or minority — you yourself would occupy in it, what principles of justice would you choose?",
+    "objectives": [
+      "Explain Rawls's device of the original position and veil of ignorance, and why he thinks it produces fair principles of justice.",
+      "State and distinguish Rawls's two principles of justice: equal basic liberties and the difference principle governing social and economic inequalities.",
+      "Apply the difference principle to evaluate a proposed social or economic policy and compare the verdict to what straightforward utilitarian aggregation would recommend."
+    ],
+    "materials": [
+      "Whiteboard",
+      "Printed veil-of-ignorance handout describing the original position thought experiment",
+      "Policy case-study cards (e.g., a flat tax vs. a progressive tax paired with a strong social safety net)",
+      "Two-column comparison worksheet: Rawls's two principles vs. straightforward utilitarian aggregation"
+    ],
+    "procedure": [
+      {
+        "name": "Hook: Design a Society, Knowing Nothing About Your Place in It",
+        "minutes": 10,
+        "description": "Present the veil of ignorance as a game: in pairs, students must agree on rules for a hypothetical society's wealth distribution, laws, and opportunities without knowing whether they will be born rich or poor, talented or not, part of the majority or a minority. Have pairs brainstorm the principles they would insist on and briefly share out."
+      },
+      {
+        "name": "Direct Instruction: The Original Position and Two Principles",
+        "minutes": 18,
+        "description": "Formalize the game as Rawls's 'original position,' explaining that the veil of ignorance is meant to strip away morally arbitrary features (talent, class, race) so the chosen principles are fair to everyone. Present the two principles: equal basic liberties for all, and social/economic inequalities permitted only when attached to positions open to all under fair equality of opportunity and when they benefit the least advantaged (the difference principle), with the first principle taking priority over the second."
+      },
+      {
+        "name": "Small-Group Case Analysis",
+        "minutes": 17,
+        "description": "In groups, students apply the two principles to the tax-policy case cards, determining what Rawls's difference principle would recommend and comparing that to what straightforward utilitarian aggregation of overall welfare would recommend, noting where the two approaches diverge."
+      },
+      {
+        "name": "Whole-Class Debate",
+        "minutes": 14,
+        "description": "Debate whether the risk-averse 'maximin' reasoning Rawls attributes to people behind the veil (choosing the option that makes the worst-off best off, rather than gambling for a higher average) is really how a rational person would reason, or whether it is overly cautious."
+      },
+      {
+        "name": "Closure",
+        "minutes": 6,
+        "description": "Return to the opening brainstorm and compare students' original, intuitive principles to Rawls's actual two principles, noting any overlaps or surprising differences."
+      }
+    ],
+    "discussion_questions": [
+      "Rawls assumes people behind the veil would reason in a risk-averse ('maximin') way, prioritizing the worst-off outcome. Is that really how a rational, self-interested person would reason if they didn't know their place in society, or might some gamble for a higher average?",
+      "Does the veil of ignorance actually succeed in stripping away morally arbitrary information, or does it build in assumptions, about risk-aversion or what people care about, that already favor Rawls's own conclusions?",
+      "How is Rawls's difference principle different from straightforward utilitarianism, and why does Rawls think that difference matters for justice?",
+      "Rawls gives strict priority to equal basic liberties over the difference principle. Can you imagine a case where sacrificing some liberty for a large economic gain to the worst-off would be justified? Would Rawls allow it?",
+      "Is 'fair equality of opportunity' achievable in a society with unequal families, unequal schools, and different natural talents, or is it an ideal Rawls's theory can gesture at but never fully realize?"
+    ],
+    "assessment": "Students write a policy memo (400–500 words) recommending for or against a real or hypothetical redistributive policy, using Rawls's two principles of justice, with particular attention to the difference principle, as their explicit standard, and briefly noting how a straightforward utilitarian would evaluate the same policy differently.",
+    "extension": "Have students design their own alternative thought experiment (other than the veil of ignorance) intended to strip away morally arbitrary bias from a group decision, and write a short explanation of what bias their device targets and how it works."
+  },
+  {
+    "slug": "leviathan",
+    "title": "Escaping the State of Nature: Hobbes's Case for the Sovereign",
+    "inspired_author": "Thomas Hobbes",
+    "inspired_course": "Leviathan",
+    "inspired_institution": "Project Gutenberg",
+    "inspired_url": "https://www.gutenberg.org/ebooks/3207",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "60 minutes",
+    "topics": "Political Philosophy",
+    "essential_question": "Hobbes argues that life without government is 'solitary, poor, nasty, brutish, and short' — is he right that only an absolute, unquestionable sovereign can save us from that condition?",
+    "objectives": [
+      "Explain Hobbes's account of the state of nature and why he thinks it inevitably leads to a 'war of every man against every man.'",
+      "Trace Hobbes's argument from the state of nature, through the laws of nature, to the social contract that creates the sovereign.",
+      "Evaluate Hobbes's claim that the sovereign's power must be absolute and nearly unlimited to secure peace, and identify the strongest objection to it."
+    ],
+    "materials": [
+      "Whiteboard",
+      "Excerpt handout: Leviathan, Part I, Chapter 13 (the state of nature) and Chapter 17 (the generation of the commonwealth)",
+      "Case-study scenario describing a sudden, total breakdown of law and government for 48 hours",
+      "Graphic organizer: state of nature → laws of nature → social contract → sovereign"
+    ],
+    "procedure": [
+      {
+        "name": "Hook: No Government for 48 Hours",
+        "minutes": 8,
+        "description": "Pose the scenario: all law enforcement, courts, and government suddenly vanish in your town for 48 hours. Ask students to predict, individually and then aloud, what they think would actually happen and why, and record predictions on the board."
+      },
+      {
+        "name": "Direct Instruction: The State of Nature and the War of All Against All",
+        "minutes": 18,
+        "description": "Present Hobbes's state of nature: rough equality among humans means no one is ever fully safe from anyone else, and scarcity, distrust, and the desire for reputation produce a condition of war even without constant fighting, since the disposition to contend is enough. Introduce Hobbes's argument that reason discovers 'laws of nature,' such as seeking peace and laying down one's unlimited right to all things, which point the way out of this condition."
+      },
+      {
+        "name": "Small-Group Reading",
+        "minutes": 16,
+        "description": "In groups, students read the assigned excerpt on the social contract (Chapter 17) and identify what right individuals give up, to whom, and why Hobbes thinks the sovereign's power must be near-absolute, undivided, and irrevocable in order to actually keep the peace rather than collapsing back into conflict."
+      },
+      {
+        "name": "Whole-Class Debate",
+        "minutes": 12,
+        "description": "Debate whether Hobbes's argument really requires an absolute sovereign to escape the state of nature, or whether a weaker, internally checked government could secure peace just as effectively."
+      },
+      {
+        "name": "Closure",
+        "minutes": 6,
+        "description": "Return to the '48 hours without government' predictions from the hook and connect them explicitly to Hobbes's state-of-nature argument, asking whether students' predictions support or challenge his view of human nature."
+      }
+    ],
+    "discussion_questions": [
+      "Is Hobbes right that even roughly equal, otherwise decent people would descend into a 'war of all against all' without a common power to keep them in awe, or does this underestimate cooperation, trust, and social norms?",
+      "Hobbes argues the sovereign's power must be absolute and essentially unaccountable to prevent a slide back into civil war. Does the history of unchecked governments support or undermine that argument?",
+      "If the sovereign fails at its one job of protecting subjects, does Hobbes's own logic allow subjects to resist or replace it, or does his theory leave no room for legitimate rebellion?",
+      "Is the social contract in Leviathan a historical claim, that societies were literally founded this way, or a hypothetical justificatory device explaining why we ought to obey regardless of history? Does it matter which?",
+      "What does Hobbes's account assume about human nature: are people fundamentally self-interested and competitive, or does his state of nature already assume the breakdown of any cooperative instincts?"
+    ],
+    "assessment": "Students write a short essay evaluating whether a specific, real historical case of state collapse or civil breakdown (which you may assign or let them research) supports or challenges Hobbes's claim that only an absolute sovereign can prevent a slide into a 'war of all against all.'",
+    "extension": "Have students research one historical or contemporary example of a 'failed state' or an extended period without effective government, and write a short analysis comparing what actually happened to Hobbes's predictions about the state of nature."
+  },
+  {
+    "slug": "second-treatise-of-government",
+    "title": "Government by Consent: Locke's Case Against Absolute Power",
+    "inspired_author": "John Locke",
+    "inspired_course": "Second Treatise of Government",
+    "inspired_institution": "Project Gutenberg",
+    "inspired_url": "https://www.gutenberg.org/ebooks/7370",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "60 minutes",
+    "topics": "Political Philosophy",
+    "essential_question": "Locke argues that legitimate government rests on the consent of the governed and exists to protect natural rights, and that when it fails to do so, the people may rightfully replace it. Is government by consent a realistic foundation for political authority, or a convenient fiction?",
+    "objectives": [
+      "Explain Locke's state of nature and how it differs from Hobbes's, particularly regarding natural law and natural rights to life, liberty, and property.",
+      "Trace Locke's account of how legitimate government arises from the consent of the governed to protect natural rights, and explain his labor theory of property.",
+      "Evaluate Locke's argument that a government which violates the trust placed in it can be justly resisted or dissolved by the people."
+    ],
+    "materials": [
+      "Whiteboard",
+      "Excerpt handout: Second Treatise selections from Chapter 2 (state of nature), Chapter 5 (property), and Chapter 19 (dissolution of government)",
+      "Case-study cards: a government seizing property without due process, and a government dissolving the legislature to rule by decree",
+      "Venn diagram handout comparing Hobbes's and Locke's states of nature"
+    ],
+    "procedure": [
+      {
+        "name": "Hook: What Do You Own, and Why?",
+        "minutes": 8,
+        "description": "Ask students to identify something they own and justify, in one or two sentences, why it's rightfully theirs. Collect a few answers on the board and note recurring themes, such as 'I made it' or 'I worked for it,' to set up Locke's labor theory of property."
+      },
+      {
+        "name": "Direct Instruction: Natural Rights and the Labor Theory of Property",
+        "minutes": 18,
+        "description": "Present Locke's state of nature as governed by a law of nature (reason) forbidding harm to others' life, liberty, health, or possessions, in contrast to Hobbes's war of all against all. Explain the natural rights to life, liberty, and property, and the labor theory of property: mixing one's labor with unowned nature creates a property right, subject to the proviso of leaving 'enough and as good' for others."
+      },
+      {
+        "name": "Small-Group Reading and Mapping",
+        "minutes": 15,
+        "description": "In groups, students read the assigned excerpts on consent and dissolution and map Locke's argument: why people leave the state of nature (its 'inconveniences,' including the lack of an impartial judge), how government by consent is formed to adjudicate disputes and protect rights, and how government holds its power only in trust."
+      },
+      {
+        "name": "Whole-Class Case Analysis",
+        "minutes": 13,
+        "description": "Apply Locke's 'dissolution of government' argument to the case cards: does a government seizing property without due process, or dissolving the legislature to rule by decree, break the trust placed in it and justify resistance? What would Locke say, and on what grounds?"
+      },
+      {
+        "name": "Closure",
+        "minutes": 6,
+        "description": "Return to the hook and the essential question: is consent to government real or fictional, given that most people never explicitly agreed to be governed?"
+      }
+    ],
+    "discussion_questions": [
+      "Locke says legitimate government rests on the 'consent of the governed,' but most people never explicitly signed any contract. Does Locke's notion of 'tacit consent,' such as by owning property or using public roads, really establish genuine consent?",
+      "How does Locke's labor theory of property justify private ownership, and does the requirement to leave 'enough and as good' for others still make sense once land and resources become scarce?",
+      "Locke's state of nature is governed by a law of nature that mostly protects rights, unlike Hobbes's state of war. Which picture of human nature and pre-political life do you find more plausible, and why does the difference matter for the two thinkers' conclusions about government?",
+      "Locke argues that a government which violates its trust may be justly resisted by the people. What makes a government's actions serious enough to justify this, according to Locke, and who decides?",
+      "Locke's ideas heavily influenced the American Declaration of Independence. Which specific Lockean ideas can you identify in that document, and are they applied consistently?"
+    ],
+    "assessment": "Students write a short brief, in the voice of a lawyer, arguing whether a specific government action (drawn from the case cards or a current event you supply) violates the Lockean trust between government and the governed severely enough to justify resistance, citing specific claims from the assigned Second Treatise excerpts.",
+    "extension": "Have students locate three phrases or ideas in the U.S. Declaration of Independence that echo specific Lockean claims from the assigned excerpts, such as natural rights, consent, or the dissolution of government, and write a short annotation explaining each parallel."
+  },
+  {
+    "slug": "the-social-contract-discourses",
+    "title": "The General Will and the Paradox of Being \"Forced to Be Free\": Rousseau's Social Contract",
+    "inspired_author": "Jean-Jacques Rousseau",
+    "inspired_course": "The Social Contract & Discourses",
+    "inspired_institution": "Project Gutenberg",
+    "inspired_url": "https://www.gutenberg.org/ebooks/46333",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "60 minutes",
+    "topics": "Political Philosophy",
+    "essential_question": "Rousseau claims that by submitting to the 'general will' of the community, and even being 'forced to be free,' individuals become more free, not less. Is this a profound insight into political freedom, or a dangerous justification for coercion in the name of the people?",
+    "objectives": [
+      "Explain Rousseau's diagnosis of how humans move from natural freedom to the corruptions of civil society and private property.",
+      "Define the 'general will' as Rousseau uses it, and distinguish it from the mere sum of individual private wills (the 'will of all').",
+      "Evaluate Rousseau's claim that submitting to the general will, even when it overrules one's private judgment, makes a person more free."
+    ],
+    "materials": [
+      "Whiteboard",
+      "Excerpt handout: the opening of Book I of The Social Contract, including the passage on being 'forced to be free,' plus a short passage from the Discourse on Inequality on the origins of property",
+      "Case-study scenario: a town-hall vote on managing a shared community resource",
+      "Two-column worksheet: 'general will' vs. 'will of all'"
+    ],
+    "procedure": [
+      {
+        "name": "Hook: \"Man Is Born Free, But Everywhere He Is in Chains\"",
+        "minutes": 8,
+        "description": "Read Rousseau's famous opening line aloud and ask students what they think it means. Ask whether the 'chains' metaphor is about literal oppression, lost natural freedom, or something else, and collect a range of predictions before moving on."
+      },
+      {
+        "name": "Direct Instruction: From Natural Freedom to Civil Society",
+        "minutes": 18,
+        "description": "Briefly present Rousseau's account, from the Discourse on Inequality, of how the introduction of private property corrupted an originally free and equal state of nature into one of dependency and inequality. Pivot to The Social Contract's proposed solution: a form of association in which each person, uniting with all, obeys only themselves and remains as free as before, by submitting to the general will rather than to any particular person's will."
+      },
+      {
+        "name": "Small-Group Simulation: The Shared Resource Vote",
+        "minutes": 16,
+        "description": "Run the town-hall case: students vote on rules for managing a shared community resource. Afterward, in groups, they distinguish which parts of the outcome reflected the 'general will,' what is genuinely good for the community as a whole, versus the 'will of all,' the mere sum of everyone's private preferences, and discuss whether these differed."
+      },
+      {
+        "name": "Whole-Class Discussion: Forced to Be Free?",
+        "minutes": 12,
+        "description": "Unpack Rousseau's claim that anyone who refuses to obey the general will may be 'forced to be free' by the whole body. Debate whether this is a coherent idea of freedom or whether it risks licensing coercion of dissenters in the name of what's supposedly good for them."
+      },
+      {
+        "name": "Closure",
+        "minutes": 6,
+        "description": "Return to the opening line and ask students to reinterpret it in light of what they've learned about the general will and the origins of inequality."
+      }
+    ],
+    "discussion_questions": [
+      "Rousseau distinguishes the 'general will,' aimed at the common good, from the 'will of all,' the mere sum of private wills. Is this a meaningful distinction, or is the 'general will' just whatever Rousseau wants to call correct, dressed up as something the community collectively wills?",
+      "What did you think Rousseau's opening line meant before the lesson, and how did your reading change after learning about his account of the origins of inequality?",
+      "Is it coherent to say that someone can be 'forced to be free'? Can you think of a modern example, a law or a mandate, that a defender might justify this way, and would Rousseau's framework support or complicate that justification?",
+      "Rousseau argues that submitting to the general will makes you free because you're only obeying a law you, as part of the sovereign people, authored. Does this work if you were outvoted and personally disagree with the law?",
+      "Rousseau's ideas about popular sovereignty influenced the French Revolution, sometimes invoked to justify quite different, even authoritarian, outcomes. What does this suggest about the risks of grounding political legitimacy in something as abstract as a 'general will'?"
+    ],
+    "assessment": "Students write a short response defending or challenging Rousseau's claim that submitting to the general will makes an individual more free, using the shared-resource simulation from class as their central example, and explicitly addressing the 'forced to be free' paradox.",
+    "extension": "Have students find a real historical or contemporary example where a government or movement invoked 'the will of the people' to justify an action some citizens opposed, and write a short analysis of whether that invocation reflects Rousseau's 'general will' or is closer to what he calls the mere 'will of all.'"
+  },
+  {
+    "slug": "the-republic",
+    "title": "What Is Justice? Plato's Republic and the Ideally Ordered City",
+    "inspired_author": "Plato (trans. Benjamin Jowett)",
+    "inspired_course": "The Republic",
+    "inspired_institution": "Archive.org",
+    "inspired_url": "https://archive.org/details/in.ernet.dli.2015.223393",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "65 minutes",
+    "topics": "Political Philosophy",
+    "essential_question": "Plato has Socrates argue that justice in a person mirrors justice in a city — a harmony among distinct parts each doing their own proper job. Is justice really a kind of internal and social harmony, rather than a matter of following rules or laws?",
+    "objectives": [
+      "Explain the challenge posed to Socrates by Glaucon — that people are only just because they lack the power, like the Ring of Gyges, to get away with injustice.",
+      "Trace Plato's construction of the ideal city with its three classes as an analogy for the three parts of the soul.",
+      "Evaluate Plato's definition of justice as each part of the soul or city performing its proper function in harmony, and identify the theory's strongest weakness."
+    ],
+    "materials": [
+      "Whiteboard",
+      "Excerpt handout: the Ring of Gyges story (Book II) and the analogy of city and soul (selections from Books II and IV) in the Jowett translation",
+      "Reflection prompt: \"What would you do with a ring of invisibility?\"",
+      "Diagram handout mapping the three classes of the city against the three parts of the soul"
+    ],
+    "procedure": [
+      {
+        "name": "Hook: The Ring of Gyges",
+        "minutes": 10,
+        "description": "Tell the story of the ring that grants invisibility, found by a shepherd who uses it to seduce the queen, murder the king, and seize the throne. Ask students: if you had this ring and could never be caught, would you still act justly? Take a brief poll and record a few students' reasons."
+      },
+      {
+        "name": "Direct Instruction: The Challenge and Plato's Strategy",
+        "minutes": 17,
+        "description": "Present Glaucon's challenge: is justice good only for its consequences, such as reputation or avoiding punishment, or is it good in itself, even for someone who could get away with injustice? Explain that Socrates proposes to find justice 'writ large' in a city first, then apply the same structure to the individual soul, and introduce the city's three classes (producers, guardians/auxiliaries, philosopher-rulers) alongside the soul's three parts (appetite, spirit, reason)."
+      },
+      {
+        "name": "Small-Group Mapping Activity",
+        "minutes": 16,
+        "description": "In groups, students complete the diagram matching each class of the city to its parallel part of the soul, and articulate Plato's definition of justice: each part doing its own proper job and not meddling in the others', with reason ruling, aided by spirit, over appetite."
+      },
+      {
+        "name": "Whole-Class Discussion",
+        "minutes": 16,
+        "description": "Debate whether this definition of justice actually answers Glaucon's challenge about the ring of invisibility. Also raise Plato's reliance on philosopher-kings and the 'noble lie' used to hold the city together, and ask whether this reveals an authoritarian implication in the theory."
+      },
+      {
+        "name": "Closure",
+        "minutes": 6,
+        "description": "Return to the opening ring-of-Gyges poll and ask whether Plato's answer changes anyone's reasoning about why they gave their original response."
+      }
+    ],
+    "discussion_questions": [
+      "Does Plato's definition of justice, harmony among the parts of the soul or city, actually answer Glaucon's challenge, or does it just relocate the question of why order and harmony are good?",
+      "If you had the Ring of Gyges and could never be caught, do you think you would still act justly? Does your answer support or undermine Plato's claim that justice is good in itself, independent of reputation or punishment?",
+      "Plato's ideal city relies on philosopher-rulers who understand the Form of the Good, and even a 'noble lie' to keep the classes content with their roles. Does this make the Republic a blueprint for a good society, or a warning about the dangers of rule by supposed experts?",
+      "Is the analogy between the just city and the just soul a fair one, or does Plato assume what he needs to prove by designing the city's structure to match his preferred theory of the soul?",
+      "Plato has each class in the city restricted to one social role for life. What does this imply about individual freedom and mobility, and is it a cost Plato is willing to accept for the sake of harmony?"
+    ],
+    "assessment": "Students write a short essay stating whether Plato's definition of justice, harmony among the parts of the soul or city with each performing its proper function, successfully answers Glaucon's challenge from the Ring of Gyges, using specific claims from the assigned excerpts to support their position.",
+    "extension": "Have students design their own diagram or short proposal for an 'ideally just city,' explicitly deciding whether they adopt Plato's three-class structure or reject it, and write a short justification connecting their design back to a definition of justice."
+  },
+  {
+    "slug": "war",
+    "title": "When, If Ever, Is War Just? An Introduction to Just War Theory",
+    "inspired_author": "SEP contributors",
+    "inspired_course": "the Stanford Encyclopedia of Philosophy entry on War",
+    "inspired_institution": "Stanford Encyclopedia of Philosophy",
+    "inspired_url": "https://plato.stanford.edu/entries/war/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "60 minutes",
+    "topics": "Political Philosophy, Ethics",
+    "essential_question": "Just war theory holds that war can sometimes be morally justified, and even then only if fought in certain ways — but who gets to decide when a cause is just, and can any war really stay within moral limits once it begins?",
+    "objectives": [
+      "Distinguish jus ad bellum (justice of resorting to war) from jus in bello (justice in the conduct of war), and state the main criteria under each.",
+      "Apply the jus ad bellum criteria to a hypothetical case of a nation considering war.",
+      "Evaluate a scenario for compliance with jus in bello principles and identify the tension between military necessity and these moral limits."
+    ],
+    "materials": [
+      "Whiteboard",
+      "Printed handout listing and briefly defining the jus ad bellum and jus in bello criteria",
+      "Case-study cards describing a hypothetical nation deciding whether to intervene militarily to stop an ongoing atrocity in a neighboring country",
+      "Two-column graphic organizer (jus ad bellum / jus in bello) for the case analysis"
+    ],
+    "procedure": [
+      {
+        "name": "Hook: Should They Intervene?",
+        "minutes": 8,
+        "description": "Present a hypothetical scenario: Country A is committing mass atrocities against a minority population, and neighboring Country B is militarily capable of intervening but would suffer casualties and international backlash. Poll students on whether Country B should intervene and record their initial reasoning on the board."
+      },
+      {
+        "name": "Direct Instruction: Two Separate Questions",
+        "minutes": 18,
+        "description": "Introduce just war theory's core division: jus ad bellum, whether it is right to go to war at all, with criteria including just cause, legitimate authority, right intention, proportionality, last resort, and reasonable chance of success; and jus in bello, whether the war is being fought rightly, with criteria including discrimination (non-combatant immunity) and proportionality in specific engagements. Emphasize that a war can satisfy one category and fail the other."
+      },
+      {
+        "name": "Small-Group Case Analysis: Jus ad Bellum",
+        "minutes": 15,
+        "description": "In groups, students apply the jus ad bellum criteria to the hook scenario one at a time, using the graphic organizer to evaluate each criterion and reaching a group verdict on whether intervention would be justified."
+      },
+      {
+        "name": "Whole-Class Discussion: Jus in Bello and Its Tensions",
+        "minutes": 13,
+        "description": "Extend the scenario: intervention begins, and a strike on a legitimate military target risks significant civilian casualties. Debate how discrimination and proportionality apply here, and where military necessity and moral limits come into tension."
+      },
+      {
+        "name": "Closure",
+        "minutes": 6,
+        "description": "Return to the initial poll and discuss whether the criteria covered in class changed anyone's reasoning, and whether just war theory helped clarify or complicate the moral question."
+      }
+    ],
+    "discussion_questions": [
+      "Who has the legitimate authority to declare that a cause is 'just' enough to justify war, and what happens when the same conflict looks different depending on whose authority you ask?",
+      "Is it possible to fight a war justly (jus in bello) even if the decision to enter it was unjust (violated jus ad bellum)? Should soldiers be held to the in bello standards regardless of whether their leaders satisfied the ad bellum ones?",
+      "The principle of proportionality appears in both jus ad bellum and jus in bello. Is 'proportionality' precise enough to actually guide real decisions, or is it so vague that it can justify almost anything after the fact?",
+      "Does the non-combatant immunity principle hold up in modern warfare, where combatants sometimes deliberately embed among civilian populations? What should discrimination require in that context?",
+      "Some critics argue that just war theory, by making some wars seem morally legitimate, makes war too easy to justify and undermines a stronger presumption against violence altogether. Do you find this criticism persuasive?"
+    ],
+    "assessment": "Students write a policy brief evaluating a specific historical or current military intervention against both the jus ad bellum and jus in bello criteria covered in class, reaching and defending a verdict on whether the action was, on balance, justified.",
+    "extension": "Have students research a specific historical conflict and identify at least one action within it that arguably violated jus in bello principles, such as discrimination or proportionality, even if the overall cause might satisfy jus ad bellum criteria, and write a short analysis of what this split verdict suggests about the limits of just war theory."
+  }
+]

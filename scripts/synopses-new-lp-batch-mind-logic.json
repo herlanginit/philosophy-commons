@@ -1,0 +1,275 @@
+[
+  {
+    "slug": "the-chinese-room-argument",
+    "title": "Does the Computer Understand? Searle's Chinese Room",
+    "inspired_author": "David Cole",
+    "inspired_course": "the Stanford Encyclopedia of Philosophy entry on the Chinese Room Argument",
+    "inspired_institution": "Stanford Encyclopedia of Philosophy",
+    "inspired_url": "https://plato.stanford.edu/entries/chinese-room/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "60 minutes",
+    "topics": "Philosophy of Mind",
+    "essential_question": "If a person inside a room can produce flawless Chinese answers by following a rulebook, without understanding a word of Chinese, does that show a computer running a program could never truly understand anything either?",
+    "objectives": [
+      "Explain John Searle's Chinese Room thought experiment and the conclusion it is meant to establish about programs, syntax, and semantics.",
+      "Distinguish the Systems Reply, the Robot Reply, and the Brain Simulator Reply, and state how Searle responds to each.",
+      "Evaluate whether the Chinese Room argument successfully refutes 'strong AI' — the claim that a correctly programmed computer would have a mind in exactly the sense human beings do."
+    ],
+    "materials": [
+      "Handout laying out the Chinese Room scenario step by step, with a simple diagram of the room, the slips of paper, and the rulebook",
+      "A pre-made 'mini rulebook' activity kit: cards with invented symbols and a lookup table mapping symbol-strings to symbol-strings, with zero translation given",
+      "Whiteboard divided into a Syntax / Semantics two-column chart",
+      "Reply-cards handout: one paragraph each stating the Systems Reply, Robot Reply, and Brain Simulator Reply, with blank space for a rebuttal"
+    ],
+    "procedure": [
+      { "name": "Hook: Be the Room", "minutes": 10, "description": "Before explaining anything, hand one student an envelope of cards printed with invented squiggly symbols and a rulebook that maps input-symbol-strings to output-symbol-strings purely by shape, with no meanings given. Have another 'native speaker' student slip in a question card; the first student uses only the rulebook to produce a response card, with zero idea what either card says. Ask the class whether that student understood the conversation, and hold the disagreement for later." },
+      { "name": "Direct Instruction: The Argument and Its Target", "minutes": 15, "description": "Formally present the thought experiment: Searle imagines himself in a room with an English rulebook correlating Chinese symbols, so the notes passed in and out are indistinguishable from a native Chinese speaker's answers, yet Searle understands no Chinese. Explain that the target is 'strong AI' — the claim that running the right program is sufficient for a mind, i.e. that understanding is just formal symbol manipulation. Draw a syntax (form/shape rules) versus semantics (meaning) distinction on the board and explain Searle's diagnosis: syntax alone never gets you semantics, no matter how complex the rulebook." },
+      { "name": "Jigsaw Group Work: Meet the Replies", "minutes": 20, "description": "Divide the class into groups, each assigned one of the Systems Reply (it's the whole system, not the man, that understands), the Robot Reply (add sensors and effectors so symbols get grounded in the world), or the Brain Simulator Reply (simulate the actual neuron-firing patterns of a Chinese speaker). Each group must state its assigned reply in its own words and then construct Searle's actual rebuttal to it — for example, that memorizing the whole rulebook makes the man himself the entire system, and he still understands nothing." },
+      { "name": "Whole-Class Synthesis Debate", "minutes": 10, "description": "Reconvene and have each group present its reply and Searle's rebuttal in about two minutes, then open the floor: does any reply actually escape Searle's rebuttal? Push the discussion toward whether 'understanding' requires a biological substrate or could be substrate-independent." },
+      { "name": "Closure: Exit Ticket", "minutes": 5, "description": "Students individually write one sentence answering: what is the single most important difference between syntax and semantics, and why does Searle think it matters for AI? Collect these as a quick formative check of whether the core distinction landed." }
+    ],
+    "discussion_questions": [
+      "Is understanding simply very sophisticated symbol manipulation, or does Searle's thought experiment show it must be something more?",
+      "Does the Systems Reply succeed by pointing out that the man is just one part of a larger system, or is it merely relocating the mystery rather than solving it?",
+      "If a robot's symbols were grounded in cameras and sensors connected to the real world, would that change whether it understands, or is Searle right that it's still just more meaningless input?",
+      "Searle argues understanding requires the right biological 'causal powers' of the brain. Is this a real argument, or just an assertion that only brains can think?",
+      "Could Searle's own argument be turned against human neurons — after all, no single neuron understands Chinese either?"
+    ],
+    "assessment": "Students write a two-paragraph response in which they state, in their own words, what conclusion Searle believes the Chinese Room establishes about programs and understanding, and then pick one reply (Systems, Robot, or Brain Simulator) and argue whether it successfully defeats Searle's argument or ultimately fails, citing a specific feature of the thought experiment to support their verdict. Grade for accurate representation of the argument and for direct engagement with the chosen objection rather than a dismissal of it.",
+    "extension": "Have students find a transcript or example of a conversation with a modern AI chatbot and write a short analysis applying the Chinese Room argument directly to it: does the fact that the chatbot's replies look fluent and contextually apt settle whether it understands anything, according to Searle's reasoning? Students should identify what a defender of strong AI might say in response."
+  },
+  {
+    "slug": "dualism",
+    "title": "Mind Over Matter? Substance and Property Dualism",
+    "inspired_author": "Howard Robinson & Ralph Weir",
+    "inspired_course": "the Stanford Encyclopedia of Philosophy entry on Dualism",
+    "inspired_institution": "Stanford Encyclopedia of Philosophy",
+    "inspired_url": "https://plato.stanford.edu/entries/dualism/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "60 minutes",
+    "topics": "Philosophy of Mind",
+    "essential_question": "Is your mind made of the very same stuff as your body, or is mental life — thoughts, feelings, the experience of red — something fundamentally different from anything physical?",
+    "objectives": [
+      "Distinguish substance dualism (mind and body are two different kinds of things) from property dualism (one kind of thing, matter, that has two irreducibly different kinds of properties).",
+      "Reconstruct Descartes' conceivability argument and his divisibility argument for the distinctness of mind and body.",
+      "Evaluate the interaction problem as an objection to dualism and assess whether contemporary property dualism escapes it."
+    ],
+    "materials": [
+      "Handout with paraphrased passages capturing Descartes' key moves in Meditation VI (the conceivability and divisibility arguments)",
+      "Comparison diagram: substance dualism vs. property dualism vs. physicalism, with blank boxes for students to fill in during lecture",
+      "Whiteboard for diagramming the pineal-gland interaction problem",
+      "Index cards for the divisibility thought experiment (half marked BODY, half marked MIND)"
+    ],
+    "procedure": [
+      { "name": "Hook: Can You Lose Half a Thought?", "minutes": 8, "description": "Ask students to physically point to 'half of their left hand' (easy) and then to point to 'half of the thought I am having right now' (impossible, and they will notice it). Use this to introduce Descartes' observation that bodies are divisible into parts but a single thought or belief doesn't seem to have a left half and a right half the way a physical object does." },
+      { "name": "Direct Instruction: Descartes' Two Arguments", "minutes": 15, "description": "Present the conceivability argument (I can clearly and distinctly conceive of my mind existing without my body, therefore they are not identical) and the divisibility argument (body is essentially divisible and extended in space; mind is essentially unified and non-spatial; things with different essential properties cannot be identical). Introduce the substance/property dualism distinction: substance dualists say there are two fundamentally different kinds of stuff, while property dualists say there is only physical stuff, but some of its properties, like the felt quality of pain, cannot be reduced to or explained by physical properties." },
+      { "name": "Small-Group Case Work: The Interaction Problem", "minutes": 20, "description": "In groups, students diagram how a non-physical mind is supposed to cause a physical body to move, such as deciding to raise an arm, using Descartes' own proposed pineal-gland mechanism as a starting point. Groups must identify precisely where the causal story breaks down: how can something with no location, mass, or extension exert physical force on something that has all three, without violating conservation of energy? Each group produces a one-sentence statement of the interaction problem in its own words." },
+      { "name": "Whole-Class Discussion: Does Property Dualism Escape the Problem?", "minutes": 12, "description": "Present property dualism as a way of avoiding substance-crossing causation, since there is only one kind of substance, the physical brain. Push on whether it still owes an explanation of how irreducibly mental properties arise from, or affect, physical ones, introducing epiphenomenalism as one controversial way out." },
+      { "name": "Closure: Where Do You Stand?", "minutes": 5, "description": "Students vote dualist, physicalist, or undecided, and one representative from each position states the single strongest reason for their vote." }
+    ],
+    "discussion_questions": [
+      "If you can conceive of your mind existing without your body, does that really prove they could exist apart, or does conceivability just show the limits of your imagination rather than the nature of reality?",
+      "Is the interaction problem a decisive objection to substance dualism, or could future physics reveal a mechanism we simply haven't discovered yet?",
+      "Does property dualism actually solve the interaction problem, or does it just relocate the mystery from how two substances interact to how physical processes produce irreducibly mental properties?",
+      "Is epiphenomenalism (mental properties exist but have no causal effects on the physical world) a coherent position, or does it make consciousness pointless in a way that's hard to accept?",
+      "Descartes thought the unity of consciousness proved the mind is a simple, non-physical substance. Could a physicalist explain that same unity without going non-physical?"
+    ],
+    "assessment": "Students write a short paper explaining the difference between substance dualism and property dualism, reconstructing one of Descartes' two arguments accurately, and then stating and evaluating the interaction problem as an objection, concluding with their own reasoned verdict on whether dualism survives it. Grade on accurate reconstruction of the arguments and the quality of the reasoning in the verdict, not on which position the student ultimately favors.",
+    "extension": "Have students research one contemporary physicalist theory of mind, such as functionalism or the mind-brain identity theory, and write a short comparison memo explaining how that theory tries to account for conscious experience without positing a second, non-physical substance or property, and whether they find it more or less persuasive than dualism."
+  },
+  {
+    "slug": "qualia-the-knowledge-argument",
+    "title": "Mary's Room: Can You Know Everything About Color and Still Not Know What Red Looks Like?",
+    "inspired_author": "Martine Nida-Rümelin & Donnchadh O Conaill",
+    "inspired_course": "the Stanford Encyclopedia of Philosophy entry on Qualia: The Knowledge Argument",
+    "inspired_institution": "Stanford Encyclopedia of Philosophy",
+    "inspired_url": "https://plato.stanford.edu/entries/qualia-knowledge/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "55 minutes",
+    "topics": "Philosophy of Mind",
+    "essential_question": "If Mary knows every physical fact there is about color vision but has spent her whole life in a black-and-white room, does she learn something genuinely new the first moment she sees red — and if so, what does that tell us about whether consciousness can be fully explained in physical terms?",
+    "objectives": [
+      "State Frank Jackson's Mary's Room thought experiment accurately and explain what conclusion it is meant to support about physicalism.",
+      "Define 'qualia' and explain why the knowledge argument targets specifically the qualitative, felt character of experience rather than behavior or brain function.",
+      "Evaluate at least one major reply to the knowledge argument, such as the Ability Hypothesis or the Old-Fact/New-Guise reply, and assess whether it successfully defends physicalism."
+    ],
+    "materials": [
+      "Handout presenting the Mary's Room thought experiment in full, with a simple illustration of the black-and-white room and monitor",
+      "A set of physical color swatches (red, blue, green paper or paint chips) for the opening activity",
+      "Reply-cards handout: the Ability Hypothesis and the Old-Fact/New-Guise reply, each with space for student rebuttals",
+      "Whiteboard for tracking the class's running vote on whether Mary learns something new"
+    ],
+    "procedure": [
+      { "name": "Hook: Describe Red to Someone Who's Never Seen It", "minutes": 8, "description": "In pairs, have one student attempt to describe, using only words and no comparisons to other colors, what red looks like to a hypothetical person who has been totally colorblind since birth. Students will struggle. Use this immediately to set up the thought experiment: what if that person knew every physical fact about color there is to know?" },
+      { "name": "Direct Instruction: The Thought Experiment", "minutes": 15, "description": "Present Frank Jackson's scenario carefully: Mary is a brilliant scientist who has lived her entire life in a black-and-white room and has learned complete physical knowledge of color vision, including every fact about wavelengths and the neurophysiology of human vision, entirely through black-and-white materials. One day she leaves the room and sees a red tomato for the first time, and Jackson asks whether she learns something new. Introduce 'qualia' as the term for the subjective, felt qualities of experience, and explain the argument's structure: if physicalism is true, complete physical knowledge should be complete knowledge, but Mary seems to learn something upon leaving the room, so complete physical knowledge is not complete knowledge." },
+      { "name": "Small-Group Work: Testing the Argument", "minutes": 15, "description": "Groups evaluate the argument's premises and generate at least one objection of their own before seeing any official replies, pushing them to reason independently about whether the case really shows what Jackson claims." },
+      { "name": "Reply-Card Jigsaw: Physicalist Responses", "minutes": 12, "description": "Introduce the Ability Hypothesis, which holds that Mary gains new abilities to recognize, imagine, and remember red rather than new propositional knowledge, and the Old-Fact/New-Guise reply, which holds that Mary already knew the physical fact but comes to know it under a new mode of presentation. Groups assigned one reply must state it and construct the strongest response a defender of the knowledge argument could give back." },
+      { "name": "Closure: Final Vote", "minutes": 5, "description": "Retake the vote from the hook: does Mary learn something new upon leaving the room, and if so, does that refute physicalism, or can it be explained away? Ask for a show of hands and a one-sentence justification from a student on each side." }
+    ],
+    "discussion_questions": [
+      "Does Mary really learn a new fact when she sees red for the first time, or does she just gain a new ability without learning anything propositional?",
+      "If the Ability Hypothesis is correct, does that fully capture what seems to change for Mary, or does something still seem left out?",
+      "Could Mary's 'complete physical knowledge' ever really be complete if she has never had the relevant experience, or is the thought experiment asking us to imagine something that isn't actually possible?",
+      "What is the difference between knowing a fact under a new guise and learning an entirely new fact, and does that distinction rescue physicalism from Jackson's argument?",
+      "If the knowledge argument succeeds, what would follow for the possibility of building a machine that has genuine conscious experience rather than merely processing information about colors?"
+    ],
+    "assessment": "Students write a short paper explaining Jackson's knowledge argument in their own words, then pick either the Ability Hypothesis or the Old-Fact/New-Guise reply and argue whether it successfully saves physicalism from the argument, addressing at least one weakness in the reply they choose. Grade for accurate handling of the thought experiment's logical structure and for direct engagement with the chosen reply, not for which side the student takes.",
+    "extension": "Have students design their own Mary's-Room-style thought experiment for a different sense or experience, such as a person raised without ever tasting anything sweet or without ever hearing music, and write a short analysis of whether their version supports the same conclusion Jackson draws, or whether it reveals a disanalogy that weakens the original argument."
+  },
+  {
+    "slug": "aristotle-logic",
+    "title": "The First Logician: Aristotle's Categorical Syllogism",
+    "inspired_author": "IEP contributors",
+    "inspired_course": "the Internet Encyclopedia of Philosophy entry on Aristotle: Logic",
+    "inspired_institution": "Internet Encyclopedia of Philosophy",
+    "inspired_url": "https://iep.utm.edu/aristotle-logic/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "65 minutes",
+    "topics": "Logic",
+    "essential_question": "What makes an argument's form alone — apart from what it's actually about — enough to guarantee that true premises lead to a true conclusion?",
+    "objectives": [
+      "Identify the four categorical propositional forms (A, E, I, O) and translate ordinary statements into them.",
+      "Construct a valid categorical syllogism in proper form (major premise, minor premise, conclusion) and identify its middle term.",
+      "Distinguish valid categorical syllogisms from invalid ones by testing the argument's form independently of whether its conclusion happens to be true."
+    ],
+    "materials": [
+      "Handout listing the four categorical forms (All S are P / No S are P / Some S are P / Some S are not P) with labeled examples",
+      "Set of syllogism cards, some valid and some invalid, mixing true and false content so form and truth can be pulled apart",
+      "Whiteboard for diagramming the middle term across premises",
+      "Venn diagram template handout for testing syllogism validity"
+    ],
+    "procedure": [
+      { "name": "Hook: True Conclusion, Bad Argument", "minutes": 8, "description": "Present the class with an argument that has a true conclusion but a flawed structure, such as 'All fish live in water. All sharks live in water. Therefore, all sharks are fish.' Ask whether this is a good argument. Most students will initially say yes because the conclusion sounds plausible; guide them to notice the conclusion doesn't actually follow, previewing that today is about form, not content." },
+      { "name": "Direct Instruction: The Four Categorical Forms", "minutes": 15, "description": "Introduce Aristotle's Organon briefly as the founding texts of formal logic, then teach the four standard-form categorical propositions: A (universal affirmative), E (universal negative), I (particular affirmative), and O (particular negative). Have students translate several ordinary English sentences into these forms as a quick check." },
+      { "name": "Direct Instruction: Anatomy of the Syllogism", "minutes": 12, "description": "Explain the three-term, three-proposition structure of a categorical syllogism, and the role of the middle term, the term appearing in both premises but not in the conclusion, in linking the major and minor terms. Work through one classic valid example on the board and diagram the middle term visually." },
+      { "name": "Small-Group Practice: Sort the Syllogisms", "minutes": 20, "description": "In pairs or small groups, students receive a set of syllogism cards mixing valid and invalid, true-content and false-content combinations, and must sort them into valid versus invalid using Venn diagrams, explicitly separating whether an argument is valid from whether they happen to agree with the conclusion." },
+      { "name": "Closure: Build Your Own", "minutes": 10, "description": "Each student writes one original valid categorical syllogism and one original invalid one that looks tempting, about a topic of their choice, then trades with a partner who must identify which is which and explain why using the middle term." }
+    ],
+    "discussion_questions": [
+      "Why did Aristotle think that the validity of an argument could be determined entirely by its form, without knowing anything about what the terms actually refer to?",
+      "Is it possible for a categorical syllogism to be valid but still be a bad argument in some other way? What would that require?",
+      "Why is the middle term's role in a syllogism essential — what would go wrong if a syllogism had four terms instead of three?",
+      "Can you think of an invalid syllogism whose conclusion happens to be true? What does that show about the relationship between validity and truth?",
+      "Aristotle's system covers only categorical statements about classes of things (all, no, some). What kinds of everyday reasoning does this system struggle to capture?"
+    ],
+    "assessment": "Give students five new categorical syllogisms they haven't seen before, a mix of valid and invalid with both true and false content. Students must identify the middle term in each, diagram it, and determine validity, writing one sentence justifying each verdict. Grade for correct identification of validity based on form, independent of whether students happen to agree with the conclusions.",
+    "extension": "Have students find or invent a syllogism used in a real advertisement, political speech, or op-ed, translate it into standard categorical form, identify the middle term, and evaluate whether it is actually valid, then write a short paragraph on whether the argument's persuasive power depends on its validity or on something else, like emotional appeal or ambiguous terms."
+  },
+  {
+    "slug": "validity-and-soundness",
+    "title": "Valid but Wrong? Untangling Validity and Soundness",
+    "inspired_author": "IEP contributors",
+    "inspired_course": "the Internet Encyclopedia of Philosophy entry on Validity and Soundness",
+    "inspired_institution": "Internet Encyclopedia of Philosophy",
+    "inspired_url": "https://iep.utm.edu/val-snd/",
+    "grade_level": "Grades 9-12",
+    "duration": "48 minutes",
+    "topics": "Logic",
+    "essential_question": "Can an argument be logically perfect and still be completely wrong?",
+    "objectives": [
+      "Define validity as a property of an argument's form: if the premises were true, the conclusion would have to be true.",
+      "Define soundness as validity plus true premises, and explain why soundness requires more than validity alone.",
+      "Correctly classify a set of sample arguments as valid or invalid and sound or unsound, including tricky cases where a valid argument has a false premise or conclusion."
+    ],
+    "materials": [
+      "Handout with the definitions of validity and soundness and two to three worked examples of each",
+      "Set of at least eight sample arguments on cards, covering all four combinations of valid/invalid and true/false premises",
+      "Whiteboard with a two-question flowchart: 'Would the conclusion have to be true if the premises were true?' then 'Are the premises actually true?'",
+      "Sticky notes (two colors) for a class-wide sorting activity"
+    ],
+    "procedure": [
+      { "name": "Hook: The Silly Valid Argument", "minutes": 7, "description": "Present this argument aloud: 'All cats are made of pizza. Garfield is a cat. Therefore, Garfield is made of pizza.' Ask students whether the conclusion follows from the premises. Most will recognize that if you accepted the premises, the conclusion would have to follow, even though it's absurd, introducing the idea that validity has nothing to do with whether the statements are actually true." },
+      { "name": "Direct Instruction: Two Separate Questions", "minutes": 12, "description": "Teach the formal definitions of validity (it is impossible for the premises to be true and the conclusion false) and soundness (a valid argument whose premises are actually true). Walk through the two-question flowchart on the board using the pizza-cat example, which is valid but unsound, and a second example that is both valid and sound." },
+      { "name": "Guided Practice: Sort the Cards", "minutes": 15, "description": "In small groups, students work through a set of sample arguments, applying the flowchart to each, first asking whether it's valid and then whether it's sound. Include at least one invalid argument with a true conclusion and true premises, showing students that valid, true-seeming, and sound are three genuinely different properties." },
+      { "name": "Whole-Class Check and Misconception Hunt", "minutes": 9, "description": "Go through two or three of the trickiest cards together as a class, focusing on the ones most groups disagreed about. Explicitly name the most common misconception: assuming a true conclusion means an argument is valid, or that a valid argument must be sound." },
+      { "name": "Closure: Exit Ticket", "minutes": 5, "description": "Students write one original two-premise argument that is valid but unsound, and one sentence explaining which premise is false and why the argument is still valid despite that." }
+    ],
+    "discussion_questions": [
+      "Why does it matter to separate whether the conclusion follows from the premises from whether the premises are actually true?",
+      "Can an argument have a true conclusion and still be invalid? Can it have a false conclusion and still be valid? Explain with an example.",
+      "Why might people be more easily persuaded by an invalid argument with a conclusion they already agree with than by a valid one with a conclusion they dislike?",
+      "Is it possible to know an argument is valid without knowing whether it's sound? Is it possible to know it's sound without checking validity first?",
+      "In everyday arguments in politics, advertising, or social media, which is more common: invalid arguments, or valid-but-unsound ones? Why might that be?"
+    ],
+    "assessment": "Give students six new arguments they have not seen in class, each requiring a two-part judgment of valid or invalid and, if valid, sound or unsound, with one sentence of justification per argument identifying either the logical gap or the false premise. Grade for correct application of the definitions, not for agreement with the arguments' conclusions.",
+    "extension": "Have students find a real argument from a news article, advertisement, or social media post, write it out in premise/conclusion form, and evaluate it for both validity and soundness, explaining in a short paragraph whether the argument's persuasiveness depends on genuine logical force or on something else, like a false but appealing premise."
+  },
+  {
+    "slug": "symbolic-logic",
+    "title": "Carroll's Logic Game: Puzzling Out the Categorical Syllogism",
+    "inspired_author": "Lewis Carroll",
+    "inspired_course": "Symbolic Logic",
+    "inspired_institution": "Project Gutenberg",
+    "inspired_url": "https://www.gutenberg.org/ebooks/28696",
+    "grade_level": "Grades 9-12",
+    "duration": "50 minutes",
+    "topics": "Logic",
+    "essential_question": "Can working through a playful puzzle teach you to reason more rigorously than memorizing a rule ever could?",
+    "objectives": [
+      "Translate whimsical premises, in the style of Lewis Carroll, into standard logical form and identify the shared middle term.",
+      "Solve multi-premise 'sorites' style puzzles by chaining several syllogisms together to reach a single valid conclusion.",
+      "Explain why Carroll's playful, absurd content is a deliberate pedagogical device for isolating logical form from real-world plausibility."
+    ],
+    "materials": [
+      "Handout with three or four of Carroll's original whimsical syllogism puzzles, adapted and simplified",
+      "Blank sorites-chain worksheet with boxes for linking each premise's shared term to the next",
+      "Whiteboard for building one puzzle chain together as a class",
+      "A short excerpt handout describing who Lewis Carroll (Charles Dodgson) was and why he wrote logic puzzles for children and adults alike"
+    ],
+    "procedure": [
+      { "name": "Hook: The Absurd Argument", "minutes": 6, "description": "Read aloud a Carroll-style premise set: 'No baby can manage a crocodile. No one who cannot manage a crocodile is despised.' Ask students to guess the conclusion before revealing it (babies are not despised), and ask why Carroll would deliberately choose such a ridiculous topic rather than something serious." },
+      { "name": "Direct Instruction: Why Silly Content Is the Point", "minutes": 10, "description": "Explain that Carroll, better known as the author of Alice in Wonderland, was a mathematician who used deliberately absurd, memorable content precisely so students couldn't rely on prior knowledge or gut feelings about the subject matter, forcing them to track the logical structure itself. Connect this to the categorical syllogism's shared middle terms, and introduce a 'sorites' as a chain of several linked syllogisms collapsing into one long argument with a single conclusion." },
+      { "name": "Guided Practice: Chain the Clues", "minutes": 15, "description": "As a whole class, work through one multi-premise Carroll puzzle together on the board, identifying which term repeats between which premises and crossing out the repeated middle terms one pair at a time until only the terms of the final conclusion remain." },
+      { "name": "Small-Group Challenge: Solve Your Own Sorites", "minutes": 14, "description": "In pairs, students receive a new, unsolved Carroll-style multi-premise puzzle and must use the same term-cancellation method to reach the valid conclusion, showing their work on the worksheet." },
+      { "name": "Closure: Share and Reflect", "minutes": 5, "description": "A few pairs share their solved conclusion and briefly explain their chain. Close by asking students to name one moment during the chain where they could have made an error if they weren't tracking the terms carefully." }
+    ],
+    "discussion_questions": [
+      "Why might absurd, made-up content actually make logical structure easier to see than realistic content would?",
+      "What is the risk of using real-world, believable premises when practicing formal logic, compared to using deliberately silly ones?",
+      "In a long chain of premises, where are you most likely to make a mistake, and what habit could prevent it?",
+      "Is solving a sorites puzzle more like solving a math problem or more like reading a story? What does that suggest about the relationship between logic and other subjects?",
+      "Lewis Carroll wrote both these logic puzzles and Alice in Wonderland's nonsensical wordplay. What might connect his interest in logic to his interest in nonsense literature?"
+    ],
+    "assessment": "Students solve two new Carroll-style sorites puzzles independently, showing the full chain of term-cancellations that leads to each valid conclusion, and write one sentence identifying which specific pair of terms let them cross out a shared middle term at each step. Grade for correct tracking of terms through the chain, not for whether the puzzle's content is realistic.",
+    "extension": "Have students write their own three- or four-premise Carroll-style sorites puzzle using an absurd topic of their choosing, making sure each premise shares exactly one term with the next, and trade with a partner to solve. This requires working the logic backward from a valid conclusion, which is a stronger test of understanding than solving alone."
+  },
+  {
+    "slug": "symbolic-logic-a-free-online-course",
+    "title": "Testing Arguments by Machine: An Introduction to Truth Tables",
+    "inspired_author": "John Sanders",
+    "inspired_course": "the free video course Symbolic Logic: A Free Online Course",
+    "inspired_institution": "Open Culture",
+    "inspired_url": "https://www.openculture.com/symbolic-logic-a-free-online-course",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "65 minutes",
+    "topics": "Logic",
+    "essential_question": "How can we mechanically test whether an argument is valid, using nothing but a grid of true/false combinations, without ever relying on our gut sense of what 'sounds right'?",
+    "objectives": [
+      "Translate simple English sentences into symbolic form using the connectives for negation, conjunction, disjunction, and the conditional.",
+      "Construct a complete truth table for a compound statement and correctly compute its truth value under every possible assignment of truth values to its parts.",
+      "Use a truth table to test whether a two-premise argument is valid, by checking whether any row makes the premises true and the conclusion false."
+    ],
+    "materials": [
+      "Handout listing the five basic connectives (not, and, or, if-then, if-and-only-if) with their symbols and truth-value definitions",
+      "Blank truth table templates sized for two- and three-variable statements",
+      "Whiteboard for building one full truth table together as a class",
+      "Set of argument cards in English for students to symbolize and test using truth tables"
+    ],
+    "procedure": [
+      { "name": "Hook: Is 'Or' Always Inclusive?", "minutes": 8, "description": "Ask students what 'you can have cake or ice cream' means versus 'you need a passport or a driver's license to board.' Get them to notice ordinary English 'or' is ambiguous between at-least-one (inclusive) and exactly-one (exclusive), and that logic needs to pick one meaning and stick to it. Introduce that symbolic logic solves this ambiguity by giving each connective one fixed, unambiguous meaning defined entirely by a table of truth values." },
+      { "name": "Direct Instruction: The Five Connectives", "minutes": 15, "description": "Introduce negation, conjunction, disjunction (defined as inclusive), the conditional, and the biconditional, giving the truth-value definition of each. Pause on the conditional, since students find it most counterintuitive (it is false only when the antecedent is true and the consequent is false), and give a concrete everyday example to anchor it." },
+      { "name": "Guided Practice: Build a Table Together", "minutes": 15, "description": "As a class, symbolize a compound sentence and build its full truth table row by row on the board, walking through how compound truth values are computed from their parts, column by column, left to right." },
+      { "name": "Small-Group Work: Test an Argument", "minutes": 20, "description": "In pairs, students symbolize a short two-premise valid argument and one with a subtle flaw such as affirming the consequent, then build the truth table for each and determine validity by checking every row for a case where the premises are all true but the conclusion is false." },
+      { "name": "Closure: What Did the Table Prove?", "minutes": 7, "description": "Bring the class back together and ask, for the invalid argument, which specific row exposed the flaw. Emphasize that a truth table doesn't just give an answer, it gives a specific counterexample row that shows exactly how the premises could be true while the conclusion is false." }
+    ],
+    "discussion_questions": [
+      "Why does symbolic logic define 'or' as strictly inclusive, and what would be lost or gained if it instead used the exclusive sense from everyday speech?",
+      "The conditional is only false in one specific case. Does this match how you naturally use 'if...then' in conversation, or does it feel like it's missing something?",
+      "What does it mean, mechanically, for a truth table to prove an argument invalid? What exactly are you pointing to in the table?",
+      "As the number of variables in a statement grows, the truth table grows exponentially. What does this suggest about the limits of using truth tables to test very complex arguments?",
+      "Affirming the consequent is a common and tempting mistake. Why might it feel intuitively convincing even though a truth table shows it's invalid?"
+    ],
+    "assessment": "Students receive two new two-premise arguments in English, symbolize each into logical notation, build a complete truth table for each, and state a validity verdict, explicitly identifying the row that either confirms validity or demonstrates invalidity by naming the specific truth-value assignment that breaks it. Grade for correct symbolization, accurate table construction, and correct identification of the decisive row.",
+    "extension": "Have students take a three-variable argument involving 'and,' 'or,' and 'if-then' together from a real debate or logic puzzle they find online, build the larger eight-row truth table required, and write a short paragraph explaining why testing validity purely mechanically, row by row, is both a strength (it removes guesswork) and a limitation (it becomes unwieldy fast) of the truth-table method."
+  }
+]

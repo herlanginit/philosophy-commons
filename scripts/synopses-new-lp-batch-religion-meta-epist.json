@@ -1,0 +1,470 @@
+[
+  {
+    "slug": "the-problem-of-evil",
+    "title": "Can God and Evil Coexist? The Logical and Evidential Problems of Evil",
+    "inspired_author": "Michael Tooley",
+    "inspired_course": "the Stanford Encyclopedia of Philosophy entry on The Problem of Evil",
+    "inspired_institution": "Stanford Encyclopedia of Philosophy",
+    "inspired_url": "https://plato.stanford.edu/entries/evil/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "60 minutes",
+    "topics": "Philosophy of Religion",
+    "essential_question": "If God is all-powerful, all-knowing, and perfectly good, why does evil and suffering exist — and can any theistic answer avoid contradiction or just soften the blow?",
+    "objectives": [
+      "Explain the distinction between the logical problem of evil (Mackie) and the evidential problem of evil (Rowe), and state each in premise form.",
+      "Apply at least two theodicies — the free will defense and the soul-making theodicy — to a specific case of suffering and assess how far each theodicy actually reaches.",
+      "Evaluate whether the existence of evil is logically incompatible with theism or merely evidence against it, and defend a position with reference to a real-world case of suffering."
+    ],
+    "materials": [
+      "Whiteboard for building an argument map of the logical vs. evidential problem",
+      "Handout with the formal premises of Mackie's logical problem of evil and Rowe's evidential problem (the fawn burned in a forest fire)",
+      "Index cards, one theodicy printed per card, for a sorting activity",
+      "Timer for small-group and debate segments"
+    ],
+    "procedure": [
+      { "name": "Hook: The Earthquake Question", "minutes": 8, "description": "Present a real-world scenario: a devastating earthquake kills thousands of children with no warning. Ask students to write for two minutes, anonymously: if an all-powerful, all-good God exists, how do we explain God allowing this? Read a few responses aloud without judgment and list the \"explanations\" that emerge naturally on the board — you'll return to name these formally in the next step." },
+      { "name": "Direct Instruction: Two Versions of the Problem", "minutes": 15, "description": "Present Mackie's logical version: the claim that \"God is omnipotent,\" \"God is omnibenevolent,\" and \"evil exists\" cannot all be true together, since a perfectly good, all-powerful being would eliminate all the evil it could. Contrast this with Rowe's evidential version, using the fawn case: not a strict contradiction, but strong probabilistic evidence against theism, since some suffering appears to serve no greater good we can identify. Draw a two-column board diagram: logical (deductive, contradiction) versus evidential (probabilistic, weight of evidence)." },
+      { "name": "Small-Group Theodicy Stress Test", "minutes": 20, "description": "Divide the class into three groups and assign each a theodicy: the free will defense (Plantinga — evil is the price of morally significant freedom), the soul-making theodicy (Hick — a world with real hardship is necessary for spiritual and moral growth), and skeptical theism (we should expect not to grasp God's reasons for permitting evil). Each group applies its theodicy to both the earthquake scenario and the fawn case, and identifies one case it handles well and one it seems to strain against." },
+      { "name": "Whole-Class Cross-Examination", "minutes": 12, "description": "Groups report their findings in turn. Push for direct engagement across groups — for instance, ask whether the free will defense can explain a natural disaster that involves no human moral choice at all, or whether skeptical theism, if applied consistently, would also undercut the theist's confidence in other claims about God's nature." },
+      { "name": "Closure: Return to the Earthquake", "minutes": 5, "description": "Revisit the anonymous opening responses and ask whether anyone's thinking changed. Exit ticket: which version of the problem — logical or evidential — do you find more forceful, and why?" }
+    ],
+    "discussion_questions": [
+      "Does the free will defense actually address natural evil like earthquakes and disease, or only moral evil caused by human choices?",
+      "Is Rowe right that some suffering appears \"gratuitous\" — serving no greater good we can identify — or does our inability to see the point just reflect the limits of our own understanding, as skeptical theism claims?",
+      "If skeptical theism is right that we can't know God's reasons for permitting evil, does that undermine other theistic arguments that do claim to know God's nature and purposes?",
+      "Would a world with real moral freedom but no capacity for the worst atrocities be conceivable — and if so, does that weaken the free will defense?",
+      "Does the sheer amount and distribution of suffering in the world matter to the argument, or only whether any single case of gratuitous suffering exists at all?"
+    ],
+    "assessment": "Students write a two-paragraph argumentative response evaluating whether Rowe's evidential problem of evil (using the fawn case) succeeds against theism, engaging directly with one theodicy discussed in class and explaining whether it blocks Rowe's inference to probable non-existence. Grade for whether the student accurately represents the theodicy's actual claims and directly engages the \"gratuitous suffering\" concept, not for which side they land on.",
+    "extension": "Students research how one specific religious tradition — the Book of Job, Buddhist teachings on dukkha and karma, or process theology — responds to the problem of suffering, and write a one-page comparison memo explaining how that tradition's response is similar to or different from the theodicies covered in class."
+  },
+  {
+    "slug": "pascal-s-wager",
+    "title": "Betting on God: Pascal's Wager and the Logic of Belief Under Uncertainty",
+    "inspired_author": "Paul Bartha",
+    "inspired_course": "the Stanford Encyclopedia of Philosophy entry on Pascal's Wager",
+    "inspired_institution": "Stanford Encyclopedia of Philosophy",
+    "inspired_url": "https://plato.stanford.edu/entries/pascal-wager/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "55 minutes",
+    "topics": "Philosophy of Religion",
+    "essential_question": "If we can't know for certain whether God exists, could it still be rational to bet on belief — and does a decision-theoretic argument really have the power to settle a question about truth?",
+    "objectives": [
+      "Explain the structure of Pascal's Wager as a decision under uncertainty, distinguishing it from an evidential argument for God's existence.",
+      "Apply expected-value reasoning to Pascal's four-outcome payoff matrix and to a \"many gods\" variant of the matrix to test whether the argument's logic holds up.",
+      "Evaluate the \"many gods\" objection and the \"can belief be chosen\" objection, and defend a judgment about which poses the stronger challenge to the wager."
+    ],
+    "materials": [
+      "Blank 2x2 payoff matrix handout (God exists/does not exist × wager/do not wager)",
+      "A deck of cards or dice for a quick probability warm-up demonstration",
+      "Handout summarizing the major objections: many gods, doxastic voluntarism (can belief be chosen?), and intellectual/moral integrity",
+      "Poster paper, one sheet per small group, for building matrices"
+    ],
+    "procedure": [
+      { "name": "Hook: Would You Bet?", "minutes": 7, "description": "Present a simplified, non-religious scenario first: a one-in-a-million lottery ticket that pays out an enormous, life-changing sum if you win. Ask whether it's worth the small cost of a ticket given the size of the payoff, then reveal that this is structurally the same reasoning Pascal used — except his payoff is described as infinite." },
+      { "name": "Direct Instruction: Building the Matrix", "minutes": 15, "description": "Walk through Pascal's argument formally on the board: four possible outcomes (believe/God exists, believe/God doesn't, don't believe/God exists, don't believe/God doesn't), and the claim that if God exists, the payoff for belief is infinite reward while the cost of belief if God doesn't exist is small. Emphasize that Pascal is not arguing God exists — he's arguing that wagering on belief is the rational choice given the stakes, and that habituating yourself into belief (through practice, ritual, and community) is the practical next step even without proof." },
+      { "name": "Small-Group Objection Workshops", "minutes": 18, "description": "Assign three groups one objection each: the many gods objection (if the matrix must include every possible god with contrary requirements, the expected-value comparison breaks down), the doxastic voluntarism objection (can belief actually be chosen at will, and does Pascal's proposed remedy of \"acting your way into belief\" solve this), and the integrity objection (is believing purely for the payoff, rather than for genuine reasons, either possible or admirable — and would an omniscient God even reward it?). Each group builds their objection into the matrix format on their poster." },
+      { "name": "Whole-Class Debate", "minutes": 10, "description": "Groups present their objection and its poster. Open the floor for cross-examination: does the many gods objection actually defeat the wager, or does it just mean the calculation needs more rows? Does Pascal's own remedy for the \"can't choose belief\" problem actually work?" },
+      { "name": "Closure", "minutes": 5, "description": "Exit ticket: students write their personal verdict on whether Pascal's Wager gives a good practical reason to pursue religious belief, citing the objection they found most or least persuasive." }
+    ],
+    "discussion_questions": [
+      "Does the \"many gods\" objection show that Pascal's matrix is fatally incomplete, or does it just mean the calculation requires comparing several possible infinite payoffs rather than just one?",
+      "Can belief actually be produced by decision rather than by evidence — and if not, does Pascal's proposed remedy (behave as if you believe, and belief will follow through habit) actually solve the problem, or dodge it?",
+      "If God is omniscient, could God tell the difference between someone who believes for genuine reasons and someone who believes purely for the payoff — and if so, does that undercut the whole wager?",
+      "Does using an infinite payoff break ordinary expected-value reasoning, since multiplying even a tiny probability by infinity still yields an infinite result?",
+      "Is the wager better understood as a stand-alone proof, or as a first step — a reason to expose yourself to religious practice and community rather than a demonstration of God's existence?"
+    ],
+    "assessment": "Students complete a short written response constructing their own version of Pascal's payoff matrix for a non-religious high-stakes decision under uncertainty of their choosing (for example, taking costly precautions against a low-probability, high-impact risk), and explain what the \"many options\" and \"can't just choose to believe/act\" objections would say about their version. Grade on correct use of the decision-matrix structure and genuine engagement with at least one objection.",
+    "extension": "Have students find and summarize a real historical or contemporary argument that uses \"wager\"-style reasoning — such as arguments for taking cheap precautions against low-probability, high-stakes risks like pandemics or asteroid impacts — and write a short analysis of whether it holds up better or worse than Pascal's original wager."
+  },
+  {
+    "slug": "ontological-arguments",
+    "title": "Proving God from the Armchair? Anselm, Gaunilo, and the Ontological Argument",
+    "inspired_author": "Kenneth Himma & Graham Oppy",
+    "inspired_course": "the Stanford Encyclopedia of Philosophy entry on Ontological Arguments",
+    "inspired_institution": "Stanford Encyclopedia of Philosophy",
+    "inspired_url": "https://plato.stanford.edu/entries/ontological-arguments/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "65 minutes",
+    "topics": "Philosophy of Religion",
+    "essential_question": "Can we prove that a perfect being exists just by carefully thinking through the concept of perfection — or is existence not the kind of thing a definition can ever guarantee?",
+    "objectives": [
+      "Explain Anselm's ontological argument in premise form and Kant's objection that existence is not a \"great-making\" predicate.",
+      "Apply Anselm's exact pattern of reasoning to Gaunilo's \"perfect island\" parody to test whether the parody succeeds against Anselm's argument for God specifically.",
+      "Evaluate Plantinga's modal version of the ontological argument against the classical objections and defend a position on whether any version of the argument succeeds."
+    ],
+    "materials": [
+      "Handout with side-by-side texts: Anselm's Proslogion II argument, Gaunilo's island reply, and Kant's \"100 thalers\" objection",
+      "Whiteboard for diagramming \"possible worlds\" for the modal version",
+      "Small counters or tokens to represent possible worlds during the modal-argument activity",
+      "Index cards for a closing gallery-walk vote"
+    ],
+    "procedure": [
+      { "name": "Hook: Defining Perfection", "minutes": 8, "description": "Ask students to individually write a definition of \"the greatest possible being\" without using the word \"God.\" Have a few share aloud and note, without commentary yet, that most definitions naturally include actually existing rather than merely being imagined — this observation is the seed of Anselm's argument." },
+      { "name": "Direct Instruction: Anselm's Argument", "minutes": 15, "description": "Walk through Anselm's core move: God is defined as \"that than which nothing greater can be conceived\"; a being that exists in reality is greater than a being that exists only in the mind; so if God existed only in the mind, we could conceive of a greater being — one that also exists in reality — which is contradictory; therefore God must exist in reality. Then present Kant's rebuttal: existence adds nothing to the concept of a thing, since a hundred real dollars contain no more content than a hundred imagined dollars — only existence, not conceptual content, differs." },
+      { "name": "Paired Activity: Testing with Parodies", "minutes": 18, "description": "In pairs, students apply Anselm's exact reasoning pattern to Gaunilo's \"greatest possible island\" and try to generate the conclusion that the perfect island must exist. Then discuss: is there a real disanalogy that blocks this parody for God but not for islands — for instance, is \"greatest island\" actually incoherent, since more beaches or coconuts could always be added, in a way that \"greatest conceivable being\" is not?" },
+      { "name": "Direct Instruction and Discussion: The Modal Version", "minutes": 17, "description": "Briefly introduce Plantinga's modal ontological argument: a maximally great being that exists in some possible world exists necessarily, and so exists in all possible worlds, including the actual one. Focus discussion on the argument's most controversial premise — that it is even possible, or coherent, for a maximally great being to exist — and ask what work that premise is quietly doing." },
+      { "name": "Closure: Gallery Walk Verdicts", "minutes": 7, "description": "Students post an index card at one of three labeled stations — \"argument succeeds,\" \"fails on the island parody,\" or \"fails on existence-as-predicate\" — with one sentence of justification. Do a quick tally and highlight the spread of disagreement in the room." }
+    ],
+    "discussion_questions": [
+      "Is Gaunilo's \"perfect island\" parody a genuine refutation of Anselm, or is there a real disanalogy between a \"greatest island\" (which seems incoherent, since more features could always be added) and a \"greatest conceivable being\" (whose perfection isn't tied to quantifiable features)?",
+      "If Kant is right that existence isn't a predicate or \"great-making property,\" what does that do to Anselm's argument as a whole?",
+      "Does granting the modal argument's premise that a maximally great being is \"possible\" already concede most of what's actually in dispute?",
+      "Why might philosophers keep returning to reformulate the ontological argument — Anselm, Descartes, Leibniz, Gödel, Plantinga — rather than treating it as decisively refuted?",
+      "Can an argument be logically valid, with the conclusion truly following from the premises, and still fail to be persuasive? What would that mean for the ontological argument specifically?"
+    ],
+    "assessment": "Students write a structured response walking through Anselm's argument premise-by-premise, applying Gaunilo's island parody to it, and stating whether the parody succeeds — ending with their own verdict on whether the ontological argument proves what it claims to. Grade on accurate premise reconstruction and genuine engagement with the parody, not the final verdict.",
+    "extension": "Have students research one later variant of the ontological argument not covered in depth in class — Descartes's version in the Fifth Meditation, or Gödel's modal-logic version — and write a short summary of how it differs from Anselm's original."
+  },
+  {
+    "slug": "dialogues-concerning-natural-religion",
+    "title": "Watchmaker or Vegetable? Hume's Dialogues and the Argument from Design",
+    "inspired_author": "David Hume",
+    "inspired_course": "Dialogues Concerning Natural Religion",
+    "inspired_institution": "Project Gutenberg",
+    "inspired_url": "https://www.gutenberg.org/ebooks/4583",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "65 minutes",
+    "topics": "Philosophy of Religion",
+    "essential_question": "Does the order and apparent design we see in nature really give us good evidence for an intelligent designer — or does the analogy break down the moment we examine it closely?",
+    "objectives": [
+      "Explain the argument from design as voiced by Cleanthes and summarize Philo's central objections to the analogy between the universe and a designed artifact.",
+      "Apply Hume's own standards for evaluating analogical reasoning to the world-versus-machine comparison, identifying where the analogy grows weaker under scrutiny.",
+      "Evaluate the ambiguous ending of Part XII and construct a textually-supported argument for which character's position the dialogue ultimately favors."
+    ],
+    "materials": [
+      "Short excerpted passages from Parts II, V, and XII of the Dialogues (public-domain Gutenberg edition, pre-selected and printed)",
+      "Character role cards for Cleanthes, Philo, and Demea",
+      "Whiteboard for tracking objections raised against the design argument as they emerge",
+      "Sticky notes for text annotation during small-group reading"
+    ],
+    "procedure": [
+      { "name": "Hook: The Watch on the Heath", "minutes": 8, "description": "Present the classic image of finding an intricate watch lying on an empty heath and ask what students would infer about its origin, and why. Then ask them to extend the same reasoning to the universe itself — does a complex, ordered world license the same inference to a designer that a watch does?" },
+      { "name": "Direct Instruction: Meeting the Three Voices", "minutes": 12, "description": "Introduce Hume's dialogue form and its three characters: Cleanthes (a \"reasonable\" natural theology built on the design analogy), Demea (an orthodox theist skeptical of reasoning about God at all, favoring revelation and humility), and Philo (the probing skeptic, often read as closest to Hume's own voice, who relentlessly tests Cleanthes's analogy)." },
+      { "name": "Small-Group Close Reading", "minutes": 20, "description": "Assign each group one of Philo's objections from Part V — for example, that the world resembles a self-generating organism or vegetable as much as a designed machine, or that visible imperfections in the world (waste, suffering) suggest an imperfect or even plural set of causes rather than one perfect designer. Groups restate their assigned objection in their own words and apply it to a modern example of \"apparent design,\" such as the fine-tuning of physical constants or evolutionary adaptation." },
+      { "name": "Whole-Class Discussion: The Part XII Puzzle", "minutes": 18, "description": "Groups share their objections and modern examples. Then turn to Philo's surprising concession in Part XII that there is some \"remote analogy\" pointing to intelligence in nature, and Cleanthes's closing satisfaction with this. Facilitate discussion on whether this is Hume's real view, an ironic performance, or a strategic softening given the religious censorship of his era." },
+      { "name": "Closure", "minutes": 7, "description": "Students write a quick response identifying which character's argument held up best under the class's own scrutiny, citing one specific line or idea from the reading as evidence." }
+    ],
+    "discussion_questions": [
+      "Is the analogy between the universe and a designed machine strong enough to license an inference to an intelligent designer, or does Philo show that the two things being compared are too dissimilar?",
+      "If the world's imperfections — suffering, waste, disorder — are real, what does that suggest about the character of any inferred designer, and does it push toward polytheism, a limited deity, or no clear conclusion at all?",
+      "Why does Hume use a three-voiced dialogue instead of a straightforward essay — what does that form let him do that a single authorial voice couldn't?",
+      "Is Philo's concession in Part XII a genuine change of mind, an ironic performance, or something else — what textual evidence supports your reading?",
+      "Does Demea's suspicion of reasoning about God, favoring humility and revelation instead, offer a more defensible position than Cleanthes's confident empirical theology, even though Demea is the one who storms out of the conversation?"
+    ],
+    "assessment": "Students select one of Philo's objections to the design argument discussed in class and write a short essay explaining it in their own words, testing it against a modern example of \"apparent design,\" and stating whether the objection still holds against that modern example. Grade on faithful representation of Philo's actual reasoning and clear application to the chosen case.",
+    "extension": "Assign students to read the full text of Part XII (freely available via the Gutenberg link) and write a one-page reading response arguing for their own interpretation of Philo's final concession — sincere shift, ironic performance, or strategic self-protection — using specific lines as evidence."
+  },
+  {
+    "slug": "personal-identity",
+    "title": "What Makes You, You? An Introduction to Personal Identity",
+    "inspired_author": "Eric T. Olson",
+    "inspired_course": "the Stanford Encyclopedia of Philosophy entry on Personal Identity",
+    "inspired_institution": "Stanford Encyclopedia of Philosophy",
+    "inspired_url": "https://plato.stanford.edu/entries/identity-personal/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "60 minutes",
+    "topics": "Metaphysics",
+    "essential_question": "What actually makes you the same person today that you were ten years ago — your body, your brain, your memories, or something else entirely?",
+    "objectives": [
+      "Explain the three major theories of personal identity over time: animalism, psychological continuity theory, and the no-further-fact/reductionist view.",
+      "Apply all three theories to a teleportation or brain-fission thought experiment to determine what each implies about survival.",
+      "Evaluate whether personal identity is a determinate, all-or-nothing fact and defend a position using one of the thought experiments as evidence."
+    ],
+    "materials": [
+      "Handout describing three thought experiments: the classic teleporter, the fission (brain-split) case, and gradual brain replacement",
+      "Whiteboard for a comparison chart of the three theories",
+      "Small paper \"person tokens\" for visually mapping the fission case",
+      "Exit ticket slips"
+    ],
+    "procedure": [
+      { "name": "Hook: The Teleporter Malfunction", "minutes": 8, "description": "Present the classic scenario: a teleporter scans your body, destroys the original, and reconstructs an atom-for-atom copy on Mars. Ask whether you survived the trip, or whether you died and were replaced by a copy who merely believes he is you. Take a quick poll before moving on." },
+      { "name": "Direct Instruction: Three Theories of Sameness", "minutes": 15, "description": "Present animalism (you are identical with a living human organism, so identity tracks biological continuity), psychological continuity theory (identity tracks overlapping chains of memory, personality, and intention, following Locke and Parfit), and the no-further-fact/reductionist view (Parfit's claim that there is no deep further fact of identity beyond physical and psychological continuities, so identity questions can sometimes have no determinate answer)." },
+      { "name": "Small-Group Analysis: The Fission Case", "minutes": 20, "description": "Present the classic fission thought experiment, where a person's brain is split and each half is placed in a new body, both surviving with equal psychological continuity to the original. Groups work out what each of the three theories must say about this case, and identify the strain each theory faces — for instance, psychological continuity theory seems to require \"identity\" to become non-transitive, since you'd apparently be identical to two people who aren't identical to each other." },
+      { "name": "Whole-Class Share and Debate", "minutes": 12, "description": "Groups present their analysis of the fission case. Contrast it with the gradual brain-replacement case, and ask whether identity really requires a sharp yes/no answer or whether it can be a matter of degree." },
+      { "name": "Closure", "minutes": 5, "description": "Exit ticket: students state their verdict on the teleporter case and name one open question they still have about personal identity." }
+    ],
+    "discussion_questions": [
+      "In the teleporter case, is destroying the original and creating a perfect duplicate the same as surviving, or is it death followed by replacement?",
+      "In the fission case, can you be identical to two different resulting people if those two people aren't identical to each other? What does this suggest about whether personal identity obeys ordinary logical rules like transitivity?",
+      "If Parfit is right that \"identity is not what matters\" and what we really care about is psychological continuity, which can come in degrees or split, should that change how we feel about death, teleportation, or radical life extension?",
+      "Does animalism avoid the fission and teleporter puzzles more easily than psychological theories — and if so, is that a point in its favor, or does it just relocate the puzzle to cases like biological twinning?",
+      "Should our practical concerns — moral responsibility, concern for our future selves, keeping promises — track strict metaphysical identity, or could they track something looser, like psychological continuity, even when identity itself is indeterminate?"
+    ],
+    "assessment": "Students write a short essay applying one of the three theories of personal identity to a scenario they design themselves — a gradual replacement, a duplication, or a memory-loss case — and explain what that theory implies about whether the resulting person is \"the same\" individual. Grade on correct application of the chosen theory's actual criteria, not on the conclusion reached.",
+    "extension": "Have students watch or read a summary of a film, novel, or news story involving identity change, duplication, or memory loss (such as a mind-uploading or amnesia narrative) and write a short analysis of which theory of personal identity that story implicitly assumes."
+  },
+  {
+    "slug": "identity-over-time",
+    "title": "The Ship of Theseus: Puzzles of Identity Over Time",
+    "inspired_author": "André Gallois",
+    "inspired_course": "the Stanford Encyclopedia of Philosophy entry on Identity Over Time",
+    "inspired_institution": "Stanford Encyclopedia of Philosophy",
+    "inspired_url": "https://plato.stanford.edu/entries/identity-time/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "60 minutes",
+    "topics": "Metaphysics",
+    "essential_question": "If every plank of a ship is gradually replaced, is the repaired ship still the same ship it always was — and what does \"the same\" even mean over time?",
+    "objectives": [
+      "Explain the distinction between numerical and qualitative identity, and state the classic Ship of Theseus and statue/clay puzzles in premise form.",
+      "Apply the endurantist and perdurantist accounts of persistence to the two-ship version of the Ship of Theseus to determine what each says about which ship, if either, survives.",
+      "Evaluate the constitution view against the endurantist and perdurantist alternatives and defend a position on which best handles the statue/clay case."
+    ],
+    "materials": [
+      "Modeling clay and a small pre-formed clay figure, used as a physical prop",
+      "Diagram handout of the Ship of Theseus (planks replaced one by one, plus a second ship reassembled from the discarded originals)",
+      "Whiteboard for endurantist vs. perdurantist diagrams (objects as points in time vs. objects as four-dimensional \"worms\")",
+      "Index cards for a persistence-puzzle sorting activity"
+    ],
+    "procedure": [
+      { "name": "Hook: The Clay Statue", "minutes": 8, "description": "Using the physical clay, form it into a statue shape in front of the class (\"Goliath\"), then squash it back into a lump (\"Lump\"). Ask: when Goliath was squashed, did Goliath cease to exist even though the clay itself, Lump, obviously still exists? Poll the room before explaining further." },
+      { "name": "Direct Instruction: Numerical Identity and the Ship", "minutes": 15, "description": "Distinguish numerical identity (being one and the same thing) from qualitative identity (being exactly similar). Introduce the Ship of Theseus in its two-part version: a ship whose planks are replaced one at a time during repairs, alongside a rival ship secretly reassembled from all the original discarded planks. Pose the puzzle of which resulting ship, if either, counts as \"the real\" original." },
+      { "name": "Small-Group Analysis: Endurantism vs. Perdurantism", "minutes": 20, "description": "Explain the two main pictures of persistence: endurantism (an object is \"wholly present\" at every moment of its existence, the very same whole thing enduring through time) and perdurantism (an object is a four-dimensional \"space-time worm\" made of temporal parts, so \"the ship at noon\" is just one slice of a longer object). Groups apply both views to the two-ship puzzle and the statue/clay case and report which view handles each case more naturally, and what cost it pays." },
+      { "name": "Whole-Class Synthesis", "minutes": 12, "description": "Introduce the constitution view as a third option: the statue and the lump of clay are two distinct-but-coinciding objects sharing the same matter but differing in their identity and persistence conditions. Compare its cost — multiplying the number of objects in the same place — against the costs of endurantism and perdurantism." },
+      { "name": "Closure", "minutes": 5, "description": "Exit ticket: students apply one of the three frameworks to a new case of their choosing — a renovated house, a river, a repaired childhood toy — and briefly justify their answer." }
+    ],
+    "discussion_questions": [
+      "In the two-ship version of the Ship of Theseus, is the continuously-repaired ship or the reassembled-from-original-parts ship the \"real\" original — or does the puzzle show that \"same ship\" was never a fully precise notion to begin with?",
+      "Is it more plausible that Goliath (the statue) and Lump (the clay) are strictly one and the same thing, or two distinct objects that merely coincide in the same place at the same time? What follows from each answer?",
+      "Does perdurantism's idea that objects are four-dimensional \"worms\" with temporal parts solve persistence puzzles too easily, by treating questions about one enduring thing as differences between time-slices instead?",
+      "Are our ordinary judgments about \"the same object\" — the same car, the same river, the same self — simply imprecise in ways formal metaphysics reveals, or is metaphysics over-thinking something ordinary language already handles fine?",
+      "Does the gradual, one-piece-at-a-time nature of change suggest that identity over time might be a matter of degree rather than all-or-nothing?"
+    ],
+    "assessment": "Students choose one persistence puzzle from class — the two-ship Ship of Theseus, or the statue/clay case — and write a short paper defending either the endurantist, perdurantist, or constitution-view answer to it, explicitly naming and responding to the strongest objection to their chosen answer. Grade on accurate use of the relevant metaphysical vocabulary and genuine engagement with a rival view.",
+    "extension": "Have students find a real object in their own life that has undergone significant part-replacement or renovation over time — a family car, a repaired instrument, a renovated home — and write a short reflection applying the endurantist, perdurantist, and constitution frameworks to whether it counts as \"the same\" object today."
+  },
+  {
+    "slug": "free-will",
+    "title": "Free to Choose? Determinism, Libertarianism, and Compatibilism",
+    "inspired_author": "Timothy O'Connor & Christopher Evan Franklin",
+    "inspired_course": "the Stanford Encyclopedia of Philosophy entry on Free Will",
+    "inspired_institution": "Stanford Encyclopedia of Philosophy",
+    "inspired_url": "https://plato.stanford.edu/entries/freewill/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "60 minutes",
+    "topics": "Metaphysics",
+    "essential_question": "If every choice you make is the result of prior causes stretching back before you were born, can you ever really be said to choose freely — and does it matter whether the universe is deterministic?",
+    "objectives": [
+      "Explain the three major positions in the free will debate: hard determinism, libertarianism, and compatibilism.",
+      "Apply the Consequence Argument and a Frankfurt-style case to test whether determinism and free will, or at least moral responsibility, are compatible.",
+      "Evaluate whether moral responsibility requires libertarian free will or whether compatibilist freedom is sufficient, and defend a position with reference to at least one objection."
+    ],
+    "materials": [
+      "Whiteboard for a three-column comparison chart (hard determinism / libertarianism / compatibilism)",
+      "Handout describing a Frankfurt-style case (a neuroscientist who would force a choice but never needs to intervene because the agent chooses that way anyway)",
+      "Dominoes or a marble run as a physical prop for modeling deterministic causal chains",
+      "Index cards for an anonymous position poll"
+    ],
+    "procedure": [
+      { "name": "Hook: The Domino Chain", "minutes": 8, "description": "Set up and knock over a short line of dominoes. Ask whether the last domino's fall was \"free\" or entirely determined by the first push and the laws of physics, then ask students whether human choices are more like the dominoes, or different in kind, and why." },
+      { "name": "Direct Instruction: Three Positions", "minutes": 18, "description": "Present hard determinism (determinism is true and incompatible with free will, so we lack free will), libertarianism (we have a robust, undetermined kind of free will, which requires that determinism be false at least for free choices), and compatibilism (free will just means acting on your own desires and reasons without external coercion, which is compatible with determinism). Introduce Frankfurt's challenge to the assumption that free will requires being able to have done otherwise." },
+      { "name": "Small-Group Testing with Cases", "minutes": 18, "description": "Groups work through the Consequence Argument — if determinism is true, your acts are the consequences of the laws of nature and the distant past, neither of which is up to you, so your acts are not \"up to you\" either — and the Frankfurt case, where a would-be controller never needs to intervene because the agent freely chooses the desired option anyway. Each group decides which position handles both cases most consistently." },
+      { "name": "Whole-Class Debate", "minutes": 11, "description": "Groups share their findings. Press on whether compatibilism's redefinition of \"free\" is a genuine solution to the problem or, as some libertarians object, simply \"changing the subject\" to something less than what we ordinarily mean by freedom." },
+      { "name": "Closure", "minutes": 5, "description": "Anonymous index-card vote on final position with a one-sentence reason; reveal the tally to the class." }
+    ],
+    "discussion_questions": [
+      "Does the Consequence Argument show that free will is impossible under determinism, or is there a flaw in treating the laws of nature and the distant past as things \"not up to us\" in a way that transmits to our present actions?",
+      "Does the Frankfurt case succeed in showing that moral responsibility doesn't require the ability to have done otherwise, or does it smuggle in the very alternative possibilities it claims to eliminate?",
+      "Is compatibilism a genuine solution to the free will problem, or is it \"changing the subject\" by redefining freedom as something less than what we intuitively mean by the term?",
+      "If libertarian free will requires that some choices are not fully determined by prior causes, doesn't that risk making choices random or a matter of chance rather than \"free\" in any meaningful sense?",
+      "Does it matter, practically, which theory is true? Would discovering that hard determinism is correct change how we punish, praise, or hold each other responsible?"
+    ],
+    "assessment": "Students write a position paper defending hard determinism, libertarianism, or compatibilism as the most defensible view, using the Consequence Argument and the Frankfurt case discussed in class as required evidence, and responding to at least one objection to their chosen position. Grade on accurate representation of the arguments and consistency of the position defended, not on which view is chosen.",
+    "extension": "Have students research a real legal or ethical debate that turns partly on assumptions about free will — such as debates over neuroscience and criminal sentencing, or addiction and moral responsibility — and write a short memo analyzing which of the three positions from class that debate implicitly assumes."
+  },
+  {
+    "slug": "meditations-on-first-philosophy",
+    "title": "Doubting Everything: Descartes's Method of Doubt and the Cogito",
+    "inspired_author": "René Descartes (Jonathan Bennett rendering)",
+    "inspired_course": "Meditations on First Philosophy",
+    "inspired_institution": "Early Modern Texts",
+    "inspired_url": "https://www.earlymoderntexts.com/assets/pdfs/descartes1641.pdf",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "65 minutes",
+    "topics": "Metaphysics, Epistemology",
+    "essential_question": "If you can doubt literally everything you believe about the external world, is there anything at all you can be absolutely certain of?",
+    "objectives": [
+      "Explain Descartes's three waves of doubt — sensory illusion, the dreaming argument, and the deceiving God/evil demon hypothesis — and how the cogito is meant to survive all three.",
+      "Apply the three waves of doubt to a specific everyday belief to determine at which wave, if any, that belief stops being certain.",
+      "Evaluate whether the cogito establishes as much as Descartes needs it to, and defend a position on Lichtenberg's objection that Descartes is entitled only to \"thinking is occurring,\" not \"I exist.\""
+    ],
+    "materials": [
+      "Excerpted passages from Meditation I and II in plain-English rendering (printed)",
+      "Whiteboard for a \"waves of doubt\" diagram",
+      "Index cards, one everyday belief written per card, for the doubt-testing activity",
+      "Timer for paired work"
+    ],
+    "procedure": [
+      { "name": "Hook: What Can't Be Doubted?", "minutes": 8, "description": "Ask students to write down one thing they are absolutely certain of — not \"pretty sure,\" but certain beyond any possible doubt. Collect a few examples aloud and gently press on each with a skeptical scenario, showing how quickly apparent certainty can be shaken." },
+      { "name": "Direct Instruction: The Three Waves", "minutes": 18, "description": "Walk through Meditation I's escalating doubts: Wave 1, the senses sometimes deceive us (illusions), so we shouldn't fully trust them; Wave 2, the dreaming argument — you cannot conclusively distinguish waking experience from a vivid dream, so perhaps all sensory experience is dreamt; Wave 3, the evil demon/deceiving God hypothesis — even seemingly certain truths like mathematics could be the product of a powerful deceiver manipulating your mind. Emphasize that each wave is more radical, clearing away every belief that carries even the slightest doubt." },
+      { "name": "Paired Activity: Surviving the Waves", "minutes": 20, "description": "In pairs, students take an index card with an everyday belief (\"I have hands,\" \"2+2=4,\" \"the sun will rise tomorrow\") and test it against each of the three waves, marking where, if anywhere, it fails to survive. Then read the key cogito passage from Meditation II and discuss why Descartes claims that even the evil demon's deception presupposes a thinker being deceived, so \"I exist\" survives every wave that defeated the other beliefs." },
+      { "name": "Whole-Class Discussion", "minutes": 13, "description": "Discuss exactly what the cogito is claimed to prove — the existence of a thinking thing, not yet a persisting self over time, not yet a body — and raise the standard objection: does \"I think\" really license \"there is an I,\" a substantial thing, or only that \"thinking is occurring,\" as Lichtenberg objected?" },
+      { "name": "Closure", "minutes": 6, "description": "Exit ticket: in their own words, students explain why the cogito supposedly resists even the most radical doubt, and state whether they find it convincing." }
+    ],
+    "discussion_questions": [
+      "Is the dreaming argument successful — can you ever be completely sure, from the inside, that you are not dreaming right now?",
+      "Does the evil demon hypothesis go further than the dreaming argument, and if so, what kind of belief, if any, could survive even it besides \"I exist\"?",
+      "Is Lichtenberg's objection correct that Descartes is only entitled to conclude \"thinking is happening,\" not \"I, a persisting thinking substance, exist\"? What would it take to bridge that gap?",
+      "Descartes intends the cogito as a single, indubitable foundation for rebuilding all knowledge. Does one certain belief suffice as a foundation, or does he need much more before he can trust the external world again?",
+      "Is radical, systematic doubt like Descartes's actually useful as a method for finding truth, or does it set an unreasonably high bar that no ordinary belief, including scientific ones, could ever meet?"
+    ],
+    "assessment": "Students write a short paper tracing one everyday belief of their choosing through all three of Descartes's waves of doubt, showing exactly where, if anywhere, it fails to survive, and then evaluate whether the cogito genuinely resists the same doubt or whether Lichtenberg's objection undercuts it. Grade on accurate application of each wave and genuine engagement with the objection.",
+    "extension": "Assign students to read the opening of Meditation III (freely available via the Early Modern Texts link), where Descartes begins rebuilding knowledge from the cogito, and write a short reading response on how he attempts to move from \"I exist\" back out toward trusting the external world."
+  },
+  {
+    "slug": "the-analysis-of-knowledge",
+    "title": "Beyond Lucky Guesses: Gettier and the Search for a Definition of Knowledge",
+    "inspired_author": "Jonathan Jenkins Ichikawa & Matthias Steup",
+    "inspired_course": "the Stanford Encyclopedia of Philosophy entry on The Analysis of Knowledge",
+    "inspired_institution": "Stanford Encyclopedia of Philosophy",
+    "inspired_url": "https://plato.stanford.edu/entries/knowledge-analysis/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "60 minutes",
+    "topics": "Epistemology",
+    "essential_question": "We usually assume knowledge is just justified true belief — so why did a three-page paper by Edmund Gettier convince most philosophers that this definition is wrong?",
+    "objectives": [
+      "Explain the traditional justified-true-belief (JTB) analysis of knowledge and reconstruct a classic Gettier case that satisfies JTB without seeming to be knowledge.",
+      "Apply the \"no false lemmas\" condition and a reliabilist condition to the Gettier cases to test whether either patch successfully blocks the counterexample.",
+      "Evaluate whether knowledge can be given tidy necessary-and-sufficient conditions at all, and defend a position using an original example."
+    ],
+    "materials": [
+      "Handout with the JTB definition and two classic Gettier cases (the \"stopped clock\" and the \"Ford/Barcelona\" job-candidate case) in accessible language",
+      "Whiteboard for building and testing candidate definitions",
+      "Small dry-erase boards or paper for groups to draft their own new Gettier case",
+      "Sticky notes for a gallery walk of proposed fixes"
+    ],
+    "procedure": [
+      { "name": "Hook: Lucky Guesses vs. Knowledge", "minutes": 7, "description": "Present a simple case: you glance at a clock reading 3:00, believe it's 3:00, and it happens to actually be 3:00 — but unbeknownst to you, the clock stopped exactly twelve hours ago. Ask whether you knew it was 3:00, or just had a lucky true belief, and poll the room." },
+      { "name": "Direct Instruction: JTB and the Gettier Problem", "minutes": 15, "description": "Present the traditional analysis — S knows that p if and only if p is true, S believes that p, and S is justified in believing that p — then formally present Edmund Gettier's 1963 counterexample structure: cases where a belief is justified and true, but only true by luck, due to reasoning from a justified-but-false premise. Walk through the \"Ford/Barcelona\" case, where a person validly infers a disjunction that happens to be true for a completely unrelated reason, to show a JTB belief that is intuitively not knowledge." },
+      { "name": "Small-Group Activity: Patch or Break It", "minutes": 20, "description": "Assign each group a proposed solution: the \"no false lemmas\" condition (knowledge requires that no step in your justifying reasoning be false), a causal/reliabilist condition (knowledge requires the belief being produced by a reliable process appropriately connected to the fact), or the task of devising a brand-new Gettier-style case designed to defeat both proposed fixes. Groups test their assigned fix against the stopped-clock and Ford/Barcelona cases and try to construct a scenario that still slips through." },
+      { "name": "Whole-Class Share-Out", "minutes": 13, "description": "Groups present their test cases and new Gettier-style scenarios. Discuss whether the recurring pattern of \"always another counterexample\" suggests something structurally wrong with the whole JTB-plus-patch approach." },
+      { "name": "Closure", "minutes": 5, "description": "Exit ticket: in one sentence, is knowledge analyzable into simpler component conditions, or is it a more basic, unanalyzable notion?" }
+    ],
+    "discussion_questions": [
+      "In the stopped-clock case, what exactly is missing that would turn the lucky true belief into genuine knowledge?",
+      "Does the \"no false lemmas\" condition succeed in ruling out the Ford/Barcelona case, or can you construct a Gettier-style case where every step of reasoning is true and justified, yet the belief still seems beaten by luck?",
+      "Is justification the right third condition to add to true belief, or should we replace it with something else entirely — reliability, safety, or sensitivity to the truth?",
+      "Why do Gettier cases all seem to share a common structure — a justified true belief reached \"by accident\" through a chain involving luck — and does noticing that structure suggest a fix, or does every proposed fix generate its own new counterexample?",
+      "Is the whole project of finding necessary and sufficient conditions for knowledge worth pursuing, or should epistemologists treat \"knowledge\" as a primitive concept that resists this kind of tidy analysis?"
+    ],
+    "assessment": "Students construct their own original Gettier-style case, not one discussed in class, that satisfies the JTB definition without seeming to be genuine knowledge, and then test it against the \"no false lemmas\" and reliabilist fixes discussed in class, explaining whether either fix blocks their case. Grade on whether the constructed case genuinely fits the Gettier structure and on the rigor of the fix-testing.",
+    "extension": "Have students research one additional proposed solution to the Gettier problem not covered in class — such as the safety condition, the sensitivity condition, or virtue epistemology's \"credit for true belief\" approach — and write a short summary of how it attempts to handle the classic cases."
+  },
+  {
+    "slug": "the-problem-of-induction",
+    "title": "Why Trust the Sunrise? Hume and the Problem of Induction",
+    "inspired_author": "Leah Henderson",
+    "inspired_course": "the Stanford Encyclopedia of Philosophy entry on The Problem of Induction",
+    "inspired_institution": "Stanford Encyclopedia of Philosophy",
+    "inspired_url": "https://plato.stanford.edu/entries/induction-problem/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "60 minutes",
+    "topics": "Epistemology",
+    "essential_question": "You believe the sun will rise tomorrow because it always has before — but can that kind of reasoning ever be rationally justified without secretly assuming the very thing it's trying to prove?",
+    "objectives": [
+      "Explain Hume's argument that inductive inferences can be justified neither demonstratively nor by experience without circularity.",
+      "Apply Hume's argument structure to a concrete case of inductive reasoning to identify exactly where an unproven uniformity assumption is required.",
+      "Evaluate a proposed response to Hume's problem — Bayesian reframing or Reichenbach's pragmatic vindication — and defend a judgment about whether it resolves the problem or merely reframes it."
+    ],
+    "materials": [
+      "Handout with Hume's original bread/nourishment example and the demonstrative-vs-probable distinction",
+      "A bag of colored marbles or tokens for a live sampling demonstration",
+      "Whiteboard for diagramming the circularity of using induction to justify induction",
+      "Index cards for closing position statements"
+    ],
+    "procedure": [
+      { "name": "Hook: The Marble Bag", "minutes": 7, "description": "Draw ten marbles from an opaque bag, all red. Ask students how confident they are that the eleventh marble will also be red, and why. Press on what exactly justifies extending the observed pattern to an unobserved marble." },
+      { "name": "Direct Instruction: Hume's Argument", "minutes": 18, "description": "Present Hume's distinction between \"relations of ideas\" (demonstrative, a priori truths like mathematics, whose denial is a contradiction) and \"matters of fact\" (based on experience, whose denial is never a contradiction). Show that inductive inferences from past to future rest on an assumption that \"the future will resemble the past,\" and that this assumption can't be proven demonstratively (its denial isn't a contradiction) or by experience (since using induction's past success to justify induction is circular, assuming the very uniformity principle in question)." },
+      { "name": "Small-Group Activity: Locating the Gap", "minutes": 18, "description": "Groups work through Hume's bread example — bread has nourished me in the past, therefore it will nourish me in the future — identifying precisely where an unstated uniformity assumption is smuggled in, then attempt to patch the argument themselves and check whether their patch also secretly relies on an unproven uniformity assumption." },
+      { "name": "Direct Instruction and Discussion: Responses to Hume", "minutes": 12, "description": "Briefly present two responses: a Bayesian/probabilistic reframing (induction doesn't need certainty, just rational degrees of belief updated by evidence, though justifying the priors and updating rule raises similar worries) and Reichenbach's pragmatic vindication (we can't prove induction works, but if any method could predict the future, induction would, so using it is our best bet even without a guarantee). Discuss whether either actually answers Hume or simply lowers the bar for what counts as an answer." },
+      { "name": "Closure", "minutes": 5, "description": "Index-card verdict: does the problem of induction have a real solution, or do we just have no choice but to keep using induction anyway?" }
+    ],
+    "discussion_questions": [
+      "Is \"the future will resemble the past\" something we could ever prove without already assuming it, or relying on the very kind of reasoning that's in question?",
+      "Does the demonstrative/empirical distinction Hume draws really exhaust the possibilities, or might there be a third kind of justification that escapes his dilemma?",
+      "Does Reichenbach's pragmatic vindication — \"if anything works, induction will\" — actually answer Hume's challenge, or does it concede that induction can't be justified and settle for a fallback strategy instead?",
+      "If a Bayesian says we just need reasonable \"priors\" and updating rules rather than certainty, doesn't the question of what makes a prior reasonable raise a version of the same problem all over again?",
+      "If Hume is right that induction can't be rationally justified, does that mean scientific reasoning itself is irrational, or does science not actually depend on solving this philosophical puzzle to keep functioning?"
+    ],
+    "assessment": "Students write a short paper applying Hume's argument structure to a real inductive inference they rely on in daily life (for example, \"this bridge has held cars before, so it will hold my car\"), identifying precisely where the uniformity assumption is smuggled in, and evaluating whether the Bayesian or Reichenbach-style response actually resolves the gap. Grade on accurate reconstruction of Hume's argument and genuine engagement with a response to it.",
+    "extension": "Have students research how working scientists or statisticians talk about the reliability of inductive or statistical inference — such as confidence intervals or the replication crisis — and write a short memo on whether practicing scientists seem to treat Hume's problem as a live concern or as a solved, irrelevant issue."
+  },
+  {
+    "slug": "an-enquiry-concerning-human-understanding",
+    "title": "Impressions, Ideas, and Habit: Hume's Empiricist Theory of Mind",
+    "inspired_author": "David Hume",
+    "inspired_course": "An Enquiry Concerning Human Understanding",
+    "inspired_institution": "Project Gutenberg",
+    "inspired_url": "https://www.gutenberg.org/ebooks/9662",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "65 minutes",
+    "topics": "Epistemology",
+    "essential_question": "According to Hume, everything in our minds — even our wildest ideas — is built out of raw sensory impressions. Is that really true, and what happens to knowledge if it is?",
+    "objectives": [
+      "Explain Hume's distinction between impressions and ideas and his Copy Principle, that all ideas are ultimately derived from prior impressions.",
+      "Apply Hume's account of causation as constant conjunction plus habitual expectation to a concrete cause-and-effect example to test what it does and doesn't claim.",
+      "Evaluate whether the \"missing shade of blue\" case undermines Hume's Copy Principle and defend a position on whether his account of causation threatens the objectivity of scientific laws."
+    ],
+    "materials": [
+      "Excerpted passages from Sections II, IV, and VII of the Enquiry (public-domain Gutenberg edition, printed)",
+      "Whiteboard for the impressions/ideas diagram",
+      "Two billiard balls or similar objects as a physical prop for the causation discussion",
+      "Index cards for the closing activity"
+    ],
+    "procedure": [
+      { "name": "Hook: Imagine a New Color", "minutes": 8, "description": "Ask students to try to imagine a color they have genuinely never seen before — not a mixture of known colors, an entirely new one. Most will struggle or fail, which sets up Hume's empiricist claim that imagination works by copying and recombining what the senses have already delivered." },
+      { "name": "Direct Instruction: Impressions and Ideas", "minutes": 15, "description": "Introduce Hume's foundational distinction between impressions (vivid, immediate perceptions — sensations and feelings) and ideas (fainter copies of impressions used in thinking and memory), and his Copy Principle that all simple ideas derive from corresponding simple impressions. Introduce the \"missing shade of blue\" puzzle as Hume's own acknowledged counterexample: a person who has seen every shade of blue except one could, Hume grants, imagine that missing shade purely from the pattern, without ever having had the impression." },
+      { "name": "Guided Reading and Demonstration: Cause and Effect", "minutes": 20, "description": "Strike one billiard ball into another and ask what students actually observe versus what they infer — do they ever perceive a \"force\" or \"necessary connection\" making the second ball move, or only the regular sequence of contact followed by motion? Read the key passage where Hume argues that all we ever really observe is \"constant conjunction,\" and that our idea of necessary causal connection comes from a habit of the mind formed by repetition, not from anything perceived in the objects themselves." },
+      { "name": "Whole-Class Discussion", "minutes": 15, "description": "Discuss the implications: if causation is just a psychological habit of expecting one event after another rather than a real necessary link we perceive, does this threaten the objectivity of scientific laws, which are typically stated as necessary rather than merely habitual connections? Contrast this with the idea that Hume may simply be redefining what causation is, rather than denying its reality." },
+      { "name": "Closure", "minutes": 7, "description": "Exit ticket: does the missing-shade-of-blue exception undermine the Copy Principle, and does Hume's account of causation change how confident students should be in cause-and-effect claims they encounter in the news or in science class?" }
+    ],
+    "discussion_questions": [
+      "Does the \"missing shade of blue\" genuinely violate Hume's Copy Principle, or is it a minor, containable exception he can grant without damaging the overall theory?",
+      "When one billiard ball strikes another, do we ever actually perceive a \"necessary connection\" causing the motion, or only a regular sequence of events — and if only the latter, what does that make of our ordinary talk of one thing \"making\" another happen?",
+      "If our confidence in cause and effect ultimately rests on habit rather than reason or direct perception, does this mean scientific claims about causation are on shakier ground than we usually assume?",
+      "Is Hume denying that causation exists, or offering an analysis of what causation actually is — regularity plus expectation — that differs from our naive picture of \"necessary connection\"? Does this distinction matter?",
+      "Hume claims all substantive knowledge of the world rests on experience, never on reason alone. Are there any ideas or beliefs you hold that seem to resist being traced back to sensory impressions?"
+    ],
+    "assessment": "Students write a short paper explaining Hume's account of causation as constant conjunction plus habitual expectation, applying it to a cause-and-effect claim of their own choosing, and evaluating whether this account changes what they think science can legitimately claim about causal \"laws.\" Grade on accurate representation of Hume's actual position and a clear original application.",
+    "extension": "Assign students to read a short excerpt from Section X of the Enquiry, \"Of Miracles\" (freely available via the Gutenberg link), and write a reading response connecting Hume's skeptical empiricism about causation to his separate argument that no testimony could ever be strong enough to establish a miracle."
+  },
+  {
+    "slug": "epistemology",
+    "title": "Mapping the Theory of Knowledge: Sources, Justification, and Skepticism",
+    "inspired_author": "IEP contributors",
+    "inspired_course": "the Internet Encyclopedia of Philosophy entry on Epistemology",
+    "inspired_institution": "Internet Encyclopedia of Philosophy",
+    "inspired_url": "https://iep.utm.edu/epistemo/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "60 minutes",
+    "topics": "Epistemology",
+    "essential_question": "What exactly do we mean when we say someone \"knows\" something, and what are the different sources we can even get knowledge from in the first place?",
+    "objectives": [
+      "Explain the traditional JTB definition of knowledge and identify the major proposed sources of knowledge: perception, reason, testimony, memory, and introspection.",
+      "Apply the rationalism-versus-empiricism distinction to a specific claim, such as a mathematical truth versus an observational claim, to determine which source(s) of knowledge it depends on.",
+      "Evaluate the internalist and externalist accounts of justification and defend a position on which better explains a specific case of knowledge or its absence."
+    ],
+    "materials": [
+      "Whiteboard for a \"map\" of epistemology's major questions: what is knowledge, what are its sources, what is justification",
+      "Handout with 6-8 short claims to sort by knowledge source (for example, \"2+2=4,\" \"it's raining outside,\" \"my grandmother told me our family emigrated in 1920,\" \"I am currently thinking about pizza\")",
+      "Index cards for the source-sorting activity",
+      "Timer for small-group work"
+    ],
+    "procedure": [
+      { "name": "Hook: What Do You \"Just Know\"?", "minutes": 7, "description": "Ask students to list three things they claim to \"know,\" then challenge each: how, specifically, do you know that? Sort the emerging answers loosely on the board into rough categories — saw it, was taught it, figured it out logically, remember it — without yet naming them formally." },
+      { "name": "Direct Instruction: Mapping the Field", "minutes": 15, "description": "Introduce epistemology's core questions — what is knowledge, where does it come from, what justifies belief — and the traditional JTB starting point. Present the major proposed sources of knowledge: perception, reason or a priori intuition, testimony, memory, and introspection, noting that these sources often overlap rather than operating in isolation." },
+      { "name": "Small-Group Activity: Sorting and the Rationalism/Empiricism Divide", "minutes": 18, "description": "Groups sort the provided claims by which knowledge source(s) they seem to depend on, then use this sorting to introduce the rationalism-empiricism debate: can some knowledge, like mathematics or logic, be gained by reason alone, independent of experience, or does even that knowledge ultimately trace back to experience? Groups pick their hardest-to-classify claim and prepare a one-minute defense of their classification." },
+      { "name": "Direct Instruction and Discussion: Internalism vs. Externalism", "minutes": 14, "description": "Introduce the justification debate: internalism (justification depends on factors internally accessible to the believer, like their reasons and evidence) versus externalism (justification can depend on external factors the believer isn't aware of, like whether their belief-forming process is reliable), using a case where someone has a perfectly reliable but unrecognized ability to detect true statements. Ask which view better explains whether that person's beliefs count as knowledge." },
+      { "name": "Closure", "minutes": 6, "description": "Exit ticket: students pick one \"known\" claim from the opening hook and identify its source and which justification framework — internalist or externalist — best explains why it counts as knowledge." }
+    ],
+    "discussion_questions": [
+      "Are perception, reason, testimony, memory, and introspection genuinely distinct sources of knowledge, or do they overlap so much — since testimony often ultimately rests on someone else's perception or reasoning — that the categories break down?",
+      "Can any knowledge really be gained by reason alone, independent of all experience, as rationalists claim for mathematics and logic, or does even seemingly a priori knowledge depend on some experiential input to acquire the relevant concepts?",
+      "If someone forms true beliefs through a reliable process they're totally unaware of, do they really \"know\" the resulting claims, even though they couldn't justify them if challenged?",
+      "How much of what you \"know\" actually rests on testimony rather than on your own direct perception or reasoning — and does that change how careful you should be about trusting your sources?",
+      "Is the traditional JTB starting point still a good baseline for thinking about knowledge, or does treating it as obviously correct risk skipping past its real weaknesses?"
+    ],
+    "assessment": "Students pick one claim they personally believe they \"know\" and write a short structured analysis identifying its source or sources of knowledge and explaining whether an internalist or externalist account of justification better explains why it counts as knowledge. Grade on correct use of the vocabulary from class and coherence of the analysis, not the specific claim chosen.",
+    "extension": "Have students interview a family member or friend about how they \"know\" something they hold to be true — a family history claim, a practical skill, a belief about the world — and write a short reflection classifying the knowledge source(s) involved and any epistemic weaknesses in the chain, such as unreliable testimony or faded memory."
+  }
+]

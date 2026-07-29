@@ -1,0 +1,503 @@
+[
+  {
+    "slug": "beauty",
+    "title": "Is Beauty in the Object or the Eye? A Guided Tour of Theories of Beauty",
+    "inspired_author": "Crispin Sartwell",
+    "inspired_course": "the Stanford Encyclopedia of Philosophy entry on Beauty",
+    "inspired_institution": "Stanford Encyclopedia of Philosophy",
+    "inspired_url": "https://plato.stanford.edu/entries/beauty/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "60 minutes",
+    "topics": "Aesthetics",
+    "essential_question": "Is beauty a real property that objects have independently of anyone noticing them — like mass or shape — or is it something that exists only in the response of a perceiver, and can any theory of beauty really split the difference?",
+    "objectives": [
+      "Distinguish objectivist theories of beauty (beauty as a mind-independent property, such as proportion or harmony) from subjectivist theories (beauty as a response or feeling in the perceiver).",
+      "Explain how Hume's standard of taste and Kant's account of the judgment of taste each attempt to preserve some form of universal agreement about beauty without treating it as a simple physical property.",
+      "Apply objectivist, subjectivist, and hybrid theories to a contested real-world case and construct a defensible position about which theory explains it best."
+    ],
+    "materials": [
+      "A set of 5-6 printed or projected images spanning very different kinds of beauty (a natural landscape, a classical sculpture, a human face, an abstract painting, an ordinary object like a chair)",
+      "Handout summarizing four positions: classical objectivism (proportion/harmony), Humean subjectivism ('Of the Standard of Taste'), Kant's account of the judgment of taste, and evolutionary/desire-based theories",
+      "Whiteboard or chart paper for recording the class's initial rankings",
+      "Index cards for the anonymous ranking activity"
+    ],
+    "procedure": [
+      { "name": "Hook: Rank the Images", "minutes": 10, "description": "Show the 5-6 images and ask each student to silently rank them from most to least beautiful on an index card, along with one word explaining their top choice. Tabulate the rankings on the board without discussion yet. Note aloud that there will likely be real disagreement, especially about the abstract painting and the ordinary object — this sets up the day's central tension." },
+      { "name": "Direct Instruction: Objectivism vs. Subjectivism", "minutes": 15, "description": "Introduce classical objectivism, the view (traceable to Pythagoras and developed by Plotinus) that beauty is a real, mind-independent property tied to proportion, symmetry, and harmony among parts. Contrast this with subjectivism, the view that calling something beautiful just reports a pleasurable response in the observer, with no further fact about the object required. Ask students which view better explains their own rankings from the hook." },
+      { "name": "Direct Instruction: Hume's and Kant's Middle Paths", "minutes": 15, "description": "Introduce Hume's proposal that while beauty is a felt response, not every response is equally reliable — a 'true judge' needs delicacy of sensation, practice, comparison across many works, and freedom from prejudice, so some verdicts genuinely outrank others. Then introduce Kant's more radical claim that judgments of beauty are grounded purely in subjective pleasure yet nonetheless demand universal agreement from everyone, without appeal to a concept or rule. Chart both alongside objectivism and subjectivism on the board." },
+      { "name": "Small-Group Case Application", "minutes": 13, "description": "In groups of three, students pick one image from the hook that produced the most disagreement and argue how each of the four positions (objectivism, subjectivism, Hume, Kant) would explain the disagreement — does it mean someone is simply wrong, that both are right, or that one judge is more qualified than the other? Groups record their strongest and weakest theory for that specific case." },
+      { "name": "Closure: Revised Vote and Debate", "minutes": 7, "description": "Reveal the class's original rankings again and ask whether anyone wants to revise their ranking after the discussion. Take a quick vote on which theory (objectivism, subjectivism, Hume, or Kant) the class finds most persuasive overall, and ask one or two dissenters to defend their choice in a sentence." }
+    ],
+    "discussion_questions": [
+      "If beauty were purely objective, like mass or temperature, how would we explain the persistent and sometimes deep disagreements about it that exist both across cultures and within your own classroom?",
+      "If beauty is purely subjective, is it strange that people argue about it at all, as though someone could actually be wrong? What do those arguments suggest about how we really treat aesthetic judgments?",
+      "Hume says a 'true judge' of taste needs delicacy, extensive comparison, and freedom from prejudice — does this genuinely rescue objectivity, or does it just relocate the disagreement to who counts as a qualified judge?",
+      "Kant claims a judgment of beauty is grounded in a private feeling of pleasure yet still demands that everyone else agree with it. Is that combination actually coherent, or is Kant trying to have it both ways?",
+      "Does an object's usefulness or function (like the chair) change whether or how we can call it beautiful, compared to something with no function at all, like a landscape?"
+    ],
+    "assessment": "Students write a one-page position paper in which they select one image or object discussed in class and defend, using specific concepts from at least two of the four theories covered, whether its beauty is best explained as an objective property, a subjective response, or some hybrid of the two. Grade for clarity of argument and accurate use of the theories' vocabulary, not for which position the student ultimately takes.",
+    "extension": "Have students find two online reviews or critical responses to the same artwork, film, or piece of music that sharply disagree about its beauty or quality, and write a short analysis of which of the four theories from class best explains the disagreement — and whether the disagreement can be resolved at all under that theory."
+  },
+  {
+    "slug": "aesthetic-experience",
+    "title": "Noticing Differently: What Makes an Experience Aesthetic?",
+    "inspired_author": "Antonia Peacocke",
+    "inspired_course": "the Stanford Encyclopedia of Philosophy entry on Aesthetic Experience",
+    "inspired_institution": "Stanford Encyclopedia of Philosophy",
+    "inspired_url": "https://plato.stanford.edu/entries/aesthetic-experience/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "60 minutes",
+    "topics": "Aesthetics",
+    "essential_question": "When you pause to notice that a sunset is beautiful, are you having a fundamentally different kind of experience than when you glance at a stoplight to check whether it's red — and if so, what exactly makes an experience count as 'aesthetic' rather than merely practical?",
+    "objectives": [
+      "Distinguish practical, function-driven perception from aesthetic attention, using specific criteria such as disinterestedness and attention to appearance for its own sake.",
+      "Explain at least two competing philosophical accounts of what makes an experience aesthetic: attitude-based accounts (disinterested or 'distanced' attention) and value/object-based accounts (unity, intensity, and complexity of the experience itself).",
+      "Apply these accounts to real-life cases to evaluate whether aesthetic experience requires art specifically, or can arise from any object, including ordinary and natural ones."
+    ],
+    "materials": [
+      "One plain, everyday object per group (an apple, a stone, a coffee mug) for the demonstration activity",
+      "Handout summarizing the 'aesthetic attitude'/psychical distance theory and the object/value-based theory (unity, intensity, complexity of experience)",
+      "Case-study cards describing 6-8 real-life scenarios (some clearly artistic, some ordinary or natural) for the sorting activity",
+      "Whiteboard for recording the class's criteria list"
+    ],
+    "procedure": [
+      { "name": "Hook: Look at It Twice", "minutes": 10, "description": "Give each group a plain object and ask them first to describe it purely in terms of its use ('what is this for, and how do you use it?'). Then ask them to spend two full minutes looking at it purely for its appearance — color, texture, shape, light — with no reference to function. Ask groups to describe what changed about their attention and whether the second way of looking felt different in kind, not just in duration." },
+      { "name": "Direct Instruction: The Aesthetic Attitude", "minutes": 15, "description": "Introduce the 'aesthetic attitude' family of theories: an experience becomes aesthetic when we adopt a disinterested stance toward an object, attending to it for its own sake rather than for what it can do for us or how it relates to our desires (a version of psychical 'distance'). Connect this back to the object demonstration — the second, function-free way of looking. Note the challenge: is 'disinterested attention' something we simply choose to switch on, or does it require the object to cooperate in some way?" },
+      { "name": "Direct Instruction: Unity, Intensity, and the Object/Value View", "minutes": 15, "description": "Introduce an alternative approach that locates the aesthetic not just in the attitude of the perceiver but in features of the experience itself: a felt unity or coherence, an intensity of engagement, and a sense of the experience being complete in itself rather than merely a step toward something else. Contrast this with the attitude-based view: on this account, not just any object can support a genuinely aesthetic experience by attitude alone — the experience itself has to have a certain shape." },
+      { "name": "Small-Group Case Sorting", "minutes": 13, "description": "In small groups, students sort the 6-8 case cards (e.g., watching a sunset, solving a math proof, tasting a well-cooked meal, watching a football play unfold, listening to a subway busker) into 'clearly aesthetic,' 'clearly not,' and 'contested,' justifying each placement using the attitude theory and/or the unity/intensity theory. Circulate to push groups on their contested cases specifically." },
+      { "name": "Closure: Does It Require Art?", "minutes": 7, "description": "Reconvene and ask groups to report their most contested case. Push toward the essential question: must an aesthetic experience involve art at all, or can ordinary and natural objects support it just as well? Take a final class vote and ask a student on each side to justify their answer in one sentence." }
+    ],
+    "discussion_questions": [
+      "Can you adopt a disinterested, aesthetic attitude toward literally anything — a pothole, a tax form — or do some objects resist being experienced aesthetically no matter how you attend to them?",
+      "If aesthetic experience requires unity, intensity, and a sense of completeness, does that mean a chaotic or fragmented experience (like a jarring piece of modern music) can never be aesthetic, even if it's clearly art?",
+      "Is watching live sport an aesthetic experience, a practical one (rooting for an outcome), or can it be both at once — and does calling it 'aesthetic' change how seriously we should take it?",
+      "Do you think aesthetic experience is fundamentally a different kind of mental state from ordinary perception, or just ordinary perception plus a particular kind of attention and evaluation layered on top?",
+      "If two people look at the same sunset and only one has an aesthetic experience, what does that suggest about whether the aesthetic lies in the object, the perceiver, or the relationship between them?"
+    ],
+    "assessment": "Students write a short response identifying one experience from their own life that they believe was genuinely aesthetic, describing it using the vocabulary from at least two theories covered in class (disinterestedness, unity, intensity, attention to form), and explaining why an ordinary or practical description would have missed something important about it.",
+    "extension": "Have students spend 10 uninterrupted minutes in a public or natural setting of their choosing (a park, a cafeteria, their own backyard) deliberately practicing disinterested attention to something they would normally overlook, then write a one-paragraph reflection on whether they were able to produce a genuinely aesthetic experience, and what got in the way if they couldn't."
+  },
+  {
+    "slug": "the-poetics",
+    "title": "Pity, Fear, and Catharsis: Reverse-Engineering Tragedy with Aristotle",
+    "inspired_author": "Aristotle (trans. S. H. Butcher)",
+    "inspired_course": "The Poetics",
+    "inspired_institution": "Project Gutenberg",
+    "inspired_url": "https://www.gutenberg.org/ebooks/1974",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "65 minutes",
+    "topics": "Aesthetics",
+    "essential_question": "Aristotle claims that watching terrible things happen to a good person on stage can be pleasurable, and even good for us — how can pity and fear, two uncomfortable emotions, add up to something he calls catharsis rather than just distress?",
+    "objectives": [
+      "Explain Aristotle's definition of tragedy and identify its six constituent parts (plot, character, thought, diction, melody, and spectacle), with plot as the most important.",
+      "Define and locate hamartia, peripeteia, and anagnorisis within a specific tragic plot.",
+      "Evaluate Aristotle's catharsis thesis — that tragedy produces a pleasurable purgation of pity and fear — by applying it to a modern tragic story."
+    ],
+    "materials": [
+      "Excerpt handout with Aristotle's definition of tragedy, his ranking of the six parts, and his discussion of the best kind of tragic plot (including the Oedipus references)",
+      "A one-page plot diagram template with slots for hamartia, peripeteia, and anagnorisis",
+      "A short synopsis (half a page) of a modern tragic film, play, or novel the class is likely to know, for the application activity",
+      "Whiteboard for building the six-parts chart"
+    ],
+    "procedure": [
+      { "name": "Hook: What Makes a Story 'Tragic'?", "minutes": 8, "description": "Ask students to name a story, film, or show they'd call genuinely tragic and to explain in one sentence what makes it tragic rather than just sad. Collect a few answers on the board, noting any that mention the character's own choices or flaws versus pure bad luck — this distinction anticipates hamartia." },
+      { "name": "Direct Instruction: The Six Parts of Tragedy", "minutes": 15, "description": "Introduce Aristotle's definition of tragedy as an imitation of a serious, complete action, and walk through his six parts in descending order of importance: plot, character, thought, diction, melody, and spectacle. Emphasize Aristotle's controversial ranking — plot (the arrangement of the incidents) matters more than character, because tragedy imitates action and life, not people as such. Ask students whether they agree that plot should outrank character." },
+      { "name": "Direct Instruction: Hamartia, Peripeteia, Anagnorisis, and Catharsis", "minutes": 17, "description": "Using the Oedipus story as the running example from the excerpt, define hamartia (an error or flaw, not necessarily a moral vice, that sets the tragic events in motion), peripeteia (a reversal of fortune), and anagnorisis (a recognition, a shift from ignorance to knowledge, ideally coinciding with the peripeteia). Then introduce catharsis: Aristotle's claim that the best tragic plots arouse pity (for undeserved suffering) and fear (recognizing 'that could be me') and, through the completeness and unity of the plot, purge or clarify these emotions rather than leaving the audience simply distressed." },
+      { "name": "Small-Group Application", "minutes": 18, "description": "In small groups, students take the provided synopsis of a modern tragic story and fill in the plot diagram, identifying the protagonist's hamartia, the peripeteia, and the anagnorisis. Groups should also identify the specific moment they believe is designed to produce the most pity and the most fear, and whether those moments coincide." },
+      { "name": "Closure: Does Catharsis Actually Happen?", "minutes": 7, "description": "Reconvene and ask a few groups to report their diagrams. Push on the essential question directly: after finishing a genuinely tragic story, do students actually feel a kind of relief or clarification (Aristotle's catharsis), or does the story just leave them upset? Take a quick vote and ask both sides to justify their answer." }
+    ],
+    "discussion_questions": [
+      "Aristotle ranks plot above character, arguing tragedy imitates action rather than people — do you agree, or does a tragedy's power actually come more from who the characters are than from what happens to them?",
+      "Is hamartia best understood as a moral flaw (like arrogance) or simply an error in judgment that any reasonable person could make? Does the difference matter for how much we pity the tragic hero?",
+      "If a tragic hero suffered a fate they clearly deserved, would Aristotle still call the effect 'tragic,' or does tragedy specifically require suffering that outweighs the person's fault?",
+      "Does catharsis describe something that actually happens to you after watching or reading a tragedy, or is it more like a theory of what tragedy ought to do, whether or not it always works?",
+      "Can a modern story be genuinely Aristotelian tragedy without a single 'noble' protagonist, given how different our sense of social rank is from ancient Athens?"
+    ],
+    "assessment": "Students write a short essay analyzing one tragic story of their choosing (from the class synopsis or one they select) using Aristotle's framework: identifying its hamartia, peripeteia, and anagnorisis, and arguing whether the story ultimately produces catharsis or simply distress, with specific reference to Aristotle's account of pity and fear.",
+    "extension": "Have students find a modern film or show often described as a 'tragedy' and write a short comparison of how faithfully it follows Aristotle's structure, noting any of the six parts (especially plot vs. spectacle) that the work seems to prioritize differently than Aristotle recommends."
+  },
+  {
+    "slug": "critique-of-judgement",
+    "title": "Beautiful, Sublime, or Neither? Kant's Puzzle of Subjective Universality",
+    "inspired_author": "Immanuel Kant (trans. J. H. Bernard)",
+    "inspired_course": "Critique of Judgement",
+    "inspired_institution": "Project Gutenberg",
+    "inspired_url": "https://www.gutenberg.org/ebooks/48433",
+    "grade_level": "Undergraduate / Graduate Seminar",
+    "duration": "70 minutes",
+    "topics": "Aesthetics",
+    "essential_question": "Kant claims that a judgment like 'this is beautiful' is grounded purely in a private feeling of pleasure, yet nonetheless demands universal agreement from every other rational being — can these two claims possibly be reconciled, and does Kant's account of the 'free play' of our faculties actually succeed in reconciling them?",
+    "objectives": [
+      "Reconstruct Kant's four 'moments' of the judgment of taste: disinterestedness, subjective universality, purposiveness without a purpose, and necessity.",
+      "Explain the 'free play' of imagination and understanding as Kant's proposed ground for aesthetic pleasure, and why he thinks this ground can support a claim to universal validity without a determinate concept.",
+      "Distinguish the beautiful from the mathematical and dynamical sublime, and evaluate whether Kant's overall framework successfully bridges subjective feeling and universal claim."
+    ],
+    "materials": [
+      "Excerpt packet with short passages corresponding to each of the four moments, the free-play passage, and the sublime passages (mathematical and dynamical)",
+      "Seminar discussion guide with close-reading prompts for each excerpt",
+      "Whiteboard for building the four-moments chart",
+      "A short case for application: a description of a vast landscape or violent storm, to test the sublime"
+    ],
+    "procedure": [
+      { "name": "Framing: The Paradox of Taste", "minutes": 10, "description": "Open by stating the paradox baldly: Kant thinks 'X is beautiful' is not a claim about X at all, only about the feeling X produces in you — yet he also thinks that in making the claim, you demand everyone else feel the same way, as though you were describing a real property of X. Ask the seminar to generate, individually, their own first-pass explanation of how both halves could be true at once, to be revisited at the end." },
+      { "name": "Mini-Lecture: The Four Moments of the Judgment of Taste", "minutes": 20, "description": "Walk through Kant's four moments in order: disinterestedness (a judgment of beauty involves no interest in the real existence or use of the object, unlike judgments of the agreeable or the good); subjective universality (the judgment is grounded in feeling alone, yet claims validity for everyone, unlike a merely private preference); purposiveness without a purpose (the object seems designed or suited to our cognitive faculties, without being referred to any actual concept of its purpose); and necessity (we judge that everyone ought to agree, as a kind of 'exemplary' necessity, though it can't be proven by argument). Have students annotate their excerpt packet with each moment as it's introduced." },
+      { "name": "Seminar Close Reading: Free Play", "minutes": 20, "description": "Turn to the excerpt on the 'free play' of imagination and understanding. Facilitate close reading of the passage where Kant proposes that aesthetic pleasure arises from a harmonious, non-conceptual interplay between imagination (which organizes what we perceive) and understanding (which normally seeks to fix perception under a determinate concept) — a state pleasurable precisely because no single concept manages to pin the object down. Push the seminar on whether 'free play' is a genuine psychological explanation or largely a name for the very thing it's meant to explain." },
+      { "name": "Discussion: The Beautiful vs. the Sublime", "minutes": 15, "description": "Introduce the sublime as a distinct aesthetic category: the mathematical sublime (an object so vast our imagination cannot grasp it as a whole, prompting a turn to reason's idea of totality) and the dynamical sublime (an object so powerful it threatens us, viewed from a position of safety, prompting awareness of our own rational and moral capacity to resist mere natural force). Apply both to the storm/landscape case and ask whether the sublime is really a variety of aesthetic pleasure or something closer to a moral or rational satisfaction wearing aesthetic clothing." },
+      { "name": "Closure: Revisiting the Paradox", "minutes": 5, "description": "Return to the opening paradox and ask each student whether Kant's apparatus (the four moments plus free play) actually resolves it, or merely restates it in more technical language. Collect brief final positions before ending the seminar." }
+    ],
+    "discussion_questions": [
+      "If a judgment of beauty involves no interest in an object's real existence, how do we explain the fact that people often want to own, preserve, or be near beautiful things?",
+      "Kant says the pleasure of beauty comes from a 'free play' between imagination and understanding with no determinate concept — is this a substantive psychological claim, or just a redescription of the puzzle in new vocabulary?",
+      "Is the dynamical sublime really an aesthetic response to nature, or is it closer to a moral or rational feeling (awareness of our own rational dignity) that merely uses a natural scene as its occasion?",
+      "Kant's 'necessity' of taste judgments is not logical or empirical necessity but something he calls 'exemplary' — is this a coherent third category, or an attempt to have the authority of necessity without its actual force?",
+      "Does Kant's framework work equally well for non-natural beauty, such as music or abstract art, or does his apparatus (especially the sublime) lean heavily on examples drawn from nature specifically?"
+    ],
+    "assessment": "Students write a seminar paper (2-3 pages) reconstructing Kant's account of how a subjective, feeling-based judgment of taste can nonetheless claim universal validity, evaluating specifically whether the 'free play' of imagination and understanding does genuine explanatory work or merely relabels the problem, with direct textual citation from the assigned excerpts.",
+    "extension": "Have students find a contemporary example of the sublime (a photograph of a hurricane, a piece of vast-scale architecture, a description of deep space) and write a short analysis applying Kant's mathematical/dynamical distinction, evaluating whether his 18th-century framework still captures what feels overwhelming about the example today."
+  },
+  {
+    "slug": "existentialism",
+    "title": "No Blueprint Included: Freedom and Anxiety in Existentialist Philosophy",
+    "inspired_author": "Kevin Aho",
+    "inspired_course": "the Stanford Encyclopedia of Philosophy entry on Existentialism",
+    "inspired_institution": "Stanford Encyclopedia of Philosophy",
+    "inspired_url": "https://plato.stanford.edu/entries/existentialism/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "60 minutes",
+    "topics": "Existentialism",
+    "essential_question": "If there is no pre-given human nature or blueprint dictating who you should become, then you are radically free to define yourself through your own choices — is that freedom liberating, terrifying, or both at once?",
+    "objectives": [
+      "Identify the core commitments shared across existentialist philosophy despite its diverse figures: the primacy of lived, subjective experience, the claim that 'existence precedes essence,' and the distinction between authentic and inauthentic living.",
+      "Compare how at least two existentialist thinkers (for example, Kierkegaard and Sartre, or Heidegger and Sartre) treat anxiety or anguish as a revealing, rather than merely negative, experience.",
+      "Apply the concept of inauthenticity/bad faith to identify examples in contemporary life, and construct an argument about what living authentically would require instead."
+    ],
+    "materials": [
+      "Quote handout with short representative passages from Kierkegaard, Heidegger, and Sartre on anxiety, facticity, and authenticity",
+      "Comparison chart (one column per thinker) for the station activity",
+      "Whiteboard for the opening exercise",
+      "Scenario cards depicting everyday situations for the closing bad-faith activity"
+    ],
+    "procedure": [
+      { "name": "Hook: Design-a-Human", "minutes": 8, "description": "Ask students to imagine a factory that manufactures toasters: the toaster's purpose (its essence) is decided before a single unit is built. Ask: is a human being like that — built to a pre-existing purpose or nature — or not? Collect initial reactions on the board without resolving the question yet; this previews 'existence precedes essence.'" },
+      { "name": "Direct Instruction: Existence Precedes Essence", "minutes": 17, "description": "Introduce the existentialist slogan that for human beings, existence precedes essence: we simply find ourselves existing first, with no fixed nature determining in advance who we are, and only afterward do we define ourselves through our choices and actions. Connect this to the shared existentialist emphasis on lived, first-person experience over abstract theorizing about human nature, and introduce authenticity (owning your choices as genuinely yours) versus inauthenticity (drifting along on others' expectations or excuses) as the central practical stakes of this claim." },
+      { "name": "Small-Group Station Analysis", "minutes": 18, "description": "Set up three stations, one per thinker (Kierkegaard, Heidegger, Sartre), each with a short quote on anxiety or anguish. Groups rotate through all three, filling in the comparison chart: what triggers anxiety for this thinker, and what does anxiety reveal about the human condition (for Kierkegaard, the 'dizziness of freedom' before an unmade choice; for Heidegger, our being thrown into a world we didn't choose yet must still take up as our own; for Sartre, that we are 'condemned to be free' with no excuse available for what we become)." },
+      { "name": "Whole-Class Bad Faith Sorting", "minutes": 12, "description": "Present 4-5 scenario cards depicting people avoiding responsibility for a choice (blaming 'that's just who I am,' following a role unreflectively, claiming 'I had no choice'). As a class, sort each into bad faith/inauthentic versus a genuine, owned choice, and discuss what a more authentic response would look like in each case." },
+      { "name": "Closure", "minutes": 5, "description": "Return to the hook. Ask students whether they've changed their answer about whether humans are like toasters, and to state in one sentence what 'existence precedes essence' would mean for how they think about their own future." }
+    ],
+    "discussion_questions": [
+      "If there really is no pre-given human nature, does that mean literally any way of living is as legitimate as any other, or does existentialism still leave room to call some choices better or worse than others?",
+      "Kierkegaard, Heidegger, and Sartre all treat anxiety as revealing something true about the human condition rather than as a problem to be cured — do you find that framing convincing, or does it romanticize what is really just discomfort?",
+      "Is it possible to live entirely without any 'bad faith,' fully owning every choice you make, or is some degree of inauthenticity an unavoidable part of functioning in society?",
+      "If you are 'condemned to be free,' as Sartre claims, does that make you responsible even for things that feel like they happened to you, such as your emotional reactions or your circumstances of birth?",
+      "Existentialism emphasizes individual, lived experience over abstract theory — but doesn't the very act of writing philosophical treatises about existentialism risk turning it into exactly the kind of abstract theory it claims to reject?"
+    ],
+    "assessment": "Students write a short response identifying one scenario from their own life (real or plausible) in which they recognize a pattern of inauthenticity/bad faith, explaining using specific vocabulary from at least two thinkers covered in class (facticity, anxiety, thrownness, bad faith) what a more authentic response would have looked like.",
+    "extension": "Have students choose a character from a book, film, or show and write a short analysis of a key decision that character makes, evaluating it as authentic or inauthentic using the existentialist vocabulary from class, with specific attention to whether the character is owning their freedom or evading it."
+  },
+  {
+    "slug": "camus-albert",
+    "title": "Imagine Sisyphus Happy: Camus and the Philosophy of the Absurd",
+    "inspired_author": "David Simpson",
+    "inspired_course": "the Internet Encyclopedia of Philosophy entry on Albert Camus",
+    "inspired_institution": "Internet Encyclopedia of Philosophy",
+    "inspired_url": "https://iep.utm.edu/albert-camus/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "55 minutes",
+    "topics": "Existentialism",
+    "essential_question": "Camus argues that the universe is fundamentally indifferent to our demand for meaning, yet concludes we must imagine the eternally-laboring Sisyphus happy rather than give up — is defiant revolt against a meaningless universe a rational response, or just a refusal to face the facts?",
+    "objectives": [
+      "Define 'the absurd' as Camus presents it: the collision between the human demand for meaning and a universe that offers no ultimate answer.",
+      "Explain why Camus rejects both suicide and a religious 'leap of faith' as adequate responses to the absurd, and reconstruct his alternative of lucid revolt.",
+      "Apply the myth of Sisyphus to a real or invented modern scenario and evaluate whether Camus's claim — that meaning can be found in the struggle itself, without external justification — is ultimately convincing."
+    ],
+    "materials": [
+      "Excerpt handout with a short retelling of the Sisyphus myth plus Camus's opening claim that suicide is 'the one truly serious philosophical problem' and his closing image of imagining Sisyphus happy",
+      "Handout summarizing the three responses to the absurd: suicide, the religious leap, and revolt",
+      "Whiteboard for the hook activity",
+      "Scenario cards describing modern repetitive or seemingly futile tasks for the application activity"
+    ],
+    "procedure": [
+      { "name": "Hook: The Endless Task", "minutes": 8, "description": "Describe a job that consists of digging a hole and immediately filling it back in, every day, forever, with no product and no end. Ask students: could a person doing this job actually be happy, or is happiness simply impossible under those conditions? Collect a range of answers on the board without resolving the question — this directly previews the Sisyphus myth." },
+      { "name": "Direct Instruction: The Absurd", "minutes": 15, "description": "Introduce Camus's concept of the absurd, not as a property of the world alone or of human consciousness alone, but as the confrontation between the two: we demand clarity and ultimate meaning, and the universe answers only with silence. Emphasize that for Camus, absurdity is a relationship, which is why it can be neither dissolved by fixing the world nor by changing our own psychology alone." },
+      { "name": "Text Analysis: Three Responses", "minutes": 17, "description": "In small groups, students read the excerpt and identify Camus's treatment of three possible responses to the absurd: (1) suicide, physically escaping the confrontation, which Camus rejects as failing to actually resolve anything; (2) the religious or philosophical 'leap of faith,' which Camus calls 'philosophical suicide' because it resolves the tension only by inventing an answer the absurd condition doesn't actually supply; and (3) revolt, living in full lucid awareness of the absurd without either escape, which Camus argues is the only response that takes the situation seriously. Groups should identify Camus's specific objection to each of the first two responses." },
+      { "name": "Small-Group Application", "minutes": 10, "description": "Using the scenario cards (a factory line, an endless email inbox, an unwinnable game), groups apply Camus's three responses and argue which one the person in their scenario is engaging in, and what 'revolt' would concretely look like for that person." },
+      { "name": "Closure: Imagining Sisyphus Happy", "minutes": 5, "description": "Read aloud Camus's closing image of imagining Sisyphus happy as he walks back down the mountain toward his boulder. Ask for a quick show of hands: is this a genuinely satisfying answer to the absurd, or is Camus just declaring victory over a problem he hasn't actually solved?" }
+    ],
+    "discussion_questions": [
+      "Is Camus right that a 'leap of faith' toward religious or philosophical certainty is a form of evasion, or can such a leap be a reasonable response to a genuinely unanswerable question?",
+      "Can revolt against the absurd really be sustained forever, moment to moment, or does Camus's 'happy Sisyphus' require occasionally forgetting the absurd rather than facing it?",
+      "Does finding meaning in the struggle itself, without any external justification, actually count as finding meaning — or is Camus redefining 'meaning' down to something smaller than what we originally wanted?",
+      "Is the demand for ultimate meaning that creates the absurd condition itself something we could simply give up, or is it as fundamental to being human as Camus assumes?",
+      "Can you think of a real modern task or job that mirrors Sisyphus's — repetitive, seemingly without ultimate point — and does the person doing it seem more like Camus's 'happy' Sisyphus or like someone in despair?"
+    ],
+    "assessment": "Students write a short response applying Camus's three responses to the absurd (suicide, the leap, revolt) to a real or invented scenario of their own choosing, arguing which response the person in their scenario adopts and whether Camus's image of a 'happy Sisyphus' is a satisfying resolution or merely a hopeful slogan.",
+    "extension": "Have students research one specific historical or public figure Camus is often associated with resisting or admiring (for instance, figures in the French Resistance) and write a short analysis of how the concept of 'revolt' as lucid, sustained defiance without illusion might apply to that figure's real actions."
+  },
+  {
+    "slug": "kierkegaard-s-ren",
+    "title": "Truth Nobody Can Hand You: Kierkegaard, the Crowd, and Indirect Communication",
+    "inspired_author": "William McDonald",
+    "inspired_course": "the Internet Encyclopedia of Philosophy entry on Søren Kierkegaard",
+    "inspired_institution": "Internet Encyclopedia of Philosophy",
+    "inspired_url": "https://iep.utm.edu/kierkega/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "60 minutes",
+    "topics": "Existentialism",
+    "essential_question": "Kierkegaard refused to publish most of his major works under his own name, writing instead through invented pseudonymous authors who often disagreed with each other — why would a philosopher deliberately make his own ideas harder to pin down, and can truth about how to exist really not just be handed to someone as a set of facts?",
+    "objectives": [
+      "Explain Kierkegaard's method of indirect communication and pseudonymous authorship, and his reasons for thinking direct philosophical argument is inadequate for communicating existential truths.",
+      "Reconstruct Kierkegaard's definition of the self, from The Sickness Unto Death, as a relation that relates itself to itself, and his account of despair as a misrelation within that structure.",
+      "Analyze Kierkegaard's critique of 'the crowd' and evaluate his claim that truth, in existential matters, is subjectivity — something that must be individually appropriated rather than merely publicly agreed upon."
+    ],
+    "materials": [
+      "Excerpt handout: the opening definition of the self from The Sickness Unto Death, and a short passage on 'the crowd' or 'the public'",
+      "Pseudonym reference sheet listing several of Kierkegaard's pseudonyms (e.g., Johannes Climacus, Anti-Climacus, Judge William) and which perspective each represents",
+      "Whiteboard for the hook activity"
+    ],
+    "procedure": [
+      { "name": "Hook: Why Hide Behind a Fake Name?", "minutes": 8, "description": "Ask students to brainstorm reasons a real author might publish a book under a pseudonym rather than their own name. Collect answers on the board (privacy, trying out a different genre, protecting a reputation). Reveal that Kierkegaard published most of his philosophical works under invented authors who sometimes explicitly contradicted his other pseudonyms, and ask students to guess why a philosopher, of all people, would do this." },
+      { "name": "Direct Instruction: Indirect Communication", "minutes": 15, "description": "Introduce Kierkegaard's method of indirect communication: rather than handing readers a conclusion to accept on his authority, Kierkegaard uses pseudonymous voices representing different ways of existing (aesthetic, ethical, religious) so that readers must work out for themselves which perspective, if any, they actually hold. Explain his view that some truths — particularly truths about how to exist, not just what to believe — cannot be transferred like information; they must be personally worked through and appropriated, or they aren't really held at all." },
+      { "name": "Text Analysis: The Self as a Relation", "minutes": 18, "description": "In small groups, students read the opening definition of the self from The Sickness Unto Death excerpt: the self as a relation that relates itself to its own relating (for instance, between the finite and infinite, the temporal and eternal, freedom and necessity). Groups work to paraphrase this famously dense definition in plain language, then apply it to define despair as what happens when the self fails to relate to itself properly — whether by refusing to be the self it actually is, or refusing to become the self it is capable of becoming." },
+      { "name": "Discussion: The Crowd vs. the Single Individual", "minutes": 14, "description": "Introduce Kierkegaard's critique of 'the crowd' or 'the public': a collective can diffuse responsibility so completely that no single person feels answerable for anything, letting individuals hide from the demanding work of becoming a genuine self. Discuss his claim that truth, in this existential sense, is 'subjectivity' — not that all opinions are equally valid, but that a truth only counts as truly held if it is inwardly appropriated by a single individual, not merely repeated because 'everyone says so.'" },
+      { "name": "Closure", "minutes": 5, "description": "Ask students to identify one belief or value they hold mostly because 'everyone around them holds it' versus one they have genuinely, individually worked through. Collect a few examples to close the discussion." }
+    ],
+    "discussion_questions": [
+      "If Kierkegaard is right that some truths can't simply be handed to you but must be personally appropriated, does that mean philosophy classes and textbooks are actually the wrong format for teaching those truths?",
+      "Is Kierkegaard's self-relation definition ('a relation that relates itself to itself') a genuine insight into what a person is, or is it needlessly obscure language for something simpler?",
+      "Does hiding behind pseudonyms who disagree with each other actually help a reader think for themselves, or does it let Kierkegaard avoid ever being pinned down to a position he has to defend?",
+      "Kierkegaard worries that 'the crowd' lets individuals avoid responsibility — can you think of a modern example (online or otherwise) where being part of a large group seems to dissolve anyone's individual sense of accountability?",
+      "If truth in existential matters is 'subjectivity,' how would Kierkegaard respond to the worry that this makes truth arbitrary, since anyone could sincerely 'appropriate' a belief that is objectively false or harmful?"
+    ],
+    "assessment": "Students write a short response paraphrasing Kierkegaard's definition of the self as a relation in their own words, then applying it to explain, in a concrete example, what despair (a misrelation within the self) might look like for a specific kind of person — someone in denial about who they are, or someone refusing to grow into who they could become.",
+    "extension": "Have students find a real-world example of an author, artist, or public figure who used a pseudonym or alter ego for reasons other than simple concealment, and write a short comparison of their reasons to Kierkegaard's stated reasons for indirect communication."
+  },
+  {
+    "slug": "sartre-jean-paul-existentialism",
+    "title": "Condemned to Be Free: Sartre on Bad Faith and Radical Responsibility",
+    "inspired_author": "Christian J. Onof",
+    "inspired_course": "the Internet Encyclopedia of Philosophy entry on Jean-Paul Sartre's Existentialism",
+    "inspired_institution": "Internet Encyclopedia of Philosophy",
+    "inspired_url": "https://iep.utm.edu/sartre-ex/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "60 minutes",
+    "topics": "Existentialism",
+    "essential_question": "Sartre claims human beings have no fixed nature to fall back on and are therefore 'condemned to be free,' fully responsible for what they make of themselves — is this picture of freedom liberating, or is it too demanding a burden to actually live by?",
+    "objectives": [
+      "Explain Sartre's claim that 'existence precedes essence' and how it entails that human beings possess a radical, inescapable freedom not shared by manufactured objects.",
+      "Identify and analyze Sartre's concept of bad faith using his café waiter example and at least one original example constructed by the student.",
+      "Evaluate Sartre's claim that we are fully responsible for our choices — and even, in a sense, for our emotional reactions — by applying it to a contemporary case of someone denying their own freedom."
+    ],
+    "materials": [
+      "Excerpt handout: a short passage on 'existence precedes essence' and a paraphrased version of Sartre's café waiter example from Being and Nothingness",
+      "Bad-faith scenario cards depicting people using various excuses to deny their freedom",
+      "Whiteboard for the hook activity"
+    ],
+    "procedure": [
+      { "name": "Hook: The Paper-Cutter and the Human", "minutes": 8, "description": "Describe Sartre's contrast between a paper-cutter, whose purpose is fully decided by its maker before it exists, and a human being. Ask: does anyone or anything decide your purpose before you're born, the way a manufacturer decides a paper-cutter's purpose? Collect initial answers, and note any disagreement about whether biology, culture, or God might play that role." },
+      { "name": "Direct Instruction: Existence Precedes Essence and Radical Freedom", "minutes": 15, "description": "Introduce Sartre's core claim: for humans, existence precedes essence — we simply exist first, with no predetermined nature, and only create our 'essence' through the choices we actually make over a lifetime. Explain why Sartre takes this to mean freedom is not just something we have but something we cannot escape — even refusing to choose is itself a choice — which is the sense behind his famous claim that we are 'condemned to be free.'" },
+      { "name": "Direct Instruction and Text Analysis: The Waiter and Bad Faith", "minutes": 17, "description": "Introduce bad faith using Sartre's café waiter, who moves and speaks with exaggerated precision, playing at being a waiter as though it were a fixed role determining his every action, rather than a free choice he continually renews. Explain that bad faith is a way of fleeing the anxiety of freedom by pretending to be a fixed thing (a role, a type, a nature) instead of acknowledging oneself as an ongoing, self-making freedom. Have students, in pairs, brainstorm one modern example of someone acting like the waiter." },
+      { "name": "Small-Group Case Analysis", "minutes": 13, "description": "Distribute the bad-faith scenario cards (a person who says 'I can't help it, that's just how I am,' someone who blames an assigned social role for a hurtful choice, someone who claims they 'had no choice' in a decision that in fact had alternatives). In groups, students identify the bad-faith move in each scenario and rewrite the person's excuse as an honest acknowledgment of their actual freedom and responsibility." },
+      { "name": "Closure", "minutes": 7, "description": "Return to the essential question. Ask for a show of hands: is Sartre's picture of total, inescapable freedom and responsibility ultimately liberating or exhausting? Ask one or two students on each side to justify their answer in a sentence." }
+    ],
+    "discussion_questions": [
+      "Is it really true that 'refusing to choose is itself a choice,' or are there situations where someone genuinely has no freedom at all, contrary to Sartre's claim?",
+      "Sartre's waiter is criticized for playing his role too perfectly — but isn't some degree of playing a role (a professional, a student, a sibling) just a normal and even necessary part of functioning in society, rather than bad faith?",
+      "If you are responsible even for your emotional reactions, as Sartre suggests, how would that change the way we usually excuse people by saying 'they couldn't help how they felt'?",
+      "Does Sartre's claim that there is no human nature apply equally to everyone, or do factors like a person's circumstances, body, or upbringing (what Sartre calls facticity) meaningfully limit how much freedom they actually have?",
+      "Is total, radical freedom actually good news, as Sartre insists it should be interpreted, or does his own description of it as 'condemnation' suggest even he saw it as at least partly a burden?"
+    ],
+    "assessment": "Students write a short response constructing their own original example of bad faith (distinct from the waiter and from the scenario cards used in class), explaining specifically what excuse or fixed role the person is hiding behind, and rewriting the scenario to show what an authentic acknowledgment of freedom and responsibility would look like instead.",
+    "extension": "Have students interview a family member or friend about a significant decision they once described as something they 'had no choice' about, and write a short analysis of whether Sartre would classify the decision as genuine bad faith or as a case involving real external constraint (facticity) that limited their freedom."
+  },
+  {
+    "slug": "daoism",
+    "title": "The Way That Cannot Be Spoken: An Introduction to Daoism",
+    "inspired_author": "Chad Hansen",
+    "inspired_course": "the Stanford Encyclopedia of Philosophy entry on Daoism",
+    "inspired_institution": "Stanford Encyclopedia of Philosophy",
+    "inspired_url": "https://plato.stanford.edu/entries/daoism/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "60 minutes",
+    "topics": "Eastern Philosophy",
+    "essential_question": "The opening line of the Daodejing declares that 'the Dao that can be spoken is not the eternal Dao' — what would it mean to build a philosophy around truths that resist being captured in words, and how could such a philosophy even be taught?",
+    "objectives": [
+      "Explain the concept of Dao and why classical Daoist texts insist that fixed language and naming distort or fail to fully capture it.",
+      "Define wu-wei ('non-action' or effortless action) and ziran (naturalness/spontaneity), distinguishing both from mere passivity or laziness.",
+      "Apply Daoist ideas to evaluate a modern case of striving versus effortless action, constructing an argument about what wu-wei would actually recommend doing."
+    ],
+    "materials": [
+      "Excerpt handout with the opening lines of Daodejing chapter 1 (on the unnameable Dao) and the water metaphor from chapter 8 or 78",
+      "Wu-wei case cards describing modern scenarios (an athlete 'in the flow,' a manager who micromanages every detail, a student who over-prepares for a conversation)",
+      "Whiteboard for a two-column chart contrasting striving/forcing against wu-wei"
+    ],
+    "procedure": [
+      { "name": "Hook: Describe the Indescribable", "minutes": 8, "description": "Ask students to try to describe, in words, what a color looks like to someone who has never seen it, or what it feels like to ride a bike to someone who has never balanced on one. Use their struggle to introduce the idea that some things resist full verbal description even though we clearly still know them. This previews the Daodejing's opening claim about the Dao and language." },
+      { "name": "Direct Instruction: The Dao and the Limits of Naming", "minutes": 15, "description": "Read and discuss the opening lines of Daodejing chapter 1: the Dao that can be spoken or named is not the eternal, constant Dao. Explain that classical Daoist texts treat fixed naming and rigid categories as inherently limiting — carving up a fluid, ever-changing reality into static labels distorts it, even though naming is unavoidably useful for everyday life. Contrast this suspicion of fixed language with the Confucian emphasis (which students may know from elsewhere) on correctly naming roles and duties." },
+      { "name": "Direct Instruction: Wu-Wei and Ziran", "minutes": 17, "description": "Introduce wu-wei, often translated 'non-action,' clarifying that it does not mean literal inactivity but rather acting without forcing, striving, or imposing artificial effort against the natural grain of a situation. Read the water metaphor: water is the softest thing, yet nothing overcomes the hard and strong better than it does, precisely because it yields and follows the shape of what it meets rather than fighting it directly. Connect wu-wei to ziran, naturalness or spontaneity — acting in a way that flows from a thing's own nature rather than from external imposition." },
+      { "name": "Small-Group Case Application", "minutes": 13, "description": "In small groups, students take one wu-wei case card and analyze it: is the person in the scenario acting with wu-wei/ziran, or against it? What would a more wu-wei-aligned approach to their situation look like concretely? Groups record their answer on the board's two-column chart under 'forcing' or 'flowing.'" },
+      { "name": "Closure", "minutes": 7, "description": "Reconvene and ask a few groups to share their case. Return to the essential question: does building a philosophy around what resists being spoken actually work as a philosophy, or does Daoism undercut its own project the moment it starts writing books about the Dao? Take final reactions." }
+    ],
+    "discussion_questions": [
+      "If the Dao that can be named isn't the real, eternal Dao, isn't the Daodejing itself, being made of words, automatically failing to capture what it's about? How might a Daoist respond to this worry?",
+      "Is wu-wei realistically achievable in a modern life full of deadlines, or does 'effortless action' only make sense for very specific, low-stakes situations?",
+      "The water metaphor suggests that softness ultimately overcomes hardness — can you think of a real situation, personal or historical, where yielding actually was a more effective strategy than direct force?",
+      "Does Daoism's suspicion of naming and categorizing conflict with the very act of teaching Daoism using specific terms like 'wu-wei' and 'ziran'? Is this a contradiction, or something Daoist texts anticipate and accept?",
+      "How is wu-wei different from simply giving up or being lazy? What specifically distinguishes 'effortless action attuned to a situation' from just not trying?"
+    ],
+    "assessment": "Students write a short response applying wu-wei to a real challenge in their own life (a difficult conversation, a skill they're learning, a conflict with a friend), describing specifically what a 'forcing' approach to the situation would look like versus a wu-wei-aligned approach, and evaluating which seems more likely to actually work.",
+    "extension": "Have students observe someone skilled at an activity (a musician, an athlete, a cook) and write a short analysis of whether that person's skilled performance looks more like wu-wei (natural, unforced fluency) or like visible effort and strain, and what that suggests about the relationship between practice and effortlessness."
+  },
+  {
+    "slug": "zhuangzi",
+    "title": "Butterfly or Philosopher? Zhuangzi on Perspective and Spontaneity",
+    "inspired_author": "Chad Hansen",
+    "inspired_course": "the Stanford Encyclopedia of Philosophy entry on Zhuangzi",
+    "inspired_institution": "Stanford Encyclopedia of Philosophy",
+    "inspired_url": "https://plato.stanford.edu/entries/zhuangzi/",
+    "grade_level": "Grades 11-12 / Intro College",
+    "duration": "60 minutes",
+    "topics": "Eastern Philosophy",
+    "essential_question": "Zhuangzi dreamed he was a butterfly, and on waking wondered whether he was a man who had dreamed of being a butterfly, or was now a butterfly dreaming he was a man — can you ever be fully certain your own perspective is the 'real' one, rather than just one among many equally valid points of view?",
+    "objectives": [
+      "Explain Zhuangzi's perspectivism about knowledge and value using the butterfly dream and his comparisons of 'great and small' viewpoints.",
+      "Analyze the Cook Ding (butcher) story as a model of skill, spontaneity, and effortless action attuned to the natural structure of things.",
+      "Evaluate the paradox of the 'usefulness of uselessness' and apply it to a contemporary debate about productivity and purpose."
+    ],
+    "materials": [
+      "Excerpt handout: the butterfly dream passage, the Cook Ding passage, and the useless tree passage",
+      "Whiteboard for the perspective-shift hook",
+      "Debate cards for the closing activity (arguing for or against 'uselessness')"
+    ],
+    "procedure": [
+      { "name": "Hook: Which Perspective Is Real?", "minutes": 8, "description": "Ask students: has anyone ever had a dream so vivid that, for a moment after waking, they weren't sure which was real? Collect a few brief accounts. Then read the butterfly dream passage aloud and ask students to sit with the question seriously for a moment: what, if anything, could actually settle whether you're a person who dreamed of being a butterfly, or a butterfly now dreaming you're a person?" },
+      { "name": "Direct Instruction: Perspectivism and the Limits of a Single Viewpoint", "minutes": 15, "description": "Introduce Zhuangzi's broader point behind the butterfly dream: our judgments about what is real, valuable, or true are always made from within a particular perspective, and there is no perspective-free vantage point from which to check whether our own view is the correct one. Connect this to Zhuangzi's comparisons of 'great and small' — creatures with vastly different lifespans or scales judge things like a single day or a single season completely differently, and neither judgment is simply the 'objectively correct' one." },
+      { "name": "Text Analysis: Cook Ding", "minutes": 17, "description": "In small groups, students read the Cook Ding passage, in which a butcher carves an ox with such effortless skill that his blade never dulls, because he follows the natural openings and structures of the animal rather than hacking through bone by force. Groups identify what specifically makes Cook Ding's skill different from mere technical proficiency — his years of practice have let him stop 'seeing' the ox as a whole object and instead move with its natural joints, a state of attunement rather than calculated effort." },
+      { "name": "Small-Group Debate: The Useless Tree", "minutes": 13, "description": "Introduce the useless tree passage, in which a gnarled, useless tree escapes being cut down for lumber precisely because it's useless, allowing it to grow old and undisturbed. Split the class into two sides to debate: is 'uselessness,' judged by conventional practical standards, actually a hidden form of value and protection, or is Zhuangzi glorifying uselessness in a way that only sounds wise but doesn't hold up under real scrutiny?" },
+      { "name": "Closure", "minutes": 7, "description": "Reconvene from the debate and return to the hook. Ask: after today's discussion, does the butterfly dream question feel resolved, unresolvable, or beside the point? Collect a few final reflections." }
+    ],
+    "discussion_questions": [
+      "If there's truly no perspective-free way to check whether you're the person or the butterfly, does that mean the question is meaningless, or does it remain a real question we simply can't answer?",
+      "Is Cook Ding's skill something that could be taught directly through instructions, or does Zhuangzi suggest it can only be developed through years of embodied practice? What does that imply about the limits of verbal instruction generally?",
+      "Is the useless tree actually valuable because of its uselessness, or is Zhuangzi just redefining 'value' to mean 'whatever helps you survive,' which seems like a fairly narrow definition of value?",
+      "Zhuangzi seems skeptical that any single perspective can claim to be the objectively correct one — does this skepticism extend to Zhuangzi's own claims, and if so, does that undermine his philosophy or is it consistent with it?",
+      "Can you think of a modern example, personal or professional, where being perceived as 'useless' by conventional standards actually protected someone or something from being exploited or destroyed?"
+    ],
+    "assessment": "Students write a short response explaining, in their own words, what the Cook Ding story is meant to illustrate about skill and effortless action, and then apply this concept of attunement to a skill of their own (music, sports, art, or another hobby), describing what it would look like to move from effortful technique toward Cook Ding-style natural fluency.",
+    "extension": "Have students find or write a short modern parable (a workplace story, a sports anecdote, a personal experience) that illustrates either the 'usefulness of uselessness' or perspectival relativity as Zhuangzi presents it, and share it with a partner to test whether the lesson comes through clearly."
+  },
+  {
+    "slug": "confucius",
+    "title": "Ritual, Humaneness, and the Exemplary Person: An Introduction to Confucius",
+    "inspired_author": "Jeff Richey",
+    "inspired_course": "the Internet Encyclopedia of Philosophy entry on Confucius",
+    "inspired_institution": "Internet Encyclopedia of Philosophy",
+    "inspired_url": "https://iep.utm.edu/confucius/",
+    "grade_level": "Grades 9-12",
+    "duration": "50 minutes",
+    "topics": "Eastern Philosophy",
+    "essential_question": "Confucius taught, 'Do not impose on others what you yourself do not desire' — is treating others as you would want to be treated enough, by itself, to make someone a genuinely good person, or does goodness require something more, like cultivated habit and practiced ritual?",
+    "objectives": [
+      "Define Confucius's key concepts of ren (humaneness/benevolence), li (ritual propriety), and junzi (the exemplary or superior person).",
+      "Explain how Confucius connects habituated ritual practice (li) to the cultivation of genuine inner virtue (ren), rather than treating good manners and good character as separate things.",
+      "Apply Confucian ideas about ren and reciprocity to evaluate how to handle a realistic modern scenario about treating others well."
+    ],
+    "materials": [
+      "Handout with 5-6 short, numbered excerpts from the Analects on ren, li, junzi, and reciprocity",
+      "Whiteboard for the opening list-building activity",
+      "Scenario cards for the closing application activity"
+    ],
+    "procedure": [
+      { "name": "Hook: What Makes Someone 'Good'?", "minutes": 8, "description": "Ask students to brainstorm, individually, three qualities of a genuinely good person they know or admire. Collect a range of answers on the board (kind, honest, respectful, disciplined). Note if any answers involve consistent habits or manners specifically, and flag this for later — it previews the connection between li and ren." },
+      { "name": "Direct Instruction: Ren and Li", "minutes": 13, "description": "Introduce ren, usually translated humaneness or benevolence, as the inner quality of genuinely caring about and respecting other people. Then introduce li, ritual propriety — the traditional forms of conduct, courtesy, and ceremony governing how people treat each other in different relationships and situations. Explain Confucius's key claim: li is not just empty formality layered on top of a separately-existing goodness; practicing li sincerely and consistently is how a person actually cultivates ren over time, the way practicing an instrument's exercises builds real musicianship rather than just faking it." },
+      { "name": "Text Analysis: The Analects in Small Groups", "minutes": 15, "description": "In small groups, students read 2-3 assigned excerpts from the handout, each illustrating ren, li, or the idea of reciprocity ('do not impose on others what you do not desire yourself'). Groups paraphrase each excerpt in their own words and identify which concept (ren, li, or junzi) it best illustrates, then share out to the whole class." },
+      { "name": "Whole-Class Application", "minutes": 9, "description": "Present a scenario card (e.g., a friend asks to copy your homework, or a classmate is being excluded from a group project) and ask the class to discuss what a junzi — someone who has genuinely cultivated ren through li — would do in that situation, and why simply following the reciprocity rule alone might not be enough without also having cultivated the right habits and sensitivity." },
+      { "name": "Closure", "minutes": 5, "description": "Ask students to write one sentence naming a small ritual or habit of courtesy (a greeting, a way of listening, a habit of thanks) that they think actually helps build genuine good character, not just good manners. Collect a few responses to close." }
+    ],
+    "discussion_questions": [
+      "Confucius connects practicing ritual (li) to developing genuine inner virtue (ren) — do you think good manners can actually build good character over time, or can someone perform all the right rituals while remaining unkind underneath?",
+      "Is 'do not impose on others what you yourself do not desire' a complete guide to treating people well, or can you think of situations where it might give the wrong answer (for instance, if your own desires are unusual)?",
+      "What is the difference between a junzi (exemplary person) and someone who is simply polite or well-behaved out of habit, without really caring about others?",
+      "Confucius emphasizes learning proper conduct within specific relationships (parent-child, ruler-subject, friend-friend) rather than one universal rule for everyone — is this more realistic than a single universal rule, or does it risk excusing unfair treatment within certain relationships?",
+      "Can rituals and traditions from a very different historical period (ancient China) still teach us something useful about character today, or are they too tied to their original context to transfer?"
+    ],
+    "assessment": "Students write a short response explaining, in their own words, how Confucius connects the practice of li (ritual propriety) to the cultivation of ren (humaneness), and then describe one specific habit or small ritual from their own life that they believe helps build good character, applying Confucius's reasoning to explain why.",
+    "extension": "Have students observe one family, school, or cultural tradition/ritual in their own life for a day (a greeting custom, a mealtime practice, a form of address for elders) and write a short reflection on what values it seems to be quietly teaching or reinforcing, connecting it back to Confucius's idea that ritual practice shapes character."
+  },
+  {
+    "slug": "nagarjuna",
+    "title": "Empty, Not Nothing: Nagarjuna's Middle Way Between Being and Non-Being",
+    "inspired_author": "Douglas Berger",
+    "inspired_course": "the Internet Encyclopedia of Philosophy entry on Nagarjuna",
+    "inspired_institution": "Internet Encyclopedia of Philosophy",
+    "inspired_url": "https://iep.utm.edu/nagarjun/",
+    "grade_level": "Undergraduate / Graduate Seminar",
+    "duration": "70 minutes",
+    "topics": "Eastern Philosophy",
+    "essential_question": "Nagarjuna argues that literally nothing — not causation, not motion, not even the self — possesses inherent, independent existence, yet he insists this doesn't collapse into nihilism. How can everything be 'empty' and still function, conventionally, exactly as it appears to?",
+    "objectives": [
+      "Explain Nagarjuna's central concept of emptiness (sunyata) as the absence of inherent, independent existence (svabhava), distinguishing it carefully from the nihilist claim that nothing exists at all.",
+      "Reconstruct Nagarjuna's argument that emptiness is equivalent to, and follows from, dependent origination (pratityasamutpada) — the doctrine that all phenomena arise only in dependence on other conditions.",
+      "Analyze the two truths doctrine (conventional truth and ultimate truth) and evaluate whether it successfully lets Nagarjuna affirm ordinary, everyday reality while denying that anything has inherent existence."
+    ],
+    "materials": [
+      "Excerpt packet with selected verses from the Mulamadhyamakakarika, including passages on causation/motion and the key verse identifying emptiness with dependent origination (chapter 24)",
+      "Two truths diagram handout (conventional vs. ultimate truth)",
+      "Tetralemma (catuskoti) explainer handout with a worked example",
+      "Whiteboard for building the emptiness/dependent-origination argument chart"
+    ],
+    "procedure": [
+      { "name": "Framing: Is 'Empty' the Same as 'Nothing'?", "minutes": 10, "description": "Open by posing the core tension directly: Nagarjuna says everything — chariots, causes, selves — lacks any inherent essence of its own, yet insists this is not the same as saying nothing exists. Ask the seminar to generate an initial hypothesis, individually, for how 'lacking inherent existence' could be different from 'not existing at all,' to be revisited later in the session." },
+      { "name": "Mini-Lecture: Svabhava and the Critique of Causation", "minutes": 20, "description": "Introduce svabhava (inherent, independent, self-sufficient existence) as the target of Nagarjuna's critique, and walk through his method in the Mulamadhyamakakarika of examining ordinary categories — causation, motion, the self, even the Buddha's own teaching — and showing that none of them can be coherently said to possess svabhava once analyzed carefully (for instance, his argument that a cause cannot produce an effect that already exists, nor one that doesn't yet exist in any sense, undermining a straightforward notion of independent causal power). Emphasize that Nagarjuna is not denying that things happen, only that they happen with any self-sufficient essence behind them." },
+      { "name": "Seminar Close Reading: Emptiness as Dependent Origination", "minutes": 20, "description": "Facilitate close reading of the key verse identifying emptiness with dependent origination: to say something is empty is just another way of saying it arises only in dependence on other conditions, and has no existence apart from that web of dependence. Push the seminar to work through why this move is central to Nagarjuna's response to the nihilism worry — if emptiness simply meant 'nothing exists,' dependent origination (which clearly does describe how things arise and function) would be meaningless, but Nagarjuna treats the two as two ways of saying the same thing." },
+      { "name": "Discussion: The Two Truths and the Tetralemma", "minutes": 15, "description": "Introduce the two truths doctrine: conventional truth, under which ordinary claims about chariots, causes, and persons function perfectly well for everyday and even scientific purposes, and ultimate truth, under which none of these things is found to have inherent existence upon careful analysis. Introduce the tetralemma (catuskoti) as Nagarjuna's characteristic way of refusing all four standard logical options about a thing (it exists, it doesn't exist, it both exists and doesn't, it neither exists nor doesn't) when applied to claims about inherent existence. Ask the seminar whether the two truths doctrine is a genuine philosophical solution or a convenient way to have things both ways." },
+      { "name": "Closure: Revisiting Emptiness vs. Nihilism", "minutes": 5, "description": "Return to the opening question. Ask each participant to state, in one or two sentences, whether they now find Nagarjuna's distinction between emptiness and nihilism successful, and to briefly note what they see as the strongest remaining objection to it." }
+    ],
+    "discussion_questions": [
+      "If nothing has inherent existence, what work is left for the word 'exists' to do at all when Nagarjuna still says conventional things function and arise?",
+      "Is the two truths doctrine a genuine philosophical resolution to the tension between emptiness and everyday experience, or a way of avoiding the tension by keeping the two levels permanently separate from each other?",
+      "Nagarjuna's argument against causation claims a cause can't produce an effect that already exists or one that doesn't exist in any sense — is this a genuine logical problem with causation, or does it rely on an overly narrow idea of what 'existing' must mean?",
+      "Does the tetralemma's refusal of all four standard logical options (exists, doesn't exist, both, neither) represent a real alternative to ordinary logic, or is Nagarjuna using it rhetorically to gesture at something beyond conceptual thought altogether?",
+      "If emptiness applies to literally everything, including Nagarjuna's own arguments and the concept of emptiness itself, does his position risk undermining its own claims to be true?"
+    ],
+    "assessment": "Students write a seminar paper (2-3 pages) reconstructing Nagarjuna's identification of emptiness with dependent origination, explaining specifically how this identification is meant to block the charge of nihilism, and evaluating whether the two truths doctrine successfully preserves the everyday functioning of conventional reality while denying inherent existence at the ultimate level, with direct citation of the assigned verses.",
+    "extension": "Have students find a modern scientific or philosophical account of causation or identity (for instance, in physics or cognitive science) that similarly denies any 'essential core' to objects or selves, and write a short comparison of how that account's motivations and conclusions resemble or differ from Nagarjuna's doctrine of emptiness."
+  },
+  {
+    "slug": "the-tao-teh-king-or-the-tao-and-its-characteristics",
+    "title": "Softer Than Water: Close Reading Laozi's Tao Teh King",
+    "inspired_author": "Laozi (trans. James Legge)",
+    "inspired_course": "The Tao Teh King, or the Tao and its Characteristics",
+    "inspired_institution": "Project Gutenberg",
+    "inspired_url": "https://www.gutenberg.org/ebooks/216",
+    "grade_level": "Grades 9-12",
+    "duration": "50 minutes",
+    "topics": "Eastern Philosophy",
+    "essential_question": "Laozi describes water as the softest thing in the world, yet able to wear away the hardest stone — what could this image teach us about strength, and about how to act well in the world?",
+    "objectives": [
+      "Read and paraphrase, in their own words, several core chapters of the Tao Teh King in James Legge's translation (chapters 1, 2, 8, and 78).",
+      "Identify recurring paradoxes in the text — the Dao that cannot be named, the mutual dependence of opposites, softness overcoming hardness — and explain what each paradox is meant to teach.",
+      "Apply the water metaphor and the idea of wu-wei (effortless, unforced action) to construct an original short parable illustrating 'the soft overcoming the hard.'"
+    ],
+    "materials": [
+      "Printed excerpts of Legge's translation of chapters 1, 2, 8, and 78",
+      "Whiteboard for the opposites-brainstorm activity",
+      "Blank index cards or paper for the parable-writing activity"
+    ],
+    "procedure": [
+      { "name": "Hook: Can Opposites Need Each Other?", "minutes": 8, "description": "Ask students: can you have 'up' without 'down,' or 'easy' without knowing what 'hard' feels like? Brainstorm a list of paired opposites on the board (long/short, loud/quiet, before/after). Ask whether each pair could exist meaningfully alone, or whether each side actually depends on the other for its meaning. This previews chapter 2's claim that opposites arise together and define each other." },
+      { "name": "Close Reading: Chapters 1 and 2", "minutes": 14, "description": "Read chapter 1 aloud together (the Dao that can be spoken is not the eternal Dao) and discuss what it might mean for something to be real and important but resistant to being fully captured in words. Then read chapter 2's list of paired opposites (being and non-being, difficult and easy, long and short) arising from one another, connecting it back to the hook activity, and noting that this is offered as a reason the wise person acts without excessive striving or claiming credit." },
+      { "name": "Close Reading: Chapters 8 and 78", "minutes": 15, "description": "Read chapter 8's comparison of the highest good to water, which benefits all things without contending with them and is content to occupy low places others avoid, then chapter 78's claim that nothing in the world is softer or weaker than water, yet nothing surpasses it at overcoming the hard and strong. In pairs, students identify what specific quality of water (yielding, going low, persistence) the text seems to be praising, and discuss whether this quality is really a form of strength or simply a poetic reframing of weakness." },
+      { "name": "Parable-Writing Activity", "minutes": 9, "description": "Individually or in pairs, students write a very short original parable (4-6 sentences) set in the modern world that illustrates 'the soft overcoming the hard,' modeled on the water image but using a different scenario of their own choosing (a conversation, a sport, a friendship, a workplace)." },
+      { "name": "Closure: Share and Reflect", "minutes": 4, "description": "Invite 2-3 volunteers to read their parables aloud. Close by returning to the essential question and asking for a quick show of hands: do students find the water metaphor a genuinely convincing model of strength, or mostly a nice-sounding image?" }
+    ],
+    "discussion_questions": [
+      "If opposites like 'difficult' and 'easy' truly depend on each other to have meaning, does that change how you think about wanting only the 'good' half of any pair (only ease, only success) without its opposite?",
+      "Is 'being like water' — yielding, going low, avoiding contention — actually a realistic strategy for handling conflict in your own life, or does it only work in the kind of patient, long-timescale examples the text describes (water eroding stone)?",
+      "The text says the Dao that can be spoken is not the eternal Dao — does that mean reading and discussing this text in class is somehow the wrong way to engage with it, or can words still point toward something they can't fully capture?",
+      "Chapter 8 praises occupying 'low places that others disdain' — is this genuine humility, or could it also be read as a strategic way to avoid competition and conflict altogether?",
+      "Can you think of a real situation, historical or personal, where a soft, patient, non-confrontational approach actually outperformed a harder, more forceful one?"
+    ],
+    "assessment": "Students submit their original parable illustrating 'the soft overcoming the hard,' along with a short paragraph explaining which specific chapter or image from the Tao Teh King inspired it and how their parable adapts that image to a modern scenario.",
+    "extension": "Have students find one modern proverb, saying, or piece of advice (from any culture) that expresses a similar idea to chapter 78's water image — that gentleness, patience, or yielding can overcome force — and write a short comparison of the two, noting any differences in emphasis or context."
+  }
+]
