@@ -2,7 +2,7 @@
 
 import { useMemo } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import type { Resource } from "@/data/resources";
+import { AGE_RANGE_BY_LEVEL, type Resource } from "@/data/resources";
 import ResourceCard from "./ResourceCard";
 import FilterSidebar, { type ActiveFilters } from "./FilterSidebar";
 import SortDropdown, { type SortValue } from "./SortDropdown";
@@ -24,6 +24,7 @@ export default function ResourceLibrary({ resources }: { resources: Resource[] }
       types: parseList(searchParams.get("type")),
       levels: parseList(searchParams.get("level")),
       traditions: parseList(searchParams.get("tradition")),
+      ageGroups: parseList(searchParams.get("age")),
     }),
     [searchParams]
   );
@@ -35,9 +36,13 @@ export default function ResourceLibrary({ resources }: { resources: Resource[] }
   }
 
   function handleToggleFilter(facet: keyof ActiveFilters, value: string) {
-    const key = { topics: "topic", types: "type", levels: "level", traditions: "tradition" }[
-      facet
-    ];
+    const key = {
+      topics: "topic",
+      types: "type",
+      levels: "level",
+      traditions: "tradition",
+      ageGroups: "age",
+    }[facet];
     updateParams((params) => {
       const current = parseList(params.get(key));
       const next = current.includes(value)
@@ -57,6 +62,7 @@ export default function ResourceLibrary({ resources }: { resources: Resource[] }
       params.delete("type");
       params.delete("level");
       params.delete("tradition");
+      params.delete("age");
     });
   }
 
@@ -89,6 +95,12 @@ export default function ResourceLibrary({ resources }: { resources: Resource[] }
       if (filters.types.length && !filters.types.includes(r.type)) return false;
       if (filters.levels.length && !filters.levels.includes(r.level)) return false;
       if (filters.traditions.length && !filters.traditions.includes(r.tradition)) return false;
+      if (
+        filters.ageGroups.length &&
+        !filters.ageGroups.includes(AGE_RANGE_BY_LEVEL[r.level])
+      ) {
+        return false;
+      }
       return true;
     });
 

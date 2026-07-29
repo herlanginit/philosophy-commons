@@ -1,11 +1,12 @@
 import FilterGroup from "./FilterGroup";
-import { TOPICS, RESOURCE_TYPES, LEVELS, TRADITIONS } from "@/data/resources";
+import { TOPICS, RESOURCE_TYPES, LEVELS, TRADITIONS, AGE_GROUPS } from "@/data/resources";
 
 export interface ActiveFilters {
   topics: string[];
   types: string[];
   levels: string[];
   traditions: string[];
+  ageGroups: string[];
 }
 
 export default function FilterSidebar({
@@ -21,7 +22,8 @@ export default function FilterSidebar({
     filters.topics.length +
     filters.types.length +
     filters.levels.length +
-    filters.traditions.length;
+    filters.traditions.length +
+    filters.ageGroups.length;
 
   return (
     <details
@@ -57,6 +59,12 @@ export default function FilterSidebar({
           options={RESOURCE_TYPES}
           selected={filters.types}
           onToggle={(v) => onToggle("types", v)}
+        />
+        <FilterGroup
+          title="Age Group"
+          options={AGE_GROUPS}
+          selected={filters.ageGroups}
+          onToggle={(v) => onToggle("ageGroups", v)}
         />
         <FilterGroup
           title="Level"

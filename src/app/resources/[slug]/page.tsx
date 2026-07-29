@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import Section from "@/components/Section";
 import ResourceCard from "@/components/ResourceCard";
 import SaveButton from "@/components/SaveButton";
-import { getResourceBySlug, getRelatedResources } from "@/data/resources";
+import { getResourceBySlug, getRelatedResources, AGE_RANGE_BY_LEVEL } from "@/data/resources";
 import { getResources } from "@/lib/sheet";
 
 // New slugs that appear in the sheet after a build won't be in this list yet —
@@ -53,9 +53,16 @@ export default async function ResourceDetailPage({
 
       <div className="grid grid-cols-1 gap-10 lg:grid-cols-[1fr_280px]">
         <article>
-          <span className="inline-flex items-center gap-1.5 rounded-full bg-ink-900/5 px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-ink-700">
-            {resource.type}
-          </span>
+          <div className="flex flex-wrap items-center gap-2">
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-ink-900/5 px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-ink-700">
+              {resource.type}
+            </span>
+            {resource.pdfUrl && (
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-gold-500/15 px-2.5 py-1 text-xs font-semibold uppercase tracking-wide text-gold-600">
+                {AGE_RANGE_BY_LEVEL[resource.level]}
+              </span>
+            )}
+          </div>
           <h1 className="mt-4 font-serif text-3xl font-bold leading-tight text-ink-950 sm:text-4xl">
             {resource.title}
           </h1>
@@ -150,6 +157,14 @@ export default async function ResourceDetailPage({
                 <dt className="text-ink-700/60">Level</dt>
                 <dd className="text-right font-medium text-ink-900">{resource.level}</dd>
               </div>
+              {resource.pdfUrl && (
+                <div className="flex justify-between gap-4">
+                  <dt className="text-ink-700/60">Suitable Ages</dt>
+                  <dd className="text-right font-medium text-ink-900">
+                    {AGE_RANGE_BY_LEVEL[resource.level]}
+                  </dd>
+                </div>
+              )}
               <div className="flex justify-between gap-4">
                 <dt className="text-ink-700/60">Tradition</dt>
                 <dd className="text-right font-medium text-ink-900">{resource.tradition}</dd>

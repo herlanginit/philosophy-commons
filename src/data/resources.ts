@@ -27,6 +27,17 @@ export const LEVELS = [
   "Graduate / Advanced",
 ] as const;
 
+// Age ranges are derived from LEVELS rather than stored per-resource, so the
+// two stay in sync automatically. Used for the age-group filter and for the
+// age indication shown on lesson plan pages.
+export const AGE_RANGE_BY_LEVEL: Record<(typeof LEVELS)[number], string> = {
+  "Intro / High School": "Ages 14–18",
+  Undergraduate: "Ages 18–22",
+  "Graduate / Advanced": "Ages 22+",
+};
+
+export const AGE_GROUPS = LEVELS.map((level) => AGE_RANGE_BY_LEVEL[level]);
+
 export const TRADITIONS = [
   "Ancient",
   "Medieval",
