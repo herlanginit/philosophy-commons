@@ -46,11 +46,13 @@ If the environment variable isn't set, or the sheet can't be reached, the site s
 
 ## Contact form emails
 
-The `/contact` page sends submissions to `heritagelanguageinitiative@gmail.com` via [Resend](https://resend.com):
+The `/contact` page sends submissions (including lesson plan / resource submissions with file attachments) to `heritagelanguageinitiative@gmail.com` via [Resend](https://resend.com):
 
 1. Sign up free at resend.com and create an API key.
 2. Set it as the `RESEND_API_KEY` environment variable (`.env.local` locally, or your hosting provider's project settings for the live site).
 3. Without a domain verified on Resend, emails send from `onboarding@resend.dev` — fine for this use case since the recipient is your own address. Verify a domain later in Resend if you want the "from" address to match your own domain instead.
+
+The form has a "What's this about?" selector (general inquiry vs. submitting a lesson plan/resource) and an optional file attachment field (up to 3 files, 4MB each, 4MB combined — kept under typical serverless request-body limits). Attachments are sent as real email attachments via Resend's API.
 
 If `RESEND_API_KEY` isn't set, the form shows an error instead of silently losing messages.
 
