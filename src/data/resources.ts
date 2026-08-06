@@ -73,6 +73,13 @@ export interface Resource {
   // Optional: our own downloadable PDF (e.g. an "inspired lesson plan"),
   // distinct from sourceUrl. Usually a same-site path like /lesson-plans/x.pdf.
   pdfUrl?: string;
+  // Optional: a real, freely-licensed photo/artwork illustrating the resource
+  // (Wikimedia Commons, public domain or CC-licensed). imageCredit and
+  // imageCreditUrl should always be set alongside imageUrl so the source is
+  // visibly cited on the card and detail page — see README.
+  imageUrl?: string;
+  imageCredit?: string;
+  imageCreditUrl?: string;
 }
 
 // Fallback data: used when RESOURCES_SHEET_CSV_URL isn't configured, or if the
@@ -98,6 +105,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://plato.stanford.edu/entries/consequentialism/",
     sourceName: "Stanford Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/consequentialism.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Fountain_of_Justice_%28Gerechtigkeitsbrunnen%29_on_the_Roemerberg%2C_Frankfurt_%282025%29.jpg/1280px-Fountain_of_Justice_%28Gerechtigkeitsbrunnen%29_on_the_Roemerberg%2C_Frankfurt_%282025%29.jpg",
+    imageCredit: "Paul Colin Hennig firstdorsal.eu",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Fountain_of_Justice_(Gerechtigkeitsbrunnen)_on_the_Roemerberg,_Frankfurt_(2025).jpg",
   },
   {
     slug: "kant-s-moral-philosophy",
@@ -119,6 +129,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://plato.stanford.edu/entries/kant-moral/",
     sourceName: "Stanford Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/kant-s-moral-philosophy.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Immanuel_Kant_by_Johann_Christoph_Frisch.jpg/1280px-Immanuel_Kant_by_Johann_Christoph_Frisch.jpg",
+    imageCredit: "Johann Christoph Frisch",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Immanuel_Kant_by_Johann_Christoph_Frisch.jpg",
   },
   {
     slug: "virtue-ethics",
@@ -140,6 +153,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://plato.stanford.edu/entries/ethics-virtue/",
     sourceName: "Stanford Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/virtue-ethics.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/View_of_the_newly_discovered_part_of_the_Ancient_Agora_of_Athens_from_the_space_between_the_train_line_and_Adrianou_Street.jpg/1280px-View_of_the_newly_discovered_part_of_the_Ancient_Agora_of_Athens_from_the_space_between_the_train_line_and_Adrianou_Street.jpg",
+    imageCredit: "George E. Koronaios",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:View_of_the_newly_discovered_part_of_the_Ancient_Agora_of_Athens_from_the_space_between_the_train_line_and_Adrianou_Street.jpg",
   },
   {
     slug: "contemporary-approaches-to-the-social-contract",
@@ -160,6 +176,9 @@ export const seedResources: Resource[] = [
     author: "Fred D'Agostino, Gerald Gaus & John Thrasher",
     sourceUrl: "https://plato.stanford.edu/entries/contractarianism-contemporary/",
     sourceName: "Stanford Encyclopedia of Philosophy",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/BEP-GIRSCH-Declaration_of_Independence_%28Trumbull%29.jpg/1280px-BEP-GIRSCH-Declaration_of_Independence_%28Trumbull%29.jpg",
+    imageCredit: "Frederick Girsch at the American Bank Note Company",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:BEP-GIRSCH-Declaration_of_Independence_(Trumbull).jpg",
   },
   {
     slug: "john-rawls",
@@ -181,6 +200,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://plato.stanford.edu/entries/rawls/",
     sourceName: "Stanford Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/john-rawls.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/John_Bordley_Rawls_1943_Trim.jpg/1280px-John_Bordley_Rawls_1943_Trim.jpg",
+    imageCredit: "Princeton University",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:John_Bordley_Rawls_1943_Trim.jpg",
   },
   {
     slug: "war",
@@ -202,6 +224,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://plato.stanford.edu/entries/war/",
     sourceName: "Stanford Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/war.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_in_Google_Earth-x0-y1.jpg/1280px-El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_in_Google_Earth-x0-y1.jpg",
+    imageCredit: "Francisco Goya",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:El_Tres_de_Mayo,_by_Francisco_de_Goya,_from_Prado_in_Google_Earth-x0-y1.jpg",
   },
   {
     slug: "the-problem-of-evil",
@@ -223,6 +248,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://plato.stanford.edu/entries/evil/",
     sourceName: "Stanford Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/the-problem-of-evil.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/William_Blake_-_Job_and_His_Family.jpg/1280px-William_Blake_-_Job_and_His_Family.jpg",
+    imageCredit: "William Blake",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:William_Blake_-_Job_and_His_Family.jpg",
   },
   {
     slug: "pascal-s-wager",
@@ -244,6 +272,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://plato.stanford.edu/entries/pascal-wager/",
     sourceName: "Stanford Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/pascal-s-wager.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/b6/Blaise_Pascal_Versailles-cropped.jpg",
+    imageCredit: "Formerly attributed to Jean Baptiste de Champaigne",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Blaise_Pascal_Versailles-cropped.jpg",
   },
   {
     slug: "ontological-arguments",
@@ -265,6 +296,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://plato.stanford.edu/entries/ontological-arguments/",
     sourceName: "Stanford Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/ontological-arguments.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/f9/12th-century_painters_-_Meditations_of_St_Anselm_-_WGA15732.jpg",
+    imageCredit: "Unknown Miniaturist",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:12th-century_painters_-_Meditations_of_St_Anselm_-_WGA15732.jpg",
   },
   {
     slug: "theological-voluntarism",
@@ -285,6 +319,9 @@ export const seedResources: Resource[] = [
     author: "Michael J. Murray & Kyle Rupp",
     sourceUrl: "https://plato.stanford.edu/entries/voluntarism-theological/",
     sourceName: "Stanford Encyclopedia of Philosophy",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Sistine_Chapel_ceiling%2C_Creation_of_Adam.jpg/1280px-Sistine_Chapel_ceiling%2C_Creation_of_Adam.jpg",
+    imageCredit: "Michelangelo",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Sistine_Chapel_ceiling,_Creation_of_Adam.jpg",
   },
   {
     slug: "social-contract-theory",
@@ -305,6 +342,9 @@ export const seedResources: Resource[] = [
     author: "IEP contributors",
     sourceUrl: "https://iep.utm.edu/soc-cont/",
     sourceName: "Internet Encyclopedia of Philosophy",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/BEP-GIRSCH-Declaration_of_Independence_%28Trumbull%29.jpg/1280px-BEP-GIRSCH-Declaration_of_Independence_%28Trumbull%29.jpg",
+    imageCredit: "Frederick Girsch at the American Bank Note Company",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:BEP-GIRSCH-Declaration_of_Independence_(Trumbull).jpg",
   },
   {
     slug: "philosophy-of-religion",
@@ -325,6 +365,9 @@ export const seedResources: Resource[] = [
     author: "IEP contributors",
     sourceUrl: "https://iep.utm.edu/religion/",
     sourceName: "Internet Encyclopedia of Philosophy",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Sistine_Chapel_ceiling%2C_Creation_of_Adam.jpg/1280px-Sistine_Chapel_ceiling%2C_Creation_of_Adam.jpg",
+    imageCredit: "Michelangelo",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Sistine_Chapel_ceiling,_Creation_of_Adam.jpg",
   },
   {
     slug: "john-rawls-internet-encyclopedia-of-philosophy",
@@ -345,6 +388,9 @@ export const seedResources: Resource[] = [
     author: "IEP contributors",
     sourceUrl: "https://iep.utm.edu/rawls/",
     sourceName: "Internet Encyclopedia of Philosophy",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/John_Bordley_Rawls_1943_Trim.jpg/1280px-John_Bordley_Rawls_1943_Trim.jpg",
+    imageCredit: "Princeton University",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:John_Bordley_Rawls_1943_Trim.jpg",
   },
   {
     slug: "utilitarianism",
@@ -366,6 +412,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://www.gutenberg.org/ebooks/11224",
     sourceName: "Project Gutenberg",
     pdfUrl: "/lesson-plans/utilitarianism.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/John_Stuart_Mill%2C_Vanity_Fair%2C_1873-03-29.jpg/1280px-John_Stuart_Mill%2C_Vanity_Fair%2C_1873-03-29.jpg",
+    imageCredit: "Leslie Ward",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:John_Stuart_Mill,_Vanity_Fair,_1873-03-29.jpg",
   },
   {
     slug: "the-nicomachean-ethics",
@@ -387,6 +436,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://www.gutenberg.org/ebooks/8438",
     sourceName: "Project Gutenberg",
     pdfUrl: "/lesson-plans/the-nicomachean-ethics.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/1280px-Aristotle_Altemps_Inv8575.jpg",
+    imageCredit: "After Lysippos",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg",
   },
   {
     slug: "leviathan",
@@ -408,6 +460,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://www.gutenberg.org/ebooks/3207",
     sourceName: "Project Gutenberg",
     pdfUrl: "/lesson-plans/leviathan.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Leviathan_frontispiece_cropped_British_Library.jpg/1280px-Leviathan_frontispiece_cropped_British_Library.jpg",
+    imageCredit: "Abraham Bosse",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Leviathan_frontispiece_cropped_British_Library.jpg",
   },
   {
     slug: "second-treatise-of-government",
@@ -429,6 +484,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://www.gutenberg.org/ebooks/7370",
     sourceName: "Project Gutenberg",
     pdfUrl: "/lesson-plans/second-treatise-of-government.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/b8/John_Locke.jpg",
+    imageCredit: "Godfrey Kneller",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:John_Locke.jpg",
   },
   {
     slug: "the-social-contract-discourses",
@@ -450,6 +508,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://www.gutenberg.org/ebooks/46333",
     sourceName: "Project Gutenberg",
     pdfUrl: "/lesson-plans/the-social-contract-discourses.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Jean-Jacques_Rousseau._Stipple_engraving_by_R._Hart_after_M._Wellcome_V0005111.jpg/1280px-Jean-Jacques_Rousseau._Stipple_engraving_by_R._Hart_after_M._Wellcome_V0005111.jpg",
+    imageCredit: "After Maurice Quentin de La Tour",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Jean-Jacques_Rousseau._Stipple_engraving_by_R._Hart_after_M._Wellcome_V0005111.jpg",
   },
   {
     slug: "dialogues-concerning-natural-religion",
@@ -471,6 +532,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://www.gutenberg.org/ebooks/4583",
     sourceName: "Project Gutenberg",
     pdfUrl: "/lesson-plans/dialogues-concerning-natural-religion.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Allan_Ramsay_-_David_Hume%2C_1711_-_1776._Historian_and_philosopher_-_PG_3521_-_National_Galleries_of_Scotland.jpg/1280px-Allan_Ramsay_-_David_Hume%2C_1711_-_1776._Historian_and_philosopher_-_PG_3521_-_National_Galleries_of_Scotland.jpg",
+    imageCredit: "Allan Ramsay",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Allan_Ramsay_-_David_Hume,_1711_-_1776._Historian_and_philosopher_-_PG_3521_-_National_Galleries_of_Scotland.jpg",
   },
   {
     slug: "groundwork-for-the-metaphysic-of-morals",
@@ -492,6 +556,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://www.earlymoderntexts.com/assets/pdfs/kant1785.pdf",
     sourceName: "Early Modern Texts",
     pdfUrl: "/lesson-plans/groundwork-for-the-metaphysic-of-morals.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Immanuel_Kant_by_Johann_Christoph_Frisch.jpg/1280px-Immanuel_Kant_by_Johann_Christoph_Frisch.jpg",
+    imageCredit: "Johann Christoph Frisch",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Immanuel_Kant_by_Johann_Christoph_Frisch.jpg",
   },
   {
     slug: "introduction-to-political-philosophy",
@@ -513,6 +580,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://oyc.yale.edu/political-science/plsc-114",
     sourceName: "Open Yale Courses",
     pdfUrl: "/lesson-plans/introduction-to-political-philosophy.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/1280px-Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+    imageCredit: "Marie-Lan Nguyen",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Plato_Silanion_Musei_Capitolini_MC1377.jpg",
   },
   {
     slug: "the-rawlsian-social-contract",
@@ -533,6 +603,9 @@ export const seedResources: Resource[] = [
     author: "Ian Shapiro",
     sourceUrl: "https://oyc.yale.edu/political-science/plsc-118/lecture-16",
     sourceName: "Open Yale Courses",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/John_Bordley_Rawls_1943_Trim.jpg/1280px-John_Bordley_Rawls_1943_Trim.jpg",
+    imageCredit: "Princeton University",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:John_Bordley_Rawls_1943_Trim.jpg",
   },
   {
     slug: "justice",
@@ -554,6 +627,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://ocw.mit.edu/courses/24-04j-justice-spring-2012/",
     sourceName: "MIT OpenCourseWare",
     pdfUrl: "/lesson-plans/justice.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Lady_Justice%2C_the_Old_Bailey_-_geograph.org.uk_-_7017754.jpg",
+    imageCredit: "Philip Halling",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Lady_Justice,_the_Old_Bailey_-_geograph.org.uk_-_7017754.jpg",
   },
   {
     slug: "justice-what-s-the-right-thing-to-do-the-moral-side-of-murder",
@@ -574,6 +650,9 @@ export const seedResources: Resource[] = [
     author: "Michael J. Sandel",
     sourceUrl: "https://justiceharvard.org/themoralsideofmurder/",
     sourceName: "Justice with Michael Sandel (Harvard)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Lady_Justice%2C_the_Old_Bailey_-_geograph.org.uk_-_7017754.jpg",
+    imageCredit: "Philip Halling",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Lady_Justice,_the_Old_Bailey_-_geograph.org.uk_-_7017754.jpg",
   },
   {
     slug: "utilitarianism-ethics-unwrapped",
@@ -594,6 +673,9 @@ export const seedResources: Resource[] = [
     author: "Ethics Unwrapped / UT Austin",
     sourceUrl: "https://ethicsunwrapped.utexas.edu/glossary/utilitarianism",
     sourceName: "Ethics Unwrapped",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Mask_on_the_Jeremy_Bentham_Auto-Icon_at_UCL.jpg/1280px-Mask_on_the_Jeremy_Bentham_Auto-Icon_at_UCL.jpg",
+    imageCredit: "Ethan Doyle White",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Mask_on_the_Jeremy_Bentham_Auto-Icon_at_UCL.jpg",
   },
   {
     slug: "virtue-ethics-ethics-unwrapped",
@@ -614,6 +696,9 @@ export const seedResources: Resource[] = [
     author: "Ethics Unwrapped / UT Austin",
     sourceUrl: "https://ethicsunwrapped.utexas.edu/glossary/virtue-ethics",
     sourceName: "Ethics Unwrapped",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/View_of_the_newly_discovered_part_of_the_Ancient_Agora_of_Athens_from_the_space_between_the_train_line_and_Adrianou_Street.jpg/1280px-View_of_the_newly_discovered_part_of_the_Ancient_Agora_of_Athens_from_the_space_between_the_train_line_and_Adrianou_Street.jpg",
+    imageCredit: "George E. Koronaios",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:View_of_the_newly_discovered_part_of_the_Ancient_Agora_of_Athens_from_the_space_between_the_train_line_and_Adrianou_Street.jpg",
   },
   {
     slug: "ethics-and-god-divine-command-theory-and-the-euthyphro-dilemma",
@@ -634,6 +719,9 @@ export const seedResources: Resource[] = [
     author: "Nathan Nobis",
     sourceUrl: "https://1000wordphilosophy.com/2025/11/22/divine-command-theory/",
     sourceName: "1000-Word Philosophy",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Sistine_Chapel_ceiling%2C_Creation_of_Adam.jpg/1280px-Sistine_Chapel_ceiling%2C_Creation_of_Adam.jpg",
+    imageCredit: "Michelangelo",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Sistine_Chapel_ceiling,_Creation_of_Adam.jpg",
   },
   {
     slug: "the-problem-of-evil-is-suffering-evidence-that-there-is-not-a-god",
@@ -654,6 +742,9 @@ export const seedResources: Resource[] = [
     author: "Thomas Metcalf",
     sourceUrl: "https://1000wordphilosophy.com/2014/04/07/the-problem-of-evil/",
     sourceName: "1000-Word Philosophy",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/William_Blake_-_Job_and_His_Family.jpg/1280px-William_Blake_-_Job_and_His_Family.jpg",
+    imageCredit: "William Blake",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:William_Blake_-_Job_and_His_Family.jpg",
   },
   {
     slug: "consequentialism-and-utilitarianism",
@@ -674,6 +765,9 @@ export const seedResources: Resource[] = [
     author: "Shane Gronholz",
     sourceUrl: "https://1000wordphilosophy.com/2014/05/15/consequentialism/",
     sourceName: "1000-Word Philosophy",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Fountain_of_Justice_%28Gerechtigkeitsbrunnen%29_on_the_Roemerberg%2C_Frankfurt_%282025%29.jpg/1280px-Fountain_of_Justice_%28Gerechtigkeitsbrunnen%29_on_the_Roemerberg%2C_Frankfurt_%282025%29.jpg",
+    imageCredit: "Paul Colin Hennig firstdorsal.eu",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Fountain_of_Justice_(Gerechtigkeitsbrunnen)_on_the_Roemerberg,_Frankfurt_(2025).jpg",
   },
   {
     slug: "stephen-law-on-the-problem-of-evil",
@@ -694,6 +788,9 @@ export const seedResources: Resource[] = [
     author: "Stephen Law, interviewed by Nigel Warburton & David Edmonds",
     sourceUrl: "https://philosophybites.com/podcast/stephen-law-on-the-problem-of-evil/",
     sourceName: "Philosophy Bites",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/William_Blake_-_Job_and_His_Family.jpg/1280px-William_Blake_-_Job_and_His_Family.jpg",
+    imageCredit: "William Blake",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:William_Blake_-_Job_and_His_Family.jpg",
   },
   {
     slug: "jonathan-wolff-on-john-rawls-a-theory-of-justice",
@@ -714,6 +811,9 @@ export const seedResources: Resource[] = [
     author: "Jonathan Wolff, interviewed by Nigel Warburton & David Edmonds",
     sourceUrl: "https://philosophybites.com/podcast/jonathan-wolff-on-john-rawls-a-theory-of-justice/",
     sourceName: "Philosophy Bites",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/John_Bordley_Rawls_1943_Trim.jpg/1280px-John_Bordley_Rawls_1943_Trim.jpg",
+    imageCredit: "Princeton University",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:John_Bordley_Rawls_1943_Trim.jpg",
   },
   {
     slug: "the-ox-heard-round-the-world-thomas-aquinas",
@@ -734,6 +834,9 @@ export const seedResources: Resource[] = [
     author: "Peter Adamson",
     sourceUrl: "https://historyofphilosophy.net/aquinas",
     sourceName: "History of Philosophy Without Any Gaps",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/St-thomas-aquinas.jpg/1280px-St-thomas-aquinas.jpg",
+    imageCredit: "Carlo Crivelli",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:St-thomas-aquinas.jpg",
   },
   {
     slug: "john-rawls-his-life-and-theory-of-justice",
@@ -754,6 +857,9 @@ export const seedResources: Resource[] = [
     author: "Arthur Kuflik",
     sourceUrl: "https://ndpr.nd.edu/reviews/john-rawls-his-life-and-theory-of-justice/",
     sourceName: "Notre Dame Philosophical Reviews",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/John_Bordley_Rawls_1943_Trim.jpg/1280px-John_Bordley_Rawls_1943_Trim.jpg",
+    imageCredit: "Princeton University",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:John_Bordley_Rawls_1943_Trim.jpg",
   },
   {
     slug: "ethics-a-free-online-course",
@@ -775,6 +881,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://www.openculture.com/ethics-a-free-course",
     sourceName: "Open Culture",
     pdfUrl: "/lesson-plans/ethics-a-free-online-course.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Fountain_of_Justice_%28Gerechtigkeitsbrunnen%29_on_the_Roemerberg%2C_Frankfurt_%282025%29.jpg/1280px-Fountain_of_Justice_%28Gerechtigkeitsbrunnen%29_on_the_Roemerberg%2C_Frankfurt_%282025%29.jpg",
+    imageCredit: "Paul Colin Hennig firstdorsal.eu",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Fountain_of_Justice_(Gerechtigkeitsbrunnen)_on_the_Roemerberg,_Frankfurt_(2025).jpg",
   },
   {
     slug: "the-republic",
@@ -796,6 +905,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://archive.org/details/in.ernet.dli.2015.223393",
     sourceName: "Archive.org",
     pdfUrl: "/lesson-plans/the-republic.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Plato_Silanion_Musei_Capitolini_MC1377.jpg/1280px-Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+    imageCredit: "Marie-Lan Nguyen",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Plato_Silanion_Musei_Capitolini_MC1377.jpg",
   },
   {
     slug: "just-war-theory-revisionists-vs-traditionalists",
@@ -816,6 +928,9 @@ export const seedResources: Resource[] = [
     author: "Seth Lazar",
     sourceUrl: "https://philarchive.org/rec/LAZJWT",
     sourceName: "PhilArchive",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_in_Google_Earth-x0-y1.jpg/1280px-El_Tres_de_Mayo%2C_by_Francisco_de_Goya%2C_from_Prado_in_Google_Earth-x0-y1.jpg",
+    imageCredit: "Francisco Goya",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:El_Tres_de_Mayo,_by_Francisco_de_Goya,_from_Prado_in_Google_Earth-x0-y1.jpg",
   },
   {
     slug: "kant-categorical-imperative",
@@ -836,6 +951,9 @@ export const seedResources: Resource[] = [
     author: "PhilPapers editors",
     sourceUrl: "https://philpapers.org/browse/kant-categorical-imperative",
     sourceName: "PhilPapers",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Immanuel_Kant_by_Johann_Christoph_Frisch.jpg/1280px-Immanuel_Kant_by_Johann_Christoph_Frisch.jpg",
+    imageCredit: "Johann Christoph Frisch",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Immanuel_Kant_by_Johann_Christoph_Frisch.jpg",
   },
   {
     slug: "the-problem-of-evil-for-atheists",
@@ -856,6 +974,9 @@ export const seedResources: Resource[] = [
     author: "Yujin Nagasawa",
     sourceUrl: "https://directory.doabooks.org/handle/20.500.12854/139008",
     sourceName: "Directory of Open Access Books (DOAB)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/William_Blake_-_Job_and_His_Family.jpg/1280px-William_Blake_-_Job_and_His_Family.jpg",
+    imageCredit: "William Blake",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:William_Blake_-_Job_and_His_Family.jpg",
   },
   {
     slug: "personal-identity",
@@ -877,6 +998,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://plato.stanford.edu/entries/identity-personal/",
     sourceName: "Stanford Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/personal-identity.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Mark_and_Scott_Kelly_at_the_Johnson_Space_Center%2C_Houston_Texas_-_profile.jpg/1280px-Mark_and_Scott_Kelly_at_the_Johnson_Space_Center%2C_Houston_Texas_-_profile.jpg",
+    imageCredit: "Robert Markowitz",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Mark_and_Scott_Kelly_at_the_Johnson_Space_Center,_Houston_Texas_-_profile.jpg",
   },
   {
     slug: "identity-over-time",
@@ -898,6 +1022,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://plato.stanford.edu/entries/identity-time/",
     sourceName: "Stanford Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/identity-over-time.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Mark_and_Scott_Kelly_at_the_Johnson_Space_Center%2C_Houston_Texas_-_profile.jpg/1280px-Mark_and_Scott_Kelly_at_the_Johnson_Space_Center%2C_Houston_Texas_-_profile.jpg",
+    imageCredit: "Robert Markowitz",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Mark_and_Scott_Kelly_at_the_Johnson_Space_Center,_Houston_Texas_-_profile.jpg",
   },
   {
     slug: "free-will",
@@ -919,6 +1046,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://plato.stanford.edu/entries/freewill/",
     sourceName: "Stanford Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/free-will.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Road_Fork_Baptist_Church.jpg/1280px-Road_Fork_Baptist_Church.jpg",
+    imageCredit: "Nyttend",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Road_Fork_Baptist_Church.jpg",
   },
   {
     slug: "the-analysis-of-knowledge",
@@ -940,6 +1070,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://plato.stanford.edu/entries/knowledge-analysis/",
     sourceName: "Stanford Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/the-analysis-of-knowledge.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Centuries_or_decades_old_books_at_the_Central_Library%2C_Panjim%2C_Goa_2.jpg/1280px-Centuries_or_decades_old_books_at_the_Central_Library%2C_Panjim%2C_Goa_2.jpg",
+    imageCredit: "Fredericknoronha",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Centuries_or_decades_old_books_at_the_Central_Library,_Panjim,_Goa_2.jpg",
   },
   {
     slug: "the-problem-of-induction",
@@ -961,6 +1094,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://plato.stanford.edu/entries/induction-problem/",
     sourceName: "Stanford Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/the-problem-of-induction.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/An_orbital_sunrise_crowns_Earth%27s_horizon_%28iss072e340644%29.jpg/1280px-An_orbital_sunrise_crowns_Earth%27s_horizon_%28iss072e340644%29.jpg",
+    imageCredit: "NASA Johnson Space Center",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:An_orbital_sunrise_crowns_Earth%27s_horizon_(iss072e340644).jpg",
   },
   {
     slug: "the-chinese-room-argument",
@@ -982,6 +1118,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://plato.stanford.edu/entries/chinese-room/",
     sourceName: "Stanford Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/the-chinese-room-argument.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Brain%3B_dissection_showing_the_top_of_the_brain%2C_with_the_dur_Wellcome_V0008398.jpg/1280px-Brain%3B_dissection_showing_the_top_of_the_brain%2C_with_the_dur_Wellcome_V0008398.jpg",
+    imageCredit: "Unknown artist",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Brain;_dissection_showing_the_top_of_the_brain,_with_the_dur_Wellcome_V0008398.jpg",
   },
   {
     slug: "dualism",
@@ -1003,6 +1142,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://plato.stanford.edu/entries/dualism/",
     sourceName: "Stanford Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/dualism.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Brain%3B_dissection_showing_the_top_of_the_brain%2C_with_the_dur_Wellcome_V0008398.jpg/1280px-Brain%3B_dissection_showing_the_top_of_the_brain%2C_with_the_dur_Wellcome_V0008398.jpg",
+    imageCredit: "Unknown artist",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Brain;_dissection_showing_the_top_of_the_brain,_with_the_dur_Wellcome_V0008398.jpg",
   },
   {
     slug: "qualia-the-knowledge-argument",
@@ -1024,6 +1166,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://plato.stanford.edu/entries/qualia-knowledge/",
     sourceName: "Stanford Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/qualia-the-knowledge-argument.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Brain%3B_dissection_showing_the_top_of_the_brain%2C_with_the_dur_Wellcome_V0008398.jpg/1280px-Brain%3B_dissection_showing_the_top_of_the_brain%2C_with_the_dur_Wellcome_V0008398.jpg",
+    imageCredit: "Unknown artist",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Brain;_dissection_showing_the_top_of_the_brain,_with_the_dur_Wellcome_V0008398.jpg",
   },
   {
     slug: "aristotle-logic",
@@ -1045,6 +1190,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://iep.utm.edu/aristotle-logic/",
     sourceName: "Internet Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/aristotle-logic.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/1280px-Aristotle_Altemps_Inv8575.jpg",
+    imageCredit: "After Lysippos",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg",
   },
   {
     slug: "functionalism",
@@ -1065,6 +1213,9 @@ export const seedResources: Resource[] = [
     author: "Thomas Polger",
     sourceUrl: "https://iep.utm.edu/functism/",
     sourceName: "Internet Encyclopedia of Philosophy",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Brain%3B_dissection_showing_the_top_of_the_brain%2C_with_the_dur_Wellcome_V0008398.jpg/1280px-Brain%3B_dissection_showing_the_top_of_the_brain%2C_with_the_dur_Wellcome_V0008398.jpg",
+    imageCredit: "Unknown artist",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Brain;_dissection_showing_the_top_of_the_brain,_with_the_dur_Wellcome_V0008398.jpg",
   },
   {
     slug: "validity-and-soundness",
@@ -1086,6 +1237,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://iep.utm.edu/val-snd/",
     sourceName: "Internet Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/validity-and-soundness.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/15/The_Elements_of_Geometry_WDL7103.jpg",
+    imageCredit: "Pardies",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:The_Elements_of_Geometry_WDL7103.jpg",
   },
   {
     slug: "deductive-and-inductive-arguments",
@@ -1106,6 +1260,9 @@ export const seedResources: Resource[] = [
     author: "IEP contributors",
     sourceUrl: "https://iep.utm.edu/deductive-inductive-arguments/",
     sourceName: "Internet Encyclopedia of Philosophy",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/15/The_Elements_of_Geometry_WDL7103.jpg",
+    imageCredit: "Pardies",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:The_Elements_of_Geometry_WDL7103.jpg",
   },
   {
     slug: "epistemology",
@@ -1127,6 +1284,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://iep.utm.edu/epistemo/",
     sourceName: "Internet Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/epistemology.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Centuries_or_decades_old_books_at_the_Central_Library%2C_Panjim%2C_Goa_2.jpg/1280px-Centuries_or_decades_old_books_at_the_Central_Library%2C_Panjim%2C_Goa_2.jpg",
+    imageCredit: "Fredericknoronha",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Centuries_or_decades_old_books_at_the_Central_Library,_Panjim,_Goa_2.jpg",
   },
   {
     slug: "an-enquiry-concerning-human-understanding",
@@ -1148,6 +1308,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://www.gutenberg.org/ebooks/9662",
     sourceName: "Project Gutenberg",
     pdfUrl: "/lesson-plans/an-enquiry-concerning-human-understanding.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Allan_Ramsay_-_David_Hume%2C_1711_-_1776._Historian_and_philosopher_-_PG_3521_-_National_Galleries_of_Scotland.jpg/1280px-Allan_Ramsay_-_David_Hume%2C_1711_-_1776._Historian_and_philosopher_-_PG_3521_-_National_Galleries_of_Scotland.jpg",
+    imageCredit: "Allan Ramsay",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Allan_Ramsay_-_David_Hume,_1711_-_1776._Historian_and_philosopher_-_PG_3521_-_National_Galleries_of_Scotland.jpg",
   },
   {
     slug: "a-system-of-logic-ratiocinative-and-inductive",
@@ -1168,6 +1331,9 @@ export const seedResources: Resource[] = [
     author: "John Stuart Mill",
     sourceUrl: "https://www.gutenberg.org/ebooks/27942",
     sourceName: "Project Gutenberg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/John_Stuart_Mill%2C_Vanity_Fair%2C_1873-03-29.jpg/1280px-John_Stuart_Mill%2C_Vanity_Fair%2C_1873-03-29.jpg",
+    imageCredit: "Leslie Ward",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:John_Stuart_Mill,_Vanity_Fair,_1873-03-29.jpg",
   },
   {
     slug: "symbolic-logic",
@@ -1189,6 +1355,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://www.gutenberg.org/ebooks/28696",
     sourceName: "Project Gutenberg",
     pdfUrl: "/lesson-plans/symbolic-logic.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Lewis_Carroll_%28Charles_Lutwidge_Dodgson%29.jpg/1280px-Lewis_Carroll_%28Charles_Lutwidge_Dodgson%29.jpg",
+    imageCredit: "Oscar Gustave Rejlander",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Lewis_Carroll_(Charles_Lutwidge_Dodgson).jpg",
   },
   {
     slug: "meditations-on-first-philosophy",
@@ -1210,6 +1379,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://www.earlymoderntexts.com/assets/pdfs/descartes1641.pdf",
     sourceName: "Early Modern Texts",
     pdfUrl: "/lesson-plans/meditations-on-first-philosophy.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Frans_Hals%2C_Portrait_of_Ren%C3%A9_Descartes.jpg/1280px-Frans_Hals%2C_Portrait_of_Ren%C3%A9_Descartes.jpg",
+    imageCredit: "Frans Hals",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Frans_Hals,_Portrait_of_Ren%C3%A9_Descartes.jpg",
   },
   {
     slug: "three-dialogues-between-hylas-and-philonous",
@@ -1230,6 +1402,9 @@ export const seedResources: Resource[] = [
     author: "George Berkeley (Jonathan Bennett rendering)",
     sourceUrl: "https://www.earlymoderntexts.com/assets/pdfs/berkeley1713.pdf",
     sourceName: "Early Modern Texts",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/George_Berkeley_by_John_Smibert.jpg/1280px-George_Berkeley_by_John_Smibert.jpg",
+    imageCredit: "John Smibert",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:George_Berkeley_by_John_Smibert.jpg",
   },
   {
     slug: "logic-i",
@@ -1251,6 +1426,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://ocw.mit.edu/courses/24-241-logic-i-fall-2009/",
     sourceName: "MIT OpenCourseWare",
     pdfUrl: "/lesson-plans/logic-i.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/15/The_Elements_of_Geometry_WDL7103.jpg",
+    imageCredit: "Pardies",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:The_Elements_of_Geometry_WDL7103.jpg",
   },
   {
     slug: "theory-of-knowledge",
@@ -1272,6 +1450,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://ocw.mit.edu/courses/24-211-theory-of-knowledge-spring-2014/",
     sourceName: "MIT OpenCourseWare",
     pdfUrl: "/lesson-plans/theory-of-knowledge.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Centuries_or_decades_old_books_at_the_Central_Library%2C_Panjim%2C_Goa_2.jpg/1280px-Centuries_or_decades_old_books_at_the_Central_Library%2C_Panjim%2C_Goa_2.jpg",
+    imageCredit: "Fredericknoronha",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Centuries_or_decades_old_books_at_the_Central_Library,_Panjim,_Goa_2.jpg",
   },
   {
     slug: "death",
@@ -1293,6 +1474,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://oyc.yale.edu/philosophy/phil-176",
     sourceName: "Open Yale Courses",
     pdfUrl: "/lesson-plans/death.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Adriaen_Coorte_-_Vanitas_Still_Life_with_skull_and_hourglass.jpg/1280px-Adriaen_Coorte_-_Vanitas_Still_Life_with_skull_and_hourglass.jpg",
+    imageCredit: "Adriaen Coorte",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Adriaen_Coorte_-_Vanitas_Still_Life_with_skull_and_hourglass.jpg",
   },
   {
     slug: "the-gettier-problem-and-the-definition-of-knowledge",
@@ -1313,6 +1497,9 @@ export const seedResources: Resource[] = [
     author: "Andrew Chapman",
     sourceUrl: "https://1000wordphilosophy.com/2014/04/10/the-gettier-problem/",
     sourceName: "1000-Word Philosophy",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Centuries_or_decades_old_books_at_the_Central_Library%2C_Panjim%2C_Goa_2.jpg/1280px-Centuries_or_decades_old_books_at_the_Central_Library%2C_Panjim%2C_Goa_2.jpg",
+    imageCredit: "Fredericknoronha",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Centuries_or_decades_old_books_at_the_Central_Library,_Panjim,_Goa_2.jpg",
   },
   {
     slug: "the-mind-body-problem-what-are-minds",
@@ -1333,6 +1520,9 @@ export const seedResources: Resource[] = [
     author: "Jacob Berger",
     sourceUrl: "https://1000wordphilosophy.com/2024/02/03/mind-body-problem/",
     sourceName: "1000-Word Philosophy",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Brain%3B_dissection_showing_the_top_of_the_brain%2C_with_the_dur_Wellcome_V0008398.jpg/1280px-Brain%3B_dissection_showing_the_top_of_the_brain%2C_with_the_dur_Wellcome_V0008398.jpg",
+    imageCredit: "Unknown artist",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Brain;_dissection_showing_the_top_of_the_brain,_with_the_dur_Wellcome_V0008398.jpg",
   },
   {
     slug: "free-will-and-free-choice",
@@ -1353,6 +1543,9 @@ export const seedResources: Resource[] = [
     author: "Jonah Nagashima",
     sourceUrl: "https://1000wordphilosophy.com/2014/04/03/free-will-and-free-choice/",
     sourceName: "1000-Word Philosophy",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Road_Fork_Baptist_Church.jpg/1280px-Road_Fork_Baptist_Church.jpg",
+    imageCredit: "Nyttend",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Road_Fork_Baptist_Church.jpg",
   },
   {
     slug: "the-gettier-problem-no-longer-a-problem",
@@ -1373,6 +1566,9 @@ export const seedResources: Resource[] = [
     author: "Lukasz Lozanski",
     sourceUrl: "https://philosophynow.org/issues/63/The_Gettier_Problem_No_Longer_a_Problem",
     sourceName: "Philosophy Now",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Centuries_or_decades_old_books_at_the_Central_Library%2C_Panjim%2C_Goa_2.jpg/1280px-Centuries_or_decades_old_books_at_the_Central_Library%2C_Panjim%2C_Goa_2.jpg",
+    imageCredit: "Fredericknoronha",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Centuries_or_decades_old_books_at_the_Central_Library,_Panjim,_Goa_2.jpg",
   },
   {
     slug: "gary-hatfield-on-descartes-meditations",
@@ -1393,6 +1589,9 @@ export const seedResources: Resource[] = [
     author: "Peter Adamson, with guest Gary Hatfield",
     sourceUrl: "https://historyofphilosophy.net/podcast/early-modern/france-and-netherlands/descartes-meditations-hatfield",
     sourceName: "History of Philosophy Without Any Gaps",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Frans_Hals%2C_Portrait_of_Ren%C3%A9_Descartes.jpg/1280px-Frans_Hals%2C_Portrait_of_Ren%C3%A9_Descartes.jpg",
+    imageCredit: "Frans Hals",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Frans_Hals,_Portrait_of_Ren%C3%A9_Descartes.jpg",
   },
   {
     slug: "christopher-shields-on-personal-identity",
@@ -1413,6 +1612,9 @@ export const seedResources: Resource[] = [
     author: "Christopher Shields",
     sourceUrl: "https://philosophybites.com/podcast/christopher-shields-on-personal-identity/",
     sourceName: "Philosophy Bites",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Mark_and_Scott_Kelly_at_the_Johnson_Space_Center%2C_Houston_Texas_-_profile.jpg/1280px-Mark_and_Scott_Kelly_at_the_Johnson_Space_Center%2C_Houston_Texas_-_profile.jpg",
+    imageCredit: "Robert Markowitz",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Mark_and_Scott_Kelly_at_the_Johnson_Space_Center,_Houston_Texas_-_profile.jpg",
   },
   {
     slug: "ned-block-on-consciousness",
@@ -1433,6 +1635,9 @@ export const seedResources: Resource[] = [
     author: "Ned Block",
     sourceUrl: "https://philosophybites.com/podcast/ned-block-on-consciousness/",
     sourceName: "Philosophy Bites",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Brain%3B_dissection_showing_the_top_of_the_brain%2C_with_the_dur_Wellcome_V0008398.jpg/1280px-Brain%3B_dissection_showing_the_top_of_the_brain%2C_with_the_dur_Wellcome_V0008398.jpg",
+    imageCredit: "Unknown artist",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Brain;_dissection_showing_the_top_of_the_brain,_with_the_dur_Wellcome_V0008398.jpg",
   },
   {
     slug: "the-mind-body-problem-and-metaphysics",
@@ -1453,6 +1658,9 @@ export const seedResources: Resource[] = [
     author: "Alin Cucu (reviewing Ralph Stefan Weir)",
     sourceUrl: "https://ndpr.nd.edu/reviews/the-mind-body-problem-and-metaphysics/",
     sourceName: "Notre Dame Philosophical Reviews",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Brain%3B_dissection_showing_the_top_of_the_brain%2C_with_the_dur_Wellcome_V0008398.jpg/1280px-Brain%3B_dissection_showing_the_top_of_the_brain%2C_with_the_dur_Wellcome_V0008398.jpg",
+    imageCredit: "Unknown artist",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Brain;_dissection_showing_the_top_of_the_brain,_with_the_dur_Wellcome_V0008398.jpg",
   },
   {
     slug: "organon-and-other-logical-works",
@@ -1473,6 +1681,9 @@ export const seedResources: Resource[] = [
     author: "Aristotle (trans. W. D. Ross et al.)",
     sourceUrl: "https://archive.org/details/AristotleOrganon",
     sourceName: "Archive.org",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/1280px-Aristotle_Altemps_Inv8575.jpg",
+    imageCredit: "After Lysippos",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg",
   },
   {
     slug: "critique-of-pure-reason",
@@ -1493,6 +1704,9 @@ export const seedResources: Resource[] = [
     author: "Immanuel Kant",
     sourceUrl: "https://archive.org/details/CritiqueOfPureReason_201304",
     sourceName: "Archive.org",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Immanuel_Kant_by_Johann_Christoph_Frisch.jpg/1280px-Immanuel_Kant_by_Johann_Christoph_Frisch.jpg",
+    imageCredit: "Johann Christoph Frisch",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Immanuel_Kant_by_Johann_Christoph_Frisch.jpg",
   },
   {
     slug: "symbolic-logic-a-free-online-course",
@@ -1514,6 +1728,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://www.openculture.com/symbolic-logic-a-free-online-course",
     sourceName: "Open Culture",
     pdfUrl: "/lesson-plans/symbolic-logic-a-free-online-course.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Lewis_Carroll_%28Charles_Lutwidge_Dodgson%29.jpg/1280px-Lewis_Carroll_%28Charles_Lutwidge_Dodgson%29.jpg",
+    imageCredit: "Oscar Gustave Rejlander",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Lewis_Carroll_(Charles_Lutwidge_Dodgson).jpg",
   },
   {
     slug: "experimental-metaphysics",
@@ -1534,6 +1751,9 @@ export const seedResources: Resource[] = [
     author: "David Rose (ed.)",
     sourceUrl: "https://directory.doabooks.org/handle/20.500.12854/70702",
     sourceName: "Directory of Open Access Books (DOAB)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+    imageCredit: "Vincent van Gogh",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
   },
   {
     slug: "introduction-to-philosophy-epistemology",
@@ -1554,6 +1774,9 @@ export const seedResources: Resource[] = [
     author: "Brian C. Barnett (ed.)",
     sourceUrl: "https://philpapers.org/archive/BARITP-2.pdf",
     sourceName: "PhilPapers",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Centuries_or_decades_old_books_at_the_Central_Library%2C_Panjim%2C_Goa_2.jpg/1280px-Centuries_or_decades_old_books_at_the_Central_Library%2C_Panjim%2C_Goa_2.jpg",
+    imageCredit: "Fredericknoronha",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Centuries_or_decades_old_books_at_the_Central_Library,_Panjim,_Goa_2.jpg",
   },
   {
     slug: "introduction-to-philosophy-logic",
@@ -1574,6 +1797,9 @@ export const seedResources: Resource[] = [
     author: "Benjamin Martin et al. (eds.)",
     sourceUrl: "https://philarchive.org/archive/SHANAS-4",
     sourceName: "PhilArchive",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/15/The_Elements_of_Geometry_WDL7103.jpg",
+    imageCredit: "Pardies",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:The_Elements_of_Geometry_WDL7103.jpg",
   },
   {
     slug: "beauty",
@@ -1595,6 +1821,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://plato.stanford.edu/entries/beauty/",
     sourceName: "Stanford Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/beauty.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/1280px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
+    imageCredit: "Sandro Botticelli",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
   },
   {
     slug: "aesthetic-experience",
@@ -1616,6 +1845,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://plato.stanford.edu/entries/aesthetic-experience/",
     sourceName: "Stanford Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/aesthetic-experience.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/1280px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
+    imageCredit: "Sandro Botticelli",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
   },
   {
     slug: "aesthetics",
@@ -1636,6 +1868,9 @@ export const seedResources: Resource[] = [
     author: "Barry Hartley Slater",
     sourceUrl: "https://iep.utm.edu/aesthetics/",
     sourceName: "Internet Encyclopedia of Philosophy",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/1280px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
+    imageCredit: "Sandro Botticelli",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
   },
   {
     slug: "the-poetics",
@@ -1657,6 +1892,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://www.gutenberg.org/ebooks/1974",
     sourceName: "Project Gutenberg",
     pdfUrl: "/lesson-plans/the-poetics.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/1280px-Aristotle_Altemps_Inv8575.jpg",
+    imageCredit: "After Lysippos",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg",
   },
   {
     slug: "critique-of-judgement",
@@ -1678,6 +1916,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://www.gutenberg.org/ebooks/48433",
     sourceName: "Project Gutenberg",
     pdfUrl: "/lesson-plans/critique-of-judgement.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Immanuel_Kant_by_Johann_Christoph_Frisch.jpg/1280px-Immanuel_Kant_by_Johann_Christoph_Frisch.jpg",
+    imageCredit: "Johann Christoph Frisch",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Immanuel_Kant_by_Johann_Christoph_Frisch.jpg",
   },
   {
     slug: "of-the-standard-of-taste",
@@ -1698,6 +1939,9 @@ export const seedResources: Resource[] = [
     author: "David Hume (Jonathan Bennett rendering)",
     sourceUrl: "https://www.earlymoderntexts.com/assets/pdfs/hume1757essay2.pdf",
     sourceName: "Early Modern Texts",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Allan_Ramsay_-_David_Hume%2C_1711_-_1776._Historian_and_philosopher_-_PG_3521_-_National_Galleries_of_Scotland.jpg/1280px-Allan_Ramsay_-_David_Hume%2C_1711_-_1776._Historian_and_philosopher_-_PG_3521_-_National_Galleries_of_Scotland.jpg",
+    imageCredit: "Allan Ramsay",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Allan_Ramsay_-_David_Hume,_1711_-_1776._Historian_and_philosopher_-_PG_3521_-_National_Galleries_of_Scotland.jpg",
   },
   {
     slug: "studies-in-poetry-what-s-the-use-of-beauty",
@@ -1719,6 +1963,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://ocw.mit.edu/courses/21l-704-studies-in-poetry-whats-the-use-of-beauty-fall-2005/pages/syllabus/",
     sourceName: "MIT OpenCourseWare",
     pdfUrl: "/lesson-plans/studies-in-poetry-what-s-the-use-of-beauty.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_%3B_N_527_%3B_Ma_399.jpg/1280px-V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_%3B_N_527_%3B_Ma_399.jpg",
+    imageCredit: "Shonagon",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_;_N_527_;_Ma_399.jpg",
   },
   {
     slug: "definitions-of-art-what-is-art",
@@ -1739,6 +1986,9 @@ export const seedResources: Resource[] = [
     author: "Brock Rough",
     sourceUrl: "https://1000wordphilosophy.com/2014/05/05/definitions-of-art/",
     sourceName: "1000-Word Philosophy",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_%3B_N_527_%3B_Ma_399.jpg/1280px-V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_%3B_N_527_%3B_Ma_399.jpg",
+    imageCredit: "Shonagon",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_;_N_527_;_Ma_399.jpg",
   },
   {
     slug: "elisabeth-schellekens-dammann-on-disagreement-about-taste",
@@ -1759,6 +2009,9 @@ export const seedResources: Resource[] = [
     author: "Elisabeth Schellekens Dammann, interviewed by Nigel Warburton",
     sourceUrl: "https://philosophybites.com/podcast/elisabeth-schellekens-dammann-on-disagreement-about-taste/",
     sourceName: "Philosophy Bites",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_%3B_N_527_%3B_Ma_399.jpg/1280px-V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_%3B_N_527_%3B_Ma_399.jpg",
+    imageCredit: "Shonagon",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:V%C3%A9nus_de_Milo_-_Mus%C3%A9e_du_Louvre_AGER_LL_299_;_N_527_;_Ma_399.jpg",
   },
   {
     slug: "aesthetics-and-nature",
@@ -1779,6 +2032,9 @@ export const seedResources: Resource[] = [
     author: "Mara Miller (reviewing Glenn Parsons)",
     sourceUrl: "https://ndpr.nd.edu/reviews/aesthetics-and-nature/",
     sourceName: "Notre Dame Philosophical Reviews",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg/1280px-Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg",
+    imageCredit: "Caspar David Friedrich",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Caspar_David_Friedrich_-_Wanderer_above_the_Sea_of_Fog.jpeg",
   },
   {
     slug: "existentialism",
@@ -1800,6 +2056,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://plato.stanford.edu/entries/existentialism/",
     sourceName: "Stanford Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/existentialism.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/The_Scream_Pastel.jpg/1280px-The_Scream_Pastel.jpg",
+    imageCredit: "Edvard Munch",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:The_Scream_Pastel.jpg",
   },
   {
     slug: "camus-albert",
@@ -1821,6 +2080,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://iep.utm.edu/albert-camus/",
     sourceName: "Internet Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/camus-albert.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/08/Albert_Camus%2C_gagnant_de_prix_Nobel%2C_portrait_en_buste%2C_pos%C3%A9_au_bureau%2C_faisant_face_%C3%A0_gauche%2C_cigarette_de_tabagisme.jpg",
+    imageCredit: "Photograph by United Press International",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Albert_Camus,_gagnant_de_prix_Nobel,_portrait_en_buste,_pos%C3%A9_au_bureau,_faisant_face_%C3%A0_gauche,_cigarette_de_tabagisme.jpg",
   },
   {
     slug: "kierkegaard-s-ren",
@@ -1842,6 +2104,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://iep.utm.edu/kierkega/",
     sourceName: "Internet Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/kierkegaard-s-ren.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Soeren_kierkegaard_5627.jpg",
+    imageCredit: "Niels Christian Kierkegaard",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Soeren_kierkegaard_5627.jpg",
   },
   {
     slug: "sartre-jean-paul-existentialism",
@@ -1863,6 +2128,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://iep.utm.edu/sartre-ex/",
     sourceName: "Internet Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/sartre-jean-paul-existentialism.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/71/Jean_Paul_Sartre_1967.jpg",
+    imageCredit: "User:T1980",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Jean_Paul_Sartre_1967.jpg",
   },
   {
     slug: "mary-warnock-on-sartre-s-existentialism",
@@ -1883,6 +2151,9 @@ export const seedResources: Resource[] = [
     author: "Mary Warnock, interviewed by Nigel Warburton",
     sourceUrl: "https://philosophybites.com/podcast/mary-warnock-on-sartres-existentialism/",
     sourceName: "Philosophy Bites",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/71/Jean_Paul_Sartre_1967.jpg",
+    imageCredit: "User:T1980",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Jean_Paul_Sartre_1967.jpg",
   },
   {
     slug: "an-animated-introduction-to-albert-camus-existentialism",
@@ -1903,6 +2174,9 @@ export const seedResources: Resource[] = [
     author: "TED-Ed (narrated by Nina Medvinskaya)",
     sourceUrl: "https://www.openculture.com/2020/09/an-animated-introduction-to-albert-camus-existentialism.html",
     sourceName: "Open Culture",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/08/Albert_Camus%2C_gagnant_de_prix_Nobel%2C_portrait_en_buste%2C_pos%C3%A9_au_bureau%2C_faisant_face_%C3%A0_gauche%2C_cigarette_de_tabagisme.jpg",
+    imageCredit: "Photograph by United Press International",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Albert_Camus,_gagnant_de_prix_Nobel,_portrait_en_buste,_pos%C3%A9_au_bureau,_faisant_face_%C3%A0_gauche,_cigarette_de_tabagisme.jpg",
   },
   {
     slug: "s-ren-kierkegaard-a-free-online-course",
@@ -1924,6 +2198,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://www.openculture.com/2017/04/soren-kierkegaard-a-free-online-course.html",
     sourceName: "Open Culture",
     pdfUrl: "/lesson-plans/s-ren-kierkegaard-a-free-online-course.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Soeren_kierkegaard_5627.jpg",
+    imageCredit: "Niels Christian Kierkegaard",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Soeren_kierkegaard_5627.jpg",
   },
   {
     slug: "camus-on-the-absurd-the-myth-of-sisyphus",
@@ -1944,6 +2221,9 @@ export const seedResources: Resource[] = [
     author: "Erik Van Aken",
     sourceUrl: "https://1000wordphilosophy.com/2019/05/01/camus-on-the-absurd-the-myth-of-sisyphus/",
     sourceName: "1000-Word Philosophy",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/08/Albert_Camus%2C_gagnant_de_prix_Nobel%2C_portrait_en_buste%2C_pos%C3%A9_au_bureau%2C_faisant_face_%C3%A0_gauche%2C_cigarette_de_tabagisme.jpg",
+    imageCredit: "Photograph by United Press International",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Albert_Camus,_gagnant_de_prix_Nobel,_portrait_en_buste,_pos%C3%A9_au_bureau,_faisant_face_%C3%A0_gauche,_cigarette_de_tabagisme.jpg",
   },
   {
     slug: "the-cambridge-companion-to-existentialism",
@@ -1964,6 +2244,9 @@ export const seedResources: Resource[] = [
     author: "Michael R. Kelly (reviewing Steven Crowell, ed.)",
     sourceUrl: "https://ndpr.nd.edu/reviews/the-cambridge-companion-to-existentialism/",
     sourceName: "Notre Dame Philosophical Reviews",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/The_Scream_Pastel.jpg/1280px-The_Scream_Pastel.jpg",
+    imageCredit: "Edvard Munch",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:The_Scream_Pastel.jpg",
   },
   {
     slug: "daoism",
@@ -1985,6 +2268,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://plato.stanford.edu/entries/daoism/",
     sourceName: "Stanford Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/daoism.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e8/Zhang_Lu-Laozi_Riding_an_Ox.jpg",
+    imageCredit: "Zhang Lu",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Zhang_Lu-Laozi_Riding_an_Ox.jpg",
   },
   {
     slug: "zhuangzi",
@@ -2006,6 +2292,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://plato.stanford.edu/entries/zhuangzi/",
     sourceName: "Stanford Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/zhuangzi.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/af/%27Zhuangzi_Dreaming_of_a_Butterfly%27_by_Shibata_Zeshin%2C_1888%2C_Honolulu_Museum_of_Art%2C_13879.1.JPG",
+    imageCredit: "Shibata Zeshin",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:%27Zhuangzi_Dreaming_of_a_Butterfly%27_by_Shibata_Zeshin,_1888,_Honolulu_Museum_of_Art,_13879.1.JPG",
   },
   {
     slug: "confucius",
@@ -2027,6 +2316,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://iep.utm.edu/confucius/",
     sourceName: "Internet Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/confucius.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Confucius_Tang_Dynasty%2C_black_print.jpg",
+    imageCredit: "Wu Daozi",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Confucius_Tang_Dynasty,_black_print.jpg",
   },
   {
     slug: "nagarjuna",
@@ -2048,6 +2340,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://iep.utm.edu/nagarjun/",
     sourceName: "Internet Encyclopedia of Philosophy",
     pdfUrl: "/lesson-plans/nagarjuna.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Base_Panel_reliefs_of_Temple_2_at_ancient_ruins_of_Nalanda_University_72.jpg/1280px-Base_Panel_reliefs_of_Temple_2_at_ancient_ruins_of_Nalanda_University_72.jpg",
+    imageCredit: "Amitabha Gupta",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Base_Panel_reliefs_of_Temple_2_at_ancient_ruins_of_Nalanda_University_72.jpg",
   },
   {
     slug: "the-tao-teh-king-or-the-tao-and-its-characteristics",
@@ -2069,6 +2364,9 @@ export const seedResources: Resource[] = [
     sourceUrl: "https://www.gutenberg.org/ebooks/216",
     sourceName: "Project Gutenberg",
     pdfUrl: "/lesson-plans/the-tao-teh-king-or-the-tao-and-its-characteristics.pdf",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e8/Zhang_Lu-Laozi_Riding_an_Ox.jpg",
+    imageCredit: "Zhang Lu",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Zhang_Lu-Laozi_Riding_an_Ox.jpg",
   },
   {
     slug: "the-analects-of-confucius",
@@ -2089,6 +2387,9 @@ export const seedResources: Resource[] = [
     author: "Confucius (trans. James Legge)",
     sourceUrl: "https://www.gutenberg.org/ebooks/3330",
     sourceName: "Project Gutenberg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Confucius_Tang_Dynasty%2C_black_print.jpg",
+    imageCredit: "Wu Daozi",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Confucius_Tang_Dynasty,_black_print.jpg",
   },
   {
     slug: "dhammapada-a-collection-of-verses",
@@ -2109,6 +2410,9 @@ export const seedResources: Resource[] = [
     author: "attributed to the Buddha (trans. F. Max Müller)",
     sourceUrl: "https://www.gutenberg.org/ebooks/2017",
     sourceName: "Project Gutenberg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Statue_of_Buddha_in_sarnath_in_india.jpg/1280px-Statue_of_Buddha_in_sarnath_in_india.jpg",
+    imageCredit: "Akhtar736",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Statue_of_Buddha_in_sarnath_in_india.jpg",
   },
   {
     slug: "no-four-ways-about-it-n-g-rjuna-s-tetralemma",
@@ -2129,6 +2433,9 @@ export const seedResources: Resource[] = [
     author: "Peter Adamson, with Jonardon Ganeri",
     sourceUrl: "https://historyofphilosophy.net/podcast/india/buddhists-jains/nagarjuna-tetralemma",
     sourceName: "History of Philosophy Without Any Gaps",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Base_Panel_reliefs_of_Temple_2_at_ancient_ruins_of_Nalanda_University_72.jpg/1280px-Base_Panel_reliefs_of_Temple_2_at_ancient_ruins_of_Nalanda_University_72.jpg",
+    imageCredit: "Amitabha Gupta",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Base_Panel_reliefs_of_Temple_2_at_ancient_ruins_of_Nalanda_University_72.jpg",
   },
   {
     slug: "suffering-and-smiling-the-buddha",
@@ -2149,6 +2456,9 @@ export const seedResources: Resource[] = [
     author: "Peter Adamson, with Jonardon Ganeri",
     sourceUrl: "https://historyofphilosophy.net/buddha",
     sourceName: "History of Philosophy Without Any Gaps",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Statue_of_Buddha_in_sarnath_in_india.jpg/1280px-Statue_of_Buddha_in_sarnath_in_india.jpg",
+    imageCredit: "Akhtar736",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Statue_of_Buddha_in_sarnath_in_india.jpg",
   },
   {
     slug: "the-complete-works-of-chuang-tzu",
@@ -2169,6 +2479,9 @@ export const seedResources: Resource[] = [
     author: "Zhuangzi (trans. Burton Watson)",
     sourceUrl: "https://archive.org/details/zhuangzi-burton-watson-1/page/n1/mode/2up",
     sourceName: "Archive.org",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/af/%27Zhuangzi_Dreaming_of_a_Butterfly%27_by_Shibata_Zeshin%2C_1888%2C_Honolulu_Museum_of_Art%2C_13879.1.JPG",
+    imageCredit: "Shibata Zeshin",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:%27Zhuangzi_Dreaming_of_a_Butterfly%27_by_Shibata_Zeshin,_1888,_Honolulu_Museum_of_Art,_13879.1.JPG",
   },
   {
     slug: "nothingness-in-asian-philosophy",
@@ -2189,6 +2502,9 @@ export const seedResources: Resource[] = [
     author: "JeeLoo Liu and Douglas L. Berger (eds.)",
     sourceUrl: "https://directory.doabooks.org/handle/20.500.12854/31092",
     sourceName: "Directory of Open Access Books (DOAB)",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Statue_of_Buddha_in_sarnath_in_india.jpg/1280px-Statue_of_Buddha_in_sarnath_in_india.jpg",
+    imageCredit: "Akhtar736",
+    imageCreditUrl: "https://commons.wikimedia.org/wiki/File:Statue_of_Buddha_in_sarnath_in_india.jpg",
   },
 ];
 

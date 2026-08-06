@@ -35,6 +35,8 @@ Open [http://localhost:3000](http://localhost:3000).
    - `sourceUrl` — the actual link to the resource (a PDF, article, video, or course page on the original site). This is what the big "Access this resource" button on the resource's page opens.
    - `sourceName` — a short label for where it lives, e.g. `Stanford Encyclopedia of Philosophy`, `Project Gutenberg`
    - `pdfUrl` — optional; a link to your own downloadable PDF for this resource (e.g. an "inspired lesson plan" — see below). Shows a separate "Download inspired lesson plan (PDF)" button. Leave blank if there isn't one.
+   - `imageUrl` — optional; a photo/artwork shown on the resource's card and detail page (Aeon-style). Leave blank for a plain card with no photo. See "Resource photos" below for where to source one.
+   - `imageCredit`, `imageCreditUrl` — required whenever `imageUrl` is set: who to credit (e.g. an artist or photographer's name) and a link to the image's source/license page. Shown as a visible caption over the photo.
    - Rows missing a `title` or `description`, or with a `type`/`level`/`tradition` that doesn't match the lists above, are skipped automatically rather than breaking the site.
 
 **Copyright note:** don't paste the full text of a copyrighted article/book into the `body` column. Link to it via `sourceUrl` instead, and write your own short summary in `body`. Public-domain texts (Project Gutenberg, Early Modern Texts, Archive.org, DOAB) are the exception — feel free to quote those more freely since they're out of copyright.
@@ -55,6 +57,19 @@ The `/contact` page sends submissions (including lesson plan / resource submissi
 The form has a "What's this about?" selector (general inquiry vs. submitting a lesson plan/resource) and an optional file attachment field (up to 3 files, 4MB each, 4MB combined — kept under typical serverless request-body limits). Attachments are sent as real email attachments via Resend's API.
 
 If `RESEND_API_KEY` isn't set, the form shows an error instead of silently losing messages.
+
+## Resource photos
+
+Cards and detail pages can show a photo, styled after [Aeon](https://aeon.co)'s photo-led essay tiles. Every photo currently in the seed data is a real, freely-licensed image from [Wikimedia Commons](https://commons.wikimedia.org) (public domain or Creative Commons) — never a copyrighted stock photo or an AI-generated image — with a visible on-page credit linking back to the source file.
+
+To add or change one (via the Google Sheet or directly in `resources.ts`):
+
+1. Find a public-domain or CC-licensed image on [Wikimedia Commons](https://commons.wikimedia.org) that fits the resource (a portrait of the philosopher, a relevant artwork, a fitting photograph).
+2. Use the direct file URL under `upload.wikimedia.org` as `imageUrl` (open the file page and copy the link from "Use this file" → "Download", or right-click the full-resolution image).
+3. Set `imageCredit` to the artist/photographer's name (or "Unknown artist" if the file page doesn't list one) and `imageCreditUrl` to the Commons file page URL, so the photo stays properly attributed.
+4. `next.config.ts` only allows images from `upload.wikimedia.org` (see `images.remotePatterns`) — add another host there first if you use a different source.
+
+`scripts/resolve_images.py` / `scripts/finalize_images.py` are the scripts used to bulk-resolve the current set of images via the Commons search API — useful as a reference if you want to re-curate a batch of images at once rather than one at a time.
 
 ## Inspired lesson plan PDFs
 

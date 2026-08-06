@@ -76,6 +76,9 @@ function recordToResource(record: Record<string, string>): Resource | null {
     sourceUrl: record.sourceurl?.trim() || "",
     sourceName: record.sourcename?.trim() || "",
     pdfUrl: record.pdfurl?.trim() || undefined,
+    imageUrl: record.imageurl?.trim() || undefined,
+    imageCredit: record.imagecredit?.trim() || undefined,
+    imageCreditUrl: record.imagecrediturl?.trim() || undefined,
   };
 }
 

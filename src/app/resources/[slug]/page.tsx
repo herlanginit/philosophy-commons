@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -50,6 +51,36 @@ export default async function ResourceDetailPage({
         <span className="mx-2">/</span>
         <span className="text-ink-700/80">{resource.title}</span>
       </nav>
+
+      {resource.imageUrl && (
+        <figure className="relative mb-10 aspect-[21/9] w-full overflow-hidden rounded-2xl bg-ink-900/5">
+          <Image
+            src={resource.imageUrl}
+            alt=""
+            fill
+            priority
+            sizes="(min-width: 1024px) 1024px, 100vw"
+            className="object-cover"
+          />
+          {resource.imageCredit && (
+            <figcaption className="absolute bottom-0 right-0 rounded-tl-md bg-ink-950/60 px-3 py-1.5 text-xs text-parchment-50/90">
+              Photo:{" "}
+              {resource.imageCreditUrl ? (
+                <a
+                  href={resource.imageCreditUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:text-parchment-50"
+                >
+                  {resource.imageCredit}, via Wikimedia Commons
+                </a>
+              ) : (
+                `${resource.imageCredit}, via Wikimedia Commons`
+              )}
+            </figcaption>
+          )}
+        </figure>
+      )}
 
       <div className="grid grid-cols-1 gap-10 lg:grid-cols-[1fr_280px]">
         <article>

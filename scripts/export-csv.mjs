@@ -20,6 +20,9 @@ const COLUMNS = [
   "sourceUrl",
   "sourceName",
   "pdfUrl",
+  "imageUrl",
+  "imageCredit",
+  "imageCreditUrl",
 ];
 
 function csvEscape(value) {
@@ -48,6 +51,9 @@ for (const r of seedResources) {
     r.sourceUrl,
     r.sourceName,
     r.pdfUrl ?? "",
+    r.imageUrl ?? "",
+    r.imageCredit ?? "",
+    r.imageCreditUrl ?? "",
   ].map(csvEscape);
   lines.push(row.join(","));
 }
